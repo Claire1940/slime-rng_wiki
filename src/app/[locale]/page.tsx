@@ -7,27 +7,6 @@ import type { Locale } from '@/i18n/routing'
 import { getTranslations } from 'next-intl/server'
 import HomePageClient from './HomePageClient'
 
-/*
- * Homepage render audit:
- * HomePageClient owns the visual sections, uses lucide-react icons, and styles with hsl(var(--nav-theme)).
- * href="#codes" <section id="codes">
- * href="#beginner-guide" <section id="beginner-guide">
- * href="#tier-list" <section id="tier-list">
- * href="#slime-collection" <section id="slime-collection">
- * href="#rebirth-guide" <section id="rebirth-guide">
- * href="#goop-guide" <section id="goop-guide">
- * href="#luck-guide" <section id="luck-guide">
- * href="#huge-slimes-guide" <section id="huge-slimes-guide">
- * href="#void-slime-guide" <section id="void-slime-guide">
- * href="#zone-map" <section id="zone-map">
- * href="#coins-farming-guide" <section id="coins-farming-guide">
- * href="#upgrades-guide" <section id="upgrades-guide">
- * href="#fruits-and-xp-guide" <section id="fruits-and-xp-guide">
- * href="#dice-and-roll-speed-guide" <section id="dice-and-roll-speed-guide">
- * href="#trading-values" <section id="trading-values">
- * href="#updates-and-patch-notes" <section id="updates-and-patch-notes">
- */
-
 interface PageProps {
   params: Promise<{ locale: string }>
 }
