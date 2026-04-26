@@ -1,12 +1,18 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "id": "/",
+  "name": "Slime RNG Wiki - Codes, Slimes & Recipes",
+  "short_name": "Slime RNG",
+  "description": "Slime RNG Wiki offers updated Roblox codes, slime lists, recipe locations, luck tips, upgrades, worlds, and beginner guides for faster progression.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "dir": "ltr",
+  "lang": "en",
+  "theme_color": "#22c55e",
+  "background_color": "#ffffff",
+  "categories": ["games", "entertainment"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
