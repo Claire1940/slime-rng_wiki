@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://slime-rng.wiki').replace(/\/$/, '')
   const path = '/terms-of-service'
 
   return {
-    title: "Terms of Service - Lucid Blocks Wiki",
-    description: "Read the Terms of Service for Lucid Blocks Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Steam game resource platform.",
+    title: "Terms of Service - Slime RNG Wiki",
+    description: "Read the Terms of Service for Slime RNG Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our Roblox game resource platform.",
     robots: {
       index: false,
       follow: true,
@@ -30,23 +30,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: "Lucid Blocks Wiki",
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
+      siteName: "Slime RNG Wiki",
+      title: "Terms of Service - Slime RNG Wiki",
+      description: "Terms and conditions for using Slime RNG Wiki.",
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
+          url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: "Lucid Blocks Wiki",
+          alt: "Slime RNG Wiki",
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Terms of Service - Lucid Blocks Wiki",
-      description: "Terms and conditions for using Lucid Blocks Wiki.",
-      images: [`${siteUrl}/og-image.jpg`],
+      title: "Terms of Service - Slime RNG Wiki",
+      description: "Terms and conditions for using Slime RNG Wiki.",
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -62,10 +62,10 @@ export default function TermsOfService() {
             Terms of Service
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Terms and conditions for using Lucid Blocks Wiki
+            Terms and conditions for using Slime RNG Wiki
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: April 26, 2026
           </p>
         </div>
       </section>
@@ -76,30 +76,29 @@ export default function TermsOfService() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing and using Lucid Blocks Wiki ("the Website", "we", "our", or "us"), you agree to be bound
+              By accessing and using Slime RNG Wiki ("the Website", "we", "our", or "us"), you agree to be bound
               by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Website.
             </p>
             <p>
-              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Lucid Blocks Wiki.
+              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Slime RNG Wiki.
               Your continued use of the Website signifies your acceptance of these Terms and any future modifications.
             </p>
 
             <h2>2. Description of Service</h2>
             <p>
-              Lucid Blocks Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
-              and resources related to the Steam game "Lucid Blocks". Our services include, but are not limited to:
+              Slime RNG Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
+              and resources related to the Roblox game "Slime RNG". Our services include, but are not limited to:
             </p>
             <ul>
-              <li>Game guides and survival strategies</li>
-              <li>Crafting and Apotheosis fusion guides</li>
-              <li>Biome and world region information</li>
-              <li>Creature and enemy guides</li>
-              <li>Achievement walkthroughs</li>
+              <li>Code, reward, and redeem information</li>
+              <li>Slime collection and rarity guides</li>
+              <li>Recipe location and world progression guides</li>
+              <li>Luck boost, upgrade, and enemy slime tips</li>
               <li>Community discussion and content</li>
             </ul>
             <p>
-              <strong>Important:</strong> Lucid Blocks Wiki is NOT affiliated with, endorsed by, or associated with
-              Valve Corporation (Steam) or the official developers of Lucid Blocks. We are an independent fan community.
+              <strong>Important:</strong> Slime RNG Wiki is NOT affiliated with, endorsed by, or associated with
+              Roblox Corporation or the official developers of Slime RNG. We are an independent fan community.
             </p>
 
             <h2>3. User Responsibilities</h2>
@@ -130,14 +129,14 @@ export default function TermsOfService() {
             <h3>4.1 Website Content</h3>
             <p>
               The Website and its original content, features, and functionality (including but not limited to text,
-              graphics, logos, images, and software) are owned by Lucid Blocks Wiki and are protected by international
+              graphics, logos, images, and software) are owned by Slime RNG Wiki and are protected by international
               copyright, trademark, and other intellectual property laws.
             </p>
 
             <h3>4.2 Game Content</h3>
             <p>
               All game-related content, including but not limited to character images, game screenshots, logos, and
-              trademarks, are the property of Valve Corporation (Steam) and/or the developers of Lucid Blocks. We use such
+              trademarks, are the property of Roblox Corporation and/or the developers of Slime RNG. We use such
               content under fair use principles for informational and educational purposes only.
             </p>
 
@@ -157,7 +156,7 @@ export default function TermsOfService() {
               <li><strong>Accuracy:</strong> We strive to provide accurate information, but we do not guarantee that all content is current, complete, or error-free. Game updates may render information outdated.</li>
               <li><strong>Availability:</strong> We do not guarantee that the Website will be available at all times or free from interruptions, errors, or technical issues.</li>
               <li><strong>Third-Party Content:</strong> We are not responsible for the accuracy or reliability of information obtained from third-party sources.</li>
-              <li><strong>Demo Availability:</strong> Steam demo availability and game updates may change without notice. We are not responsible for demo access or game changes.</li>
+              <li><strong>Game Availability:</strong> Roblox experience availability, codes, rewards, and game updates may change without notice. We are not responsible for platform access or game changes.</li>
             </ul>
             <p>
               You acknowledge that your use of the Website is at your sole risk and discretion.
@@ -165,7 +164,7 @@ export default function TermsOfService() {
 
             <h2>6. Limitation of Liability</h2>
             <p>
-              TO THE FULLEST EXTENT PERMITTED BY LAW, LUCID BLOCKS WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+              TO THE FULLEST EXTENT PERMITTED BY LAW, SLIME RNG WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
               SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY
               OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM:
             </p>
@@ -183,7 +182,7 @@ export default function TermsOfService() {
 
             <h2>7. External Links</h2>
             <p>
-              The Website may contain links to third-party websites, including Steam, Discord, social media platforms,
+              The Website may contain links to third-party websites, including Roblox, official community pages, social media platforms,
               and other external resources. These links are provided for your convenience only.
             </p>
             <p>
@@ -251,7 +250,7 @@ export default function TermsOfService() {
             <h2>13. Entire Agreement</h2>
             <p>
               These Terms, together with our Privacy Policy and Copyright Notice, constitute the entire agreement between
-              you and Lucid Blocks Wiki regarding the use of the Website and supersede any prior agreements or understandings.
+              you and Slime RNG Wiki regarding the use of the Website and supersede any prior agreements or understandings.
             </p>
 
             <h2>14. Contact Information</h2>
@@ -259,7 +258,7 @@ export default function TermsOfService() {
               If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:legal@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@lucidblocks.wiki</a>
+              <strong>Email:</strong> <a href="mailto:legal@slime-rng.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@slime-rng.wiki</a>
             </p>
             <p>
               We will respond to all inquiries within a reasonable timeframe.

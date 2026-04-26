@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Cute Roblox RNG Slime Collector",
+    "title": "Slime RNG Wiki",
+    "description": "Roll for rare slimes, upgrade your team, fight enemy slimes, unlock new worlds, and use luck boosts to progress faster in this cute Roblox RNG adventure.",
+    "getFreeCodesCTA": "Play Slime RNG on Roblox",
+    "playOnSteamCTA": "Join Stouts Studio",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "14K+",
+        "label": "Active Players"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "98.2%",
+        "label": "Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "42K+",
+        "label": "Favorites"
       }
     }
   },
@@ -784,26 +784,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Roll in Slime RNG?",
+    "description": "Play Slime RNG on Roblox or follow Stouts Studio for official updates, community links, and new slime discoveries.",
+    "joinCommunity": "Join Stouts Studio",
+    "joinGame": "Play Slime RNG on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Slime RNG Wiki",
+    "description": "Your complete resource hub for Slime RNG codes, slimes, recipes, luck boosts, upgrades, worlds, and beginner guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Roblox Game",
+    "twitter": "X / Leif",
+    "steamCommunity": "Stouts Studio",
+    "steamStore": "YouTube Guide",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Slime RNG Wiki. Not affiliated with Roblox or Stouts Studio.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

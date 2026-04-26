@@ -1,7 +1,7 @@
 # Game Wiki Template
 
 A production-ready, multilingual game wiki template built with Next.js 15.
-Powers 47+ game wiki sites with SEO optimization, MDX content, and Docker deployment.
+Powers 63+ game wiki sites with SEO optimization, MDX content, and Docker deployment.
 
 ## Features
 
@@ -63,6 +63,22 @@ Powers 47+ game wiki sites with SEO optimization, MDX content, and Docker deploy
 | Pilgrimmed Wiki | https://www.pilgrammedwiki.wiki |
 | Sol Cesto Wiki | https://www.sol-cesto.wiki |
 | Metro 2039 Wiki | https://www.metro2039.wiki |
+| Mongilstardive Wiki | https://www.mongilstardive.wiki |
+| Treeshateyou Wiki | https://www.treeshateyou.wiki |
+| 67speed Wiki | https://www.67speed.wiki |
+| Brainrotevolution Wiki | https://www.brainrotevolution.wiki |
+| Windrose Wiki | https://www.windrosewiki.wiki |
+| Locked 2 Wiki | https://www.locked2.wiki |
+| Saros Wiki | https://www.saros.wiki |
+| Vampire Crawlers Wiki | https://www.vampire-crawlers.wiki |
+| Slimeseas Wiki | https://www.slimeseaswiki.wiki |
+| Dragonquestsmashgrow Wiki | https://www.dragonquestsmashgrow.wiki |
+| Splatoonraiders Wiki | https://www.splatoonraiders.wiki |
+| Marvelrivalsbloodhunt Wiki | https://www.marvelrivalsbloodhunt.wiki |
+| Robloxcreatorshowdown 2026 Wiki | https://www.robloxcreatorshowdown2026.wiki |
+| Worldfighters Wiki | https://www.worldfighters.wiki |
+| Block Tales Wiki | https://www.block-tales.wiki |
+| Slime RNG Wiki | https://www.slime-rng.wiki |
 
 ## Tech Stack
 

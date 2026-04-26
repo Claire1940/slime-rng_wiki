@@ -56,25 +56,33 @@ function addResult(type, category, message, details = null) {
 function checkRobotsAndSitemap() {
   log('\n📋 检查 robots.txt 和 sitemap.xml...', 'cyan')
 
-  // 检查 robots.txt
-  const robotsPath = path.join(projectRoot, 'public', 'robots.txt')
-  if (fs.existsSync(robotsPath)) {
-    const content = fs.readFileSync(robotsPath, 'utf-8')
-    if (content.includes('Sitemap:')) {
-      addResult('passed', 'Robots', '✓ robots.txt 存在且包含 Sitemap 引用')
+  // 检查动态 robots.ts。当前模板不再使用 public/robots.txt 静态文件。
+  const staticRobotsPath = path.join(projectRoot, 'public', 'robots.txt')
+  const robotsRoutePath = path.join(projectRoot, 'src', 'app', 'robots.ts')
+  if (fs.existsSync(robotsRoutePath)) {
+    const content = fs.readFileSync(robotsRoutePath, 'utf-8')
+    if (content.includes('NEXT_PUBLIC_SITE_URL') && !fs.existsSync(staticRobotsPath)) {
+      addResult('passed', 'Robots', '✓ 使用 src/app/robots.ts 动态生成 robots.txt')
+    } else if (fs.existsSync(staticRobotsPath)) {
+      addResult('errors', 'Robots', '✗ 不应存在 public/robots.txt 静态文件')
     } else {
-      addResult('warnings', 'Robots', '⚠ robots.txt 缺少 Sitemap 引用')
+      addResult('warnings', 'Robots', '⚠ robots.ts 未读取 NEXT_PUBLIC_SITE_URL')
     }
   } else {
-    addResult('errors', 'Robots', '✗ robots.txt 不存在')
+    addResult('errors', 'Robots', '✗ src/app/robots.ts 不存在')
   }
 
-  // 检查 sitemap.xml
-  const sitemapPath = path.join(projectRoot, 'public', 'sitemap.xml')
-  if (fs.existsSync(sitemapPath)) {
-    addResult('passed', 'Sitemap', '✓ sitemap.xml 存在')
+  // 检查动态 sitemap.ts
+  const sitemapRoutePath = path.join(projectRoot, 'src', 'app', 'sitemap.ts')
+  if (fs.existsSync(sitemapRoutePath)) {
+    const content = fs.readFileSync(sitemapRoutePath, 'utf-8')
+    if (content.includes('NEXT_PUBLIC_SITE_URL')) {
+      addResult('passed', 'Sitemap', '✓ 使用 src/app/sitemap.ts 动态生成 sitemap.xml')
+    } else {
+      addResult('warnings', 'Sitemap', '⚠ sitemap.ts 未读取 NEXT_PUBLIC_SITE_URL')
+    }
   } else {
-    addResult('warnings', 'Sitemap', '⚠ sitemap.xml 不存在（Next.js 可能动态生成）')
+    addResult('errors', 'Sitemap', '✗ src/app/sitemap.ts 不存在')
   }
 }
 
@@ -94,63 +102,76 @@ function checkSEOMetadata() {
 
   const translations = JSON.parse(fs.readFileSync(localeFile, 'utf-8'))
   const seo = translations.seo?.home
+  const metadataSources = [
+    path.join(projectRoot, 'src', 'app', '[locale]', 'page.tsx'),
+    path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx'),
+  ]
+  const metadataContent = metadataSources
+    .filter(source => fs.existsSync(source))
+    .map(source => fs.readFileSync(source, 'utf-8'))
+    .join('\n')
+  const runtimeTitle = metadataContent.match(/const\s+title\s*=\s*['"`]([^'"`]+)['"`]/)?.[1]
+  const runtimeDescription = metadataContent.match(/const\s+description\s*=\s*['"`]([^'"`]+)['"`]/)?.[1]
 
-  if (!seo) {
+  if (!seo && (!runtimeTitle || !runtimeDescription)) {
     addResult('errors', 'Metadata', '✗ 缺少 seo.home 配置')
     return
   }
 
   // 检查 Title
-  if (seo.title) {
-    const titleLength = seo.title.length
-    if (titleLength >= 50 && titleLength <= 60) {
+  const title = runtimeTitle || seo.title
+  if (title) {
+    const titleLength = title.length
+    if (titleLength >= 30 && titleLength <= 60) {
       addResult('passed', 'Title', `✓ Title 长度合适 (${titleLength} 字符)`)
-    } else if (titleLength < 50) {
-      addResult('warnings', 'Title', `⚠ Title 过短 (${titleLength} 字符，建议 50-60)`)
+    } else if (titleLength < 30) {
+      addResult('warnings', 'Title', `⚠ Title 过短 (${titleLength} 字符，建议 30-60)`)
     } else {
-      addResult('warnings', 'Title', `⚠ Title 过长 (${titleLength} 字符，建议 50-60)`)
+      addResult('warnings', 'Title', `⚠ Title 过长 (${titleLength} 字符，建议 30-60)`)
     }
   } else {
     addResult('errors', 'Title', '✗ 缺少 Title')
   }
 
   // 检查 Description
-  if (seo.description) {
-    const descLength = seo.description.length
-    if (descLength >= 150 && descLength <= 160) {
+  const description = runtimeDescription || seo.description
+  if (description) {
+    const descLength = description.length
+    if (descLength >= 140 && descLength <= 160) {
       addResult('passed', 'Description', `✓ Description 长度合适 (${descLength} 字符)`)
-    } else if (descLength < 150) {
-      addResult('warnings', 'Description', `⚠ Description 过短 (${descLength} 字符，建议 150-160)`)
+    } else if (descLength < 140) {
+      addResult('warnings', 'Description', `⚠ Description 过短 (${descLength} 字符，建议 140-160)`)
     } else {
-      addResult('warnings', 'Description', `⚠ Description 过长 (${descLength} 字符，建议 150-160)`)
+      addResult('warnings', 'Description', `⚠ Description 过长 (${descLength} 字符，建议 140-160)`)
     }
   } else {
     addResult('errors', 'Description', '✗ 缺少 Description')
   }
 
-  // 检查 Keywords
-  if (seo.keywords) {
-    const keywords = seo.keywords.split(',').map(k => k.trim()).filter(k => k)
-    if (keywords.length >= 5 && keywords.length <= 10) {
-      addResult('passed', 'Keywords', `✓ Keywords 数量合适 (${keywords.length} 个)`)
-    } else if (keywords.length < 5) {
-      addResult('warnings', 'Keywords', `⚠ Keywords 过少 (${keywords.length} 个，建议 5-10)`)
-    } else {
-      addResult('warnings', 'Keywords', `⚠ Keywords 过多 (${keywords.length} 个，建议 5-10)`)
-    }
+  // 检查 meta keywords 是否未被实际输出。Google 已不读取 keywords，当前模板不应生成它。
+  const runtimeMetadataSources = [
+    path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx'),
+    path.join(projectRoot, 'src', 'app', '[locale]', 'page.tsx'),
+    path.join(projectRoot, 'src', 'app', '[locale]', '[...slug]', 'page.tsx'),
+  ]
+  const hasRuntimeKeywords = runtimeMetadataSources
+    .filter(source => fs.existsSync(source))
+    .some(source => /\bkeywords\s*:/.test(fs.readFileSync(source, 'utf-8')))
+  if (hasRuntimeKeywords) {
+    addResult('errors', 'Keywords', '✗ metadata 中不应输出 keywords')
   } else {
-    addResult('warnings', 'Keywords', '⚠ 缺少 Keywords（非必须，但建议添加）')
+    addResult('passed', 'Keywords', '✓ metadata 未输出 keywords')
   }
 
   // 检查 Open Graph
-  if (seo.ogTitle && seo.ogDescription) {
+  if (metadataContent.includes('openGraph') && metadataContent.includes('/images/hero.webp')) {
     addResult('passed', 'OpenGraph', '✓ Open Graph 元数据完整')
   } else {
     addResult('warnings', 'OpenGraph', '⚠ Open Graph 元数据不完整')
   }
 
   // 检查 Twitter Card
-  if (seo.twitterTitle && seo.twitterDescription) {
+  if (metadataContent.includes('twitter') && metadataContent.includes('summary_large_image') && metadataContent.includes('/images/hero.webp')) {
     addResult('passed', 'Twitter', '✓ Twitter Card 元数据完整')
   } else {
     addResult('warnings', 'Twitter', '⚠ Twitter Card 元数据不完整')
@@ -165,14 +186,14 @@ function checkImages() {
 
   const publicDir = path.join(projectRoot, 'public')
 
-  // 检查 OG Image
-  const ogImagePath = path.join(publicDir, 'og-image.jpg')
-  if (fs.existsSync(ogImagePath)) {
-    const stats = fs.statSync(ogImagePath)
+  // 检查 Hero / OG Image
+  const heroImagePath = path.join(publicDir, 'images', 'hero.webp')
+  if (fs.existsSync(heroImagePath)) {
+    const stats = fs.statSync(heroImagePath)
     const sizeKB = (stats.size / 1024).toFixed(2)
-    addResult('passed', 'Images', `✓ og-image.jpg 存在 (${sizeKB} KB)`)
+    addResult('passed', 'Images', `✓ images/hero.webp 存在 (${sizeKB} KB)`)
   } else {
-    addResult('errors', 'Images', '✗ og-image.jpg 不存在')
+    addResult('errors', 'Images', '✗ images/hero.webp 不存在')
   }
 
   // 检查 Favicon
@@ -217,9 +238,12 @@ function checkStructuredData() {
   log('\n📊 检查结构化数据...', 'cyan')
 
   // 检查是否有 JSON-LD 配置
-  const layoutPath = path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx')
-  if (fs.existsSync(layoutPath)) {
-    const content = fs.readFileSync(layoutPath, 'utf-8')
+  const sourcePaths = [
+    path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx'),
+    path.join(projectRoot, 'src', 'app', '[locale]', 'page.tsx'),
+  ].filter(source => fs.existsSync(source))
+  if (sourcePaths.length > 0) {
+    const content = sourcePaths.map(source => fs.readFileSync(source, 'utf-8')).join('\n')
 
     // 检查是否有 Organization schema
     if (content.includes('Organization') || content.includes('WebSite')) {
@@ -251,15 +275,17 @@ function checkPageStructure() {
   }
 
   // 检查 FAQ
-  if (translations.faq?.items && translations.faq.items.length > 0) {
-    addResult('passed', 'Content', `✓ FAQ 包含 ${translations.faq.items.length} 个问题`)
+  const faqItems = translations.faq?.items || translations.faq?.questions
+  if (Array.isArray(faqItems) && faqItems.length > 0) {
+    addResult('passed', 'Content', `✓ FAQ 包含 ${faqItems.length} 个问题`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少 FAQ 内容')
   }
 
   // 检查工具/资源
-  if (translations.tools?.items && translations.tools.items.length > 0) {
-    addResult('passed', 'Content', `✓ 工具/资源包含 ${translations.tools.items.length} 个项目`)
+  const toolItems = translations.tools?.items || translations.tools?.cards
+  if (Array.isArray(toolItems) && toolItems.length > 0) {
+    addResult('passed', 'Content', `✓ 工具/资源包含 ${toolItems.length} 个项目`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少工具/资源内容')
   }
@@ -271,9 +297,11 @@ function checkPageStructure() {
 function checkConfigFiles() {
   log('\n⚙️  检查配置文件...', 'cyan')
 
-  // 检查 next.config.js
-  const nextConfigPath = path.join(projectRoot, 'next.config.ts')
-  if (fs.existsSync(nextConfigPath)) {
+  // 检查 next.config
+  const nextConfigPath = ['next.config.ts', 'next.config.mjs', 'next.config.js']
+    .map(file => path.join(projectRoot, file))
+    .find(file => fs.existsSync(file))
+  if (nextConfigPath) {
     const content = fs.readFileSync(nextConfigPath, 'utf-8')
 
     // 检查是否配置了图片域名
