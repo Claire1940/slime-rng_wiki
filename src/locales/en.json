@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Slime RNG Wiki - Codes, Slimes & Recipes",
+      "description": "Slime RNG Wiki offers updated Roblox codes, slime lists, recipe locations, luck tips, upgrades, worlds, and beginner guides for faster progression.",
+      "keywords": "Slime RNG, Slime RNG wiki, Slime RNG codes, Slime RNG slimes, Slime RNG recipes, Roblox RNG",
+      "ogTitle": "Slime RNG Wiki - Codes, Slimes & Recipes",
+      "ogDescription": "Slime RNG Wiki offers updated Roblox codes, slime lists, recipe locations, luck tips, upgrades, worlds, and beginner guides for faster progression.",
+      "twitterTitle": "Slime RNG Wiki - Codes, Slimes & Recipes",
+      "twitterDescription": "Slime RNG Wiki covers codes, slimes, recipes, luck boosts, upgrades, worlds, and beginner routes for Roblox players."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play Slime RNG on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -30,7 +30,7 @@
     "title": "Slime RNG Wiki",
     "description": "Roll for rare slimes, upgrade your team, fight enemy slimes, unlock new worlds, and use luck boosts to progress faster in this cute Roblox RNG adventure.",
     "getFreeCodesCTA": "Play Slime RNG on Roblox",
-    "playOnSteamCTA": "Join Stouts Studio",
+    "playOnRobloxCTA": "Join Stouts Studio",
     "stats": {
       "stat1": {
         "value": "2M+",
@@ -51,874 +51,504 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Slime RNG Gameplay",
+    "description": "Roll slimes, build a stronger combat team, earn Coins, unlock zones, and convert progress into long-term luck gains through rebirths."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Slime RNG",
+    "titleHighlight": "Guides",
+    "subtitle": "Jump straight to the Slime RNG codes, starter route, tier list, and collection database.",
     "cards": [
       {
+        "icon": "ClipboardCheck",
+        "title": "Slime RNG Codes",
+        "description": "Working Slime RNG codes, expired rewards, redeem steps, and boost timing."
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Slime RNG Beginner Guide",
+        "description": "A Slime RNG starter path from first rolls to your first rebirth setup."
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Slime RNG Tier List",
+        "description": "Slime RNG rankings for Void Slime, Huge variants, Orca, Lucky Slime, Fin, and more."
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Sparkles",
+        "title": "Slime RNG Slime Collection",
+        "description": "A Slime RNG slime database with rarity, role, stage, and recommended use."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "slimeRngCodes": {
+      "eyebrow": "Free Rewards",
+      "title": "Slime RNG Codes",
+      "intro": "Redeem Slime RNG codes after the short tutorial, then use the rewards during longer roll sessions for faster slime collection, better luck windows, and stronger early progress.",
+      "workingUpdated": "April 25, 2026",
+      "workingCodes": [
+        {
+          "code": "time2Grind",
+          "reward": "Potion and Dice",
+          "status": "Working",
+          "bestFor": "Extra rolling value and faster early progression"
+        },
+        {
+          "code": "craftAway",
+          "reward": "Ultra Luck Boost, Roll Speed Boost, and 4 Apples",
+          "status": "Working",
+          "bestFor": "Luck farming, roll speed, and slime XP"
+        },
+        {
+          "code": "semils",
+          "reward": "Luck Boost, Roll Speed Boost, and 6 Apples",
+          "status": "Working",
+          "bestFor": "Stacking boosts before a longer rolling session"
+        },
+        {
+          "code": "test",
+          "reward": "100 Coins",
+          "status": "Working",
+          "bestFor": "Starter coin progress"
+        },
+        {
+          "code": "gullible",
+          "reward": "1 Coin",
+          "status": "Working",
+          "bestFor": "Claiming every available free reward"
+        }
+      ],
+      "expiredCodes": [
+        "THATSHUGE",
+        "RAWRRR",
+        "stonks",
+        "Release!",
+        "spin2win",
+        "GOFAST",
+        "SUPERL00T",
+        "SUNOB"
+      ],
+      "redeemSteps": [
+        {
+          "title": "Launch Slime RNG",
+          "description": "Open the Slime RNG Roblox experience and finish the short tutorial."
+        },
+        {
+          "title": "Open the Shop",
+          "description": "Select the Shop button on the right side of the screen."
+        },
+        {
+          "title": "Find the code box",
+          "description": "Scroll to the bottom of the Shop menu and locate the code entry field."
+        },
+        {
+          "title": "Enter and redeem",
+          "description": "Type the Slime RNG code exactly as shown, then press Redeem to claim the reward."
+        }
+      ],
+      "tips": [
+        "Slime RNG codes are case-sensitive, so copy capital letters and punctuation exactly.",
+        "Use roll speed and luck rewards when you can stay active for a longer session.",
+        "Slime RNG codes belong to this Roblox experience and are separate from other slime-themed games."
+      ]
+    },
+    "slimeRngBeginnerGuide": {
+      "eyebrow": "Starter Route",
+      "title": "Slime RNG Beginner Guide",
+      "intro": "Slime RNG starts with rolling, equipping, fighting, earning Coins, and buying upgrades in a clear order. The strongest beginner path is to automate rolls, improve roll speed, unlock zones, scale enemy count, and prepare for Goop before your first rebirth.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Roll your first slimes",
+          "goal": "Build a basic fighting team.",
+          "description": "Roll a few Slime RNG slimes and equip the best units you get so your team can defeat enemies and start earning Coins.",
+          "priority": "High"
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Look for Fin early",
+          "goal": "Get a dependable starter attacker.",
+          "description": "Fin is a standout early Slime RNG damage option and should be leveled before weaker starter slimes.",
+          "priority": "High"
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Buy Auto Roll for 200 Coins",
+          "goal": "Remove manual rolling from the main loop.",
+          "description": "Auto Roll keeps the Slime RNG rolling loop active and is the first major quality-of-life purchase.",
+          "priority": "Essential"
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Upgrade Roll Speed",
+          "goal": "Increase total rolls over time.",
+          "description": "Roll Speed improves how often you can roll, which makes every Slime RNG boost window more valuable.",
+          "priority": "Essential"
+        },
+        {
+          "title": "Unlock the next zone",
+          "goal": "Scale your coin income.",
+          "description": "Move into stronger Slime RNG zones once your team can keep pace instead of over-farming the starting area.",
+          "priority": "High"
+        },
+        {
+          "title": "Prioritize Enemy Count",
+          "goal": "Create more income targets.",
+          "description": "Enemy Count is a major Slime RNG upgrade because more enemies means more kills and more Coins when your team has enough damage.",
+          "priority": "High"
+        },
+        {
+          "title": "Feed fruits to your best slimes",
+          "goal": "Turn Apples and other fruit into useful power.",
+          "description": "Put Slime RNG fruit rewards into your strongest slimes instead of spreading XP across weak units.",
+          "priority": "Medium"
+        },
+        {
+          "title": "Reach 10,000,000 Coins for Goop",
+          "goal": "Prepare for rebirth progression.",
+          "description": "Goop unlocks after a 10,000,000 Coin investment and becomes the Slime RNG bridge into rebirth growth.",
+          "priority": "Essential"
+        },
+        {
+          "title": "Rebirth when ready",
+          "goal": "Convert progress into permanent multipliers.",
+          "description": "Slime RNG rebirths reset Coins and zone access while keeping major long-term progress such as slimes, consumables, upgrades, and luck gains.",
+          "priority": "Late Beginner"
+        },
+        {
+          "title": "Join the Stouts Studio group",
+          "goal": "Claim a permanent luck advantage.",
+          "description": "Joining the Stouts Studio Roblox group gives Slime RNG players a permanent +1 Luck bonus.",
+          "priority": "Recommended"
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Buy Slime RNG Auto Roll before chasing expensive luck upgrades.",
+        "Roll Speed improves every code reward that boosts rolling sessions.",
+        "Keep your best Slime RNG damage dealer leveled so new zones feel smooth.",
+        "Save long boost windows for sessions where you can roll and fight actively."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "slimeRngTierList": {
+      "eyebrow": "Best Slimes",
+      "title": "Slime RNG Tier List",
+      "intro": "The Slime RNG tier list ranks slimes by practical value, damage, speed, utility, and progression impact. Void Slime is the ultimate chase target, Huge variants dominate late-game play, Orca and Lucky Slime carry mid-game farming, and Fin is the best early damage target.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "SSS",
+          "summary": "Ultimate Slime RNG chase tier for the strongest known slime power.",
+          "slimes": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Void Slime",
+              "damage": "25,000",
+              "speed": "2.0",
+              "rarity": "Mythic",
+              "role": "Ultimate DPS",
+              "notes": "The top long-term Slime RNG collection and combat goal."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "S",
+          "summary": "Late-game Slime RNG meta tier built around Huge variants and valuable utility.",
+          "slimes": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Huge Spike",
+              "damage": "7,500",
+              "speed": "1.5",
+              "rarity": "Legendary - Huge Variant",
+              "role": "Piercing DPS",
+              "notes": "One of the highest DPS Slime RNG targets with piercing attacks."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Huge Rocky",
+              "damage": "5,000",
+              "speed": "0.8",
+              "rarity": "Legendary - Huge Variant",
+              "role": "AoE Tank Damage",
+              "notes": "A massive Slime RNG area-damage option for late-game zone pushing."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Huge Lucky",
+              "damage": "3,000",
+              "speed": "1.0",
+              "rarity": "Legendary - Huge Variant",
+              "role": "Luck Booster",
+              "notes": "A premier Slime RNG luck support pick for rare slime hunting."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "A",
+          "summary": "Strong Slime RNG mid-game tier for stable farming teams.",
+          "slimes": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Orca",
+              "damage": "180",
+              "speed": "0.9",
+              "rarity": "Rare",
+              "role": "Mid-Game Carry",
+              "notes": "Excellent Slime RNG DPS once your early team is ready to scale."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Lucky Slime",
+              "damage": "120",
+              "speed": "1.1",
+              "rarity": "Rare",
+              "role": "Luck Support",
+              "notes": "A Slime RNG support unit for rare-drop farming and long roll sessions."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "tier": "B",
+          "summary": "Useful Slime RNG early-to-mid game slimes that bridge progression.",
+          "slimes": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "name": "Spike",
+              "damage": "55",
+              "speed": "1.2",
+              "rarity": "Uncommon",
+              "role": "Fast Attacker",
+              "notes": "A fast Slime RNG attacker for early combat and enemy clearing."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
+              "name": "Fin",
+              "damage": "45",
+              "speed": "1.0",
+              "rarity": "Common",
+              "role": "Starter DPS",
+              "notes": "The best early Slime RNG DPS target and a smart first slime to level."
             },
             {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
+              "name": "Rocky",
+              "damage": "35",
+              "speed": "0.7",
+              "rarity": "Uncommon",
+              "role": "Defensive Tank",
+              "notes": "A sturdy Slime RNG option when survivability matters."
             }
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
+          "tier": "C",
+          "summary": "Starter Slime RNG baseline tier before stronger slimes arrive.",
+          "slimes": [
             {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Basic Slime",
+              "damage": "25",
+              "speed": "1.0",
+              "rarity": "Common",
+              "role": "Starter Placeholder",
+              "notes": "A temporary Slime RNG unit for the very beginning."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "slimeRngSlimeCollection": {
+      "eyebrow": "Slime Database",
+      "title": "Slime RNG Slime Collection",
+      "intro": "Slime RNG collection is about rolling, equipping, leveling, and replacing slimes as your account grows. Use this database to decide which Slime RNG slimes are worth keeping, feeding, and building around.",
+      "slimes": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "name": "Fin",
+          "rarity": "Common",
+          "role": "Starter DPS",
+          "stage": "Early Game",
+          "description": "The best Slime RNG early damage dealer and a smart first leveling target.",
+          "recommendedUse": "Level early and use as your first reliable DPS slime."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "name": "Basic Slime",
+          "rarity": "Common",
+          "role": "Starter Placeholder",
+          "stage": "Starter",
+          "description": "The standard Slime RNG starter slime with low individual power and easy availability.",
+          "recommendedUse": "Use until better early-game slimes appear."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "name": "Green Slime",
+          "rarity": "Uncommon",
+          "role": "Balanced Unit",
+          "stage": "Early Game",
+          "description": "A balanced Slime RNG slime with a mix of damage and health.",
+          "recommendedUse": "Use as a temporary team filler before stronger DPS or utility slimes."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "name": "Rocky",
+          "rarity": "Uncommon",
+          "role": "Tank",
+          "stage": "Early to Mid Game",
+          "description": "A sturdy Slime RNG slime with higher health and slower damage output.",
+          "recommendedUse": "Use in defensive setups when survivability matters."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "name": "Spike",
+          "rarity": "Uncommon",
+          "role": "DPS",
+          "stage": "Early to Mid Game",
+          "description": "A sharp Slime RNG attacker with higher damage and faster attacks than basic slimes.",
+          "recommendedUse": "Use for faster enemy clearing before rare and Huge slimes take over."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "name": "Water Slime",
+          "rarity": "Common",
+          "role": "Utility",
+          "stage": "Early Game",
+          "description": "A flexible Slime RNG slime with moderate stats.",
+          "recommendedUse": "Use as an early-game slot when your team needs stable options."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "name": "Fire Slime",
+          "rarity": "Uncommon",
+          "role": "Damage over Time",
+          "stage": "Mid Game",
+          "description": "A fiery Slime RNG slime that adds burn-style pressure.",
+          "recommendedUse": "Use when longer fights benefit from extra damage over time."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
+          "name": "Ice Slime",
+          "rarity": "Uncommon",
+          "role": "Utility Control",
+          "stage": "Mid Game",
+          "description": "A Slime RNG utility slime that slows enemy momentum.",
+          "recommendedUse": "Use when control is more useful than raw damage."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
+          "name": "Orca",
+          "rarity": "Rare",
+          "role": "Meta DPS",
+          "stage": "Mid Game",
+          "description": "A powerful Slime RNG mid-game slime with excellent carry value.",
+          "recommendedUse": "Prioritize leveling once obtained because it can carry progression."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "name": "Lucky Slime",
+          "rarity": "Rare",
+          "role": "Luck Boost",
+          "stage": "Mid Game",
+          "description": "A rare Slime RNG slime built around luck support.",
+          "recommendedUse": "Equip during rare farming and longer roll sessions."
+        },
+        {
+          "name": "Huge Rocky",
+          "rarity": "Legendary - Huge Variant",
+          "role": "AoE Damage",
+          "stage": "Late Game",
+          "description": "An enormous Slime RNG Rocky variant with strong area damage.",
+          "recommendedUse": "Keep as a late-game anchor for farming and zone pushing."
+        },
+        {
+          "name": "Huge Spike",
+          "rarity": "Legendary - Huge Variant",
+          "role": "Piercing DPS",
+          "stage": "Late Game",
+          "description": "A colossal Slime RNG Spike variant with high damage and piercing attacks.",
+          "recommendedUse": "Use as one of the strongest damage-focused Huge variant targets."
+        },
+        {
+          "name": "Huge Lucky",
+          "rarity": "Legendary - Huge Variant",
+          "role": "Premium Luck Support",
+          "stage": "Late Game",
+          "description": "A top Slime RNG luck booster for rare slime hunting.",
+          "recommendedUse": "Use during rare-hunting sessions and late-game collection goals."
+        },
+        {
+          "name": "Void Slime",
+          "rarity": "Mythic",
+          "role": "SSS-Tier Ultimate",
+          "stage": "End Game",
+          "description": "The ultimate Slime RNG chase slime with unmatched long-term value.",
+          "recommendedUse": "Treat as the ultimate collection goal."
         }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
-        }
+      ],
+      "collectionTips": [
+        "Feed Slime RNG fruit rewards to the slimes you actually use.",
+        "Keep luck-focused Slime RNG units ready for rare-hunting sessions.",
+        "Replace starter slimes once your rare or Huge variants can carry fights."
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Slime RNG FAQ",
+    "titleHighlight": "Answers",
+    "subtitle": "Quick Slime RNG answers for codes, slimes, luck, zones, and rebirth progress.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Slime RNG?",
+        "answer": "Slime RNG is a Roblox RNG collector where players roll for slimes, equip a team, defeat enemy slimes, earn Coins, buy upgrades, unlock zones, and rebirth for permanent growth."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do Slime RNG codes work?",
+        "answer": "Slime RNG codes are redeemed inside the Shop code box and can grant rewards such as Coins, dice, potions, Apples, Luck boosts, and Roll Speed boosts."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What should Slime RNG beginners buy first?",
+        "answer": "Slime RNG beginners should buy Auto Roll, improve Roll Speed, unlock the next zone when ready, and scale Enemy Count once their team can defeat enemies quickly."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Who is the best early Slime RNG slime?",
+        "answer": "Fin is the strongest early Slime RNG target because it gives dependable starter damage and helps new players clear enemies faster."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
-      },
-      {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Why does Slime RNG rebirth matter?",
+        "answer": "Slime RNG rebirth converts progression into long-term multiplier gains, making later runs faster while preserving important account progress."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Roll in Slime RNG?",
-    "description": "Play Slime RNG on Roblox or follow Stouts Studio for official updates, community links, and new slime discoveries.",
+    "title": "Play Slime RNG Today",
+    "description": "Start rolling slimes, collecting rewards, building a stronger team, and pushing toward your first Slime RNG rebirth.",
     "joinCommunity": "Join Stouts Studio",
-    "joinGame": "Play Slime RNG on Roblox"
+    "joinGame": "Play Slime RNG"
   },
   "footer": {
     "title": "Slime RNG Wiki",
-    "description": "Your complete resource hub for Slime RNG codes, slimes, recipes, luck boosts, upgrades, worlds, and beginner guides.",
-    "resources": "Resources",
-    "community": "Community",
+    "description": "Slime RNG Wiki is an independent guide hub for Roblox players covering codes, slimes, luck, upgrades, worlds, and beginner routes.",
+    "community": "Official Links",
+    "robloxGame": "Slime RNG Roblox Experience",
+    "creatorX": "Leif on X",
+    "robloxGroup": "Stouts Studio Group",
+    "youtubeVideo": "Slime RNG Video",
     "legal": "Legal",
-    "discord": "Roblox Game",
-    "twitter": "X / Leif",
-    "steamCommunity": "Stouts Studio",
-    "steamStore": "YouTube Guide",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Slime RNG Wiki. Not affiliated with Roblox or Stouts Studio.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyrightNotice": "Copyright Notice",
+    "copyright": "© 2026 Slime RNG Wiki. All rights reserved.",
+    "disclaimer": "Slime RNG Wiki is an independent fan resource and is not affiliated with Roblox Corporation or Stouts Studio."
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "title": "Slime RNG Guides",
+      "description": "Slime RNG guides for codes, beginner routes, slimes, luck, upgrades, worlds, and rebirth progress.",
+      "metaTitle": "Slime RNG Guides - Codes, Slimes, Luck & Rebirth",
+      "metaDescription": "Read Slime RNG guides covering codes, slimes, luck boosts, upgrades, worlds, Goop, and rebirth progression.",
+      "whatIsTitle": "What are Slime RNG Guides?",
+      "whatIsDescription": "Slime RNG guides explain how rolling, combat, Coins, upgrades, Goop, and rebirths connect into a faster progression route."
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+    "codes": {
+      "title": "Slime RNG Codes",
+      "description": "Slime RNG codes, rewards, redeem steps, expired codes, and boost usage tips.",
+      "metaTitle": "Slime RNG Codes - Working Rewards and Redeem Guide",
+      "metaDescription": "Find Slime RNG codes, redeem steps, reward notes, expired codes, and tips for using luck and roll speed boosts."
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+    "slimes": {
+      "title": "Slime RNG Slimes",
+      "description": "Slime RNG slime lists, rarity notes, collection priorities, and team-building ideas.",
+      "metaTitle": "Slime RNG Slimes - Collection and Tier Guide",
+      "metaDescription": "Browse Slime RNG slimes by rarity, role, stage, and recommended use for collection and combat progress."
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+    "recipes": {
+      "title": "Slime RNG Recipes",
+      "description": "Slime RNG recipe locations, route planning, unlock order, and material notes.",
+      "metaTitle": "Slime RNG Recipes - Locations and Route Guide",
+      "metaDescription": "Use Slime RNG recipe guides to plan locations, routes, unlock order, and material progress."
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+    "luck": {
+      "title": "Slime RNG Luck",
+      "description": "Slime RNG luck bonuses, group rewards, rebirth multipliers, potions, and roll planning.",
+      "metaTitle": "Slime RNG Luck Guide - Boosts and Multipliers",
+      "metaDescription": "Learn how Slime RNG luck bonuses, group rewards, potions, rebirth multipliers, and roll speed affect rare slime hunting."
     }
   }
 }
