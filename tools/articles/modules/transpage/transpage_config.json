@@ -10,49 +10,43 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["pt", "es", "tr"],
   "default_language": "en",
   "output_dir": "src/locales/",
 
   "use_value_extraction": false,
 
   "protected_terms": {
-    "game_names": ["Lucid Blocks"],
-    "character_names": [],
+    "game_names": ["Slime RNG", "RNG de slime", "Slime RNG'si"],
+    "character_names": ["Stouts Studio", "Leif"],
     "technical_terms": [
-      "Apotheosis",
-      "Steam",
-      "Steam Deck",
-      "Vulkan",
-      "Fog Meadow",
-      "Heaven",
-      "Bubblebear",
-      "Angel",
-      "Hookshot",
-      "Bee Glider",
-      "Psychedelic",
-      "Surreal"
+      "Roblox",
+      "RNG",
+      "Slime",
+      "Secret Slime",
+      "Luck",
+      "Luck boost",
+      "Roll",
+      "Robux",
+      "Gamepass",
+      "Double Roll",
+      "Fast Roll",
+      "Auto Collect",
+      "Ultra Luck Potion",
+      "Roll Speed Potion"
     ]
   },
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Slime RNG",
+    "pt": "Slime RNG",
+    "es": "RNG de slime",
+    "tr": "Slime RNG'si"
   },
 
   "lang_names": {
-    "ru": "Russian",
     "pt": "Portuguese (Brazil)",
-    "de": "German",
     "es": "Spanish (Latin America)",
-    "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "tr": "Turkish"
   }
 }
