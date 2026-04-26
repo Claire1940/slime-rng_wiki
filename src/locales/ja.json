@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "codes": "Codes",
+    "rebirth": "Rebirth",
+    "crafting": "Crafting",
+    "guide": "Guide",
+    "slimes": "Slimes",
+    "luck": "Luck",
+    "economy": "Economy"
   },
   "common": {
     "home": "ホーム",

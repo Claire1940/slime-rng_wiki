@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "codes": "Codes",
+    "rebirth": "Rebirth",
+    "crafting": "Crafting",
+    "guide": "Guide",
+    "slimes": "Slimes",
+    "luck": "Luck",
+    "economy": "Economy"
   },
   "common": {
     "home": "Início",

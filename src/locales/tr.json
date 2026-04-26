@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "codes": "Codes",
+    "rebirth": "Rebirth",
+    "crafting": "Crafting",
+    "guide": "Guide",
+    "slimes": "Slimes",
+    "luck": "Luck",
+    "economy": "Economy"
   },
   "common": {
     "home": "Ana Sayfa",

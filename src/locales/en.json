@@ -10,7 +10,15 @@
       "twitterDescription": "Slime RNG Wiki covers codes, slimes, recipes, luck boosts, upgrades, worlds, and beginner routes for Roblox players."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "rebirth": "Rebirth",
+    "crafting": "Crafting",
+    "guide": "Guide",
+    "slimes": "Slimes",
+    "luck": "Luck",
+    "economy": "Economy"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1421,37 +1429,145 @@
     "disclaimer": "Slime RNG Wiki is an independent fan resource and is not affiliated with Roblox Corporation or Stouts Studio."
   },
   "pages": {
-    "guides": {
-      "title": "Slime RNG Guides",
-      "description": "Slime RNG guides for codes, beginner routes, slimes, luck, upgrades, worlds, and rebirth progress.",
-      "metaTitle": "Slime RNG Guides - Codes, Slimes, Luck & Rebirth",
-      "metaDescription": "Read Slime RNG guides covering codes, slimes, luck boosts, upgrades, worlds, Goop, and rebirth progression.",
-      "whatIsTitle": "What are Slime RNG Guides?",
-      "whatIsDescription": "Slime RNG guides explain how rolling, combat, Coins, upgrades, Goop, and rebirths connect into a faster progression route."
-    },
     "codes": {
       "title": "Slime RNG Codes",
-      "description": "Slime RNG codes, rewards, redeem steps, expired codes, and boost usage tips.",
-      "metaTitle": "Slime RNG Codes - Working Rewards and Redeem Guide",
-      "metaDescription": "Find Slime RNG codes, redeem steps, reward notes, expired codes, and tips for using luck and roll speed boosts."
+      "description": "Latest Slime RNG codes, reward tables, redeem steps, and practical ways to use free boosts during progression.",
+      "metaTitle": "Slime RNG Codes - Free Rewards and Redeem Guide",
+      "metaDescription": "Find Slime RNG codes, redeem steps, reward notes, expired code handling, and boost usage tips for faster Roblox progression.",
+      "categoryLabel": "SLIME RNG CODES",
+      "whatIs": "What are Slime RNG Codes?",
+      "whatIsDescription": "Slime RNG codes are reward phrases released for Roblox players that can grant coins, apples, dice, luck potions, roll speed boosts, and other progression items.",
+      "why": "Why use this Slime RNG Codes guide?",
+      "whySteps": {
+        "step1Title": "Claim rewards quickly",
+        "step1Description": "Use the Slime RNG codes list to find reward phrases and redeem them before starting a long rolling or farming session.",
+        "step2Title": "Understand each item",
+        "step2Description": "Learn how coins, apples, dice, luck potions, and roll speed boosts fit into Slime RNG progression instead of using rewards at random.",
+        "step3Title": "Plan better sessions",
+        "step3Description": "Pair code rewards with rebirth, luck, and economy goals so each Slime RNG play session produces more useful rolls and upgrades."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Slime RNG Codes"
+    },
+    "rebirth": {
+      "title": "Slime RNG Rebirth",
+      "description": "Slime RNG rebirth requirements, timing advice, permanent luck multiplier notes, and reset planning for smoother progression.",
+      "metaTitle": "Slime RNG Rebirth Guide - Requirements and Timing",
+      "metaDescription": "Learn Slime RNG rebirth requirements, when to rebirth, how permanent luck multipliers work, and how to prepare before resetting progress.",
+      "categoryLabel": "SLIME RNG REBIRTH",
+      "whatIs": "What is Slime RNG Rebirth?",
+      "whatIsDescription": "Slime RNG rebirth is a progression reset that trades current milestones for stronger long-term benefits, especially permanent luck gains that help future rolls.",
+      "why": "Why read this Slime RNG Rebirth guide?",
+      "whySteps": {
+        "step1Title": "Meet requirements sooner",
+        "step1Description": "Track the Slime RNG rebirth requirements so you know which rolls, coins, upgrades, or milestones matter before resetting.",
+        "step2Title": "Choose the right timing",
+        "step2Description": "Compare early and delayed rebirth routes to avoid resetting before your Slime RNG setup can recover efficiently.",
+        "step3Title": "Use permanent luck well",
+        "step3Description": "Understand how permanent luck multipliers shape later slime hunting, code usage, and long-term farming plans."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Slime RNG Rebirth Guides"
+    },
+    "crafting": {
+      "title": "Slime RNG Crafting",
+      "description": "Slime RNG crafting recipes, recipe locations, early route planning, and material notes for unlocking useful upgrades.",
+      "metaTitle": "Slime RNG Crafting - Recipes and Locations",
+      "metaDescription": "Use Slime RNG crafting guides for recipe locations, crafting recipes, first route planning, material notes, and unlock order advice.",
+      "categoryLabel": "SLIME RNG CRAFTING",
+      "whatIs": "What is Slime RNG Crafting?",
+      "whatIsDescription": "Slime RNG crafting covers recipe discovery, material use, and location routing so players can turn exploration and resources into stronger progression tools.",
+      "why": "Why read this Slime RNG Crafting guide?",
+      "whySteps": {
+        "step1Title": "Find recipes faster",
+        "step1Description": "Use Slime RNG recipe location guides to reduce wandering and collect the crafting unlocks needed for your next upgrade route.",
+        "step2Title": "Prioritize early unlocks",
+        "step2Description": "Plan the first recipe locations and crafting steps around rewards that improve rolling, farming, or slime growth.",
+        "step3Title": "Connect resources to goals",
+        "step3Description": "Match materials and recipes with Slime RNG codes, economy, luck, and rebirth plans instead of crafting without a progression target."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Slime RNG Crafting Guides"
+    },
+    "guide": {
+      "title": "Slime RNG Guide",
+      "description": "Slime RNG beginner guides, progression routes, strategy explainers, Roblox tips, and noob-to-rare-slime planning.",
+      "metaTitle": "Slime RNG Guide - Beginner Tips and Progression",
+      "metaDescription": "Read Slime RNG guides for beginner routes, Roblox basics, best strategies, progression planning, rare slime goals, and practical gameplay tips.",
+      "categoryLabel": "SLIME RNG GUIDE",
+      "whatIs": "What is the Slime RNG Guide section?",
+      "whatIsDescription": "The Slime RNG Guide section explains the full Roblox gameplay loop: rolling slimes, equipping teams, earning coins, upgrading stats, unlocking areas, and pushing toward rare finds.",
+      "why": "Why read this Slime RNG Guide section?",
+      "whySteps": {
+        "step1Title": "Start with a clear route",
+        "step1Description": "Follow Slime RNG beginner guidance to understand rolls, upgrades, battles, and collection goals before spending resources.",
+        "step2Title": "Avoid scattered progress",
+        "step2Description": "Use progression guides to connect codes, luck boosts, coins, crafting, and rebirth into one practical plan.",
+        "step3Title": "Improve every session",
+        "step3Description": "Apply Slime RNG tips for rolling, farming, and team building so each play session supports a specific milestone."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Slime RNG Guides"
     },
     "slimes": {
       "title": "Slime RNG Slimes",
-      "description": "Slime RNG slime lists, rarity notes, collection priorities, and team-building ideas.",
-      "metaTitle": "Slime RNG Slimes - Collection and Tier Guide",
-      "metaDescription": "Browse Slime RNG slimes by rarity, role, stage, and recommended use for collection and combat progress."
-    },
-    "recipes": {
-      "title": "Slime RNG Recipes",
-      "description": "Slime RNG recipe locations, route planning, unlock order, and material notes.",
-      "metaTitle": "Slime RNG Recipes - Locations and Route Guide",
-      "metaDescription": "Use Slime RNG recipe guides to plan locations, routes, unlock order, and material progress."
+      "description": "Slime RNG slime lists, rarity notes, rare slime hunting, shiny slime information, and collection priorities.",
+      "metaTitle": "Slime RNG Slimes - Rarity List and Collection Guide",
+      "metaDescription": "Browse Slime RNG slimes, rarity guides, rare slime goals, shiny slime notes, dangerous slime coverage, and collection planning tips.",
+      "categoryLabel": "SLIME RNG SLIMES",
+      "whatIs": "What are Slime RNG Slimes?",
+      "whatIsDescription": "Slime RNG slimes are the core collectibles and battle units players roll for, compare by rarity, level up, equip, and use to push further into the Roblox experience.",
+      "why": "Why read this Slime RNG Slimes guide?",
+      "whySteps": {
+        "step1Title": "Know what to chase",
+        "step1Description": "Use Slime RNG slime lists and rarity guides to identify rare, shiny, dangerous, and high-value slimes worth keeping.",
+        "step2Title": "Build stronger teams",
+        "step2Description": "Compare slime roles and collection priorities so your equipped team supports coin farming, combat, and progression.",
+        "step3Title": "Track collection goals",
+        "step3Description": "Plan rare slime hunts around luck boosts, roll methods, and long-term completion goals instead of rolling without direction."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Slime RNG Slime Guides"
     },
     "luck": {
       "title": "Slime RNG Luck",
-      "description": "Slime RNG luck bonuses, group rewards, rebirth multipliers, potions, and roll planning.",
-      "metaTitle": "Slime RNG Luck Guide - Boosts and Multipliers",
-      "metaDescription": "Learn how Slime RNG luck bonuses, group rewards, potions, rebirth multipliers, and roll speed affect rare slime hunting."
+      "description": "Slime RNG luck mechanics, auto roll planning, roll chance notes, luck boosts, and methods for improving rare slime odds.",
+      "metaTitle": "Slime RNG Luck Guide - Boosts, Rolls, and Chances",
+      "metaDescription": "Learn Slime RNG luck mechanics, luck boost timing, auto roll setup, roll chance basics, best roll methods, and rare slime hunting plans.",
+      "categoryLabel": "SLIME RNG LUCK",
+      "whatIs": "What is Slime RNG Luck?",
+      "whatIsDescription": "Slime RNG luck is the set of bonuses, boosts, multipliers, and roll practices that influence how efficiently players chase rare slime outcomes.",
+      "why": "Why read this Slime RNG Luck guide?",
+      "whySteps": {
+        "step1Title": "Stack useful bonuses",
+        "step1Description": "Learn how Slime RNG luck boosts, permanent multipliers, and session bonuses combine before spending limited items.",
+        "step2Title": "Roll with better timing",
+        "step2Description": "Plan auto roll sessions and best roll methods around boost windows so more attempts happen while luck is active.",
+        "step3Title": "Understand roll chances",
+        "step3Description": "Use roll chance explanations to set practical goals for rare, shiny, and high-value slime hunting."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Slime RNG Luck Guides"
+    },
+    "economy": {
+      "title": "Slime RNG Economy",
+      "description": "Slime RNG coins, apples, XP, money routes, farming tips, and resource planning for upgrades and slime growth.",
+      "metaTitle": "Slime RNG Economy - Coins, Apples, XP, and Farming",
+      "metaDescription": "Use Slime RNG economy guides for coins, money farming, apples, XP planning, resource routes, and upgrade-focused progression.",
+      "categoryLabel": "SLIME RNG ECONOMY",
+      "whatIs": "What is the Slime RNG Economy?",
+      "whatIsDescription": "The Slime RNG economy covers coins, apples, XP, farming routes, and resource decisions that turn slime rolls and battles into steady upgrades.",
+      "why": "Why read this Slime RNG Economy guide?",
+      "whySteps": {
+        "step1Title": "Earn coins consistently",
+        "step1Description": "Use Slime RNG money and coin guides to choose farming methods that support upgrades, crafting, and rebirth preparation.",
+        "step2Title": "Spend resources wisely",
+        "step2Description": "Understand when apples, XP, and currency should go into slime growth, roll efficiency, or progression gates.",
+        "step3Title": "Support long-term routes",
+        "step3Description": "Connect economy decisions with Slime RNG luck, slimes, crafting, and rebirth so your resources keep pushing the next milestone."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Slime RNG Economy Guides"
     }
   }
 }
