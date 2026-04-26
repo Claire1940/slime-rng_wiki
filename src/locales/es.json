@@ -1,28 +1,28 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Wiki de Slime RNG - Códigos, Slimes y Recetas",
+      "description": "La Wiki de Slime RNG ofrece códigos de Roblox actualizados, listas de Slimes, ubicaciones de recetas, consejos de Luck, mejoras, mundos y guías para principiantes para progresar más rápido.",
+      "keywords": "Slime RNG, Slime RNG wiki, códigos de Slime RNG, slimes de Slime RNG, recetas de Slime RNG, Roblox RNG",
+      "ogTitle": "Wiki de Slime RNG - Códigos, Slimes y Recetas",
+      "ogDescription": "La Wiki de Slime RNG ofrece códigos de Roblox actualizados, listas de Slimes, ubicaciones de recetas, consejos de Luck, mejoras, mundos y guías para principiantes para progresar más rápido.",
+      "twitterTitle": "Wiki de Slime RNG - Códigos, Slimes y Recetas",
+      "twitterDescription": "La Wiki de Slime RNG cubre códigos, Slimes, recetas, Luck boosts, mejoras, mundos y rutas para principiantes para jugadores de Roblox."
     }
   },
   "nav": {
-    "codes": "Codes",
+    "codes": "Códigos",
     "rebirth": "Rebirth",
     "crafting": "Crafting",
-    "guide": "Guide",
+    "guide": "Guía",
     "slimes": "Slimes",
     "luck": "Luck",
-    "economy": "Economy"
+    "economy": "Economía"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar Slime RNG en Roblox",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -34,899 +34,1540 @@
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Tierno coleccionista de Slimes de Roblox RNG",
+    "title": "Wiki de Slime RNG",
+    "description": "Haz Roll por Slimes raros, mejora tu equipo, lucha contra Slimes enemigos, desbloquea mundos nuevos y usa Luck boosts para progresar más rápido en esta tierna aventura de Roblox RNG.",
+    "getFreeCodesCTA": "Jugar Slime RNG en Roblox",
+    "playOnRobloxCTA": "Unirse a Stouts Studio",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "2M+",
+        "label": "Visitas totales"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "14K+",
+        "label": "Jugadores activos"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "98.2%",
+        "label": "Calificación"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "42K+",
+        "label": "Favoritos"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Slime RNG",
+    "description": "Haz Roll de Slimes, construye un equipo de combate más fuerte, gana monedas, desbloquea zonas y convierte el progreso en ganancias de Luck a largo plazo mediante rebirths."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Slime RNG",
+    "titleHighlight": "Guías",
+    "subtitle": "Ve directo a los códigos de Slime RNG, rutas iniciales, objetivos de Slimes raros, planificación de zonas, farming y mejoras.",
     "cards": [
       {
+        "icon": "ClipboardCheck",
+        "title": "Códigos de Slime RNG",
+        "description": "Códigos de Slime RNG funcionando, recompensas expiradas, pasos para canjear y tiempos de boost."
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "title": "Guía para principiantes de Slime RNG",
+        "description": "Una ruta de inicio de Slime RNG desde los primeros Rolls hasta tu primera configuración de rebirth."
       },
       {
         "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "title": "Tier List de Slime RNG",
+        "description": "Clasificaciones de Slime RNG para Void Slime, variantes Huge, Orca, Lucky Slime, Fin y más."
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "icon": "Sparkles",
+        "title": "Colección de Slimes de Slime RNG",
+        "description": "Una base de datos de Slimes de Slime RNG con rareza, rol, etapa y uso recomendado."
       },
       {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "icon": "TrendingUp",
+        "title": "Guía de Rebirth de Slime RNG",
+        "description": "Tiempos de rebirth de Slime RNG, requisitos de Goop, reglas de reinicio y ganancias de Luck permanentes."
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "icon": "Package",
+        "title": "Guía de Goop de Slime RNG",
+        "description": "Desbloqueos de Goop de Slime RNG, zonas de farming, prioridades de mejora y planificación de rebirth."
       },
       {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "icon": "Eye",
+        "title": "Guía de Luck de Slime RNG",
+        "description": "Fuentes de Luck de Slime RNG, multiplicadores de rebirth, tiempos de boost y caza de Slimes raros."
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Guía de Slimes Huge de Slime RNG",
+        "description": "Prioridades de Slime RNG para Huge, Shiny, Huge Shiny y variantes de juego tardío."
+      },
+      {
+        "icon": "Gem",
+        "title": "Guía de Void Slime de Slime RNG",
+        "description": "Rareza de Void Slime de Slime RNG, preparación para el juego tardío y bucles de caza de Mythic."
+      },
+      {
+        "icon": "MapPinned",
+        "title": "Mapa de zonas de Slime RNG",
+        "description": "HP de zona de Slime RNG, rendimiento de monedas, costos de desbloqueo y tiempos de velocidad de limpieza."
+      },
+      {
+        "icon": "Coins",
+        "title": "Guía de farming de monedas de Slime RNG",
+        "description": "Pasos de farming de monedas de Slime RNG para un DPS más fuerte, mejores zonas y configuración de rebirth más rápida."
+      },
+      {
+        "icon": "Settings",
+        "title": "Guía de mejoras de Slime RNG",
+        "description": "Prioridades de mejora de Slime RNG para automatización, ingresos, Luck, Goop y farming de juego tardío."
+      },
+      {
+        "icon": "Apple",
+        "title": "Guía de Frutas y XP de Slime RNG",
+        "description": "Valores de XP de frutas de Slime RNG, mejores objetivos y prioridades de nivelación para Slimes carry más fuertes."
+      },
+      {
+        "icon": "Dice5",
+        "title": "Guía de Dice y Roll Speed de Slime RNG",
+        "description": "Dice, Big Dice, Roll Speed y tiempos de Luck de Slime RNG para sesiones de Roll más fuertes."
+      },
+      {
+        "icon": "Handshake",
+        "title": "Valores de intercambio de Slime RNG",
+        "description": "Notas de valor de intercambio de Slime RNG para variantes Huge, Slimes raros, demanda y roles de mercado."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Actualizaciones y notas del parche de Slime RNG",
+        "description": "Resúmenes de actualización de Slime RNG para nuevas zonas, Slimes, códigos, cambios de equilibrio y objetivos de la hoja de ruta."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+    "slimeRngCodes": {
+      "eyebrow": "Recompensas gratuitas",
+      "title": "Códigos de Slime RNG",
+      "intro": "Canjea los códigos de Slime RNG después del breve tutorial, luego usa las recompensas durante sesiones de Roll más largas para una recolección de Slimes más rápida, mejores ventanas de Luck y un progreso inicial más fuerte.",
+      "workingUpdated": "25 de abril de 2026",
+      "workingCodes": [
+        {
+          "code": "time2Grind",
+          "reward": "Poción y Dice",
+          "status": "Funcionando",
+          "bestFor": "Valor de Roll extra y progresión inicial más rápida"
+        },
+        {
+          "code": "craftAway",
+          "reward": "Ultra Luck Boost, Roll Speed Boost y 4 Manzanas",
+          "status": "Funcionando",
+          "bestFor": "Farming de Luck, Roll speed y XP de Slime"
+        },
+        {
+          "code": "semils",
+          "reward": "Luck boost, Roll Speed Boost y 6 Manzanas",
+          "status": "Funcionando",
+          "bestFor": "Acumulación de boosts antes de una sesión de Roll más larga"
+        },
+        {
+          "code": "test",
+          "reward": "100 Monedas",
+          "status": "Funcionando",
+          "bestFor": "Progreso inicial de monedas"
+        },
+        {
+          "code": "gullible",
+          "reward": "1 Moneda",
+          "status": "Funcionando",
+          "bestFor": "Reclamar cada recompensa gratuita disponible"
+        }
+      ],
+      "expiredCodes": [
+        "THATSHUGE",
+        "RAWRRR",
+        "stonks",
+        "Release!",
+        "spin2win",
+        "GOFAST",
+        "SUPERL00T",
+        "SUNOB"
+      ],
+      "redeemSteps": [
+        {
+          "title": "Inicia Slime RNG",
+          "description": "Abre la experiencia de Roblox Slime RNG y termina el breve tutorial."
+        },
+        {
+          "title": "Abre la Tienda",
+          "description": "Selecciona el botón de la Tienda en el lado derecho de la pantalla."
+        },
+        {
+          "title": "Busca la caja de códigos",
+          "description": "Desplázate hasta el final del menú de la Tienda y localiza el campo de entrada de códigos."
+        },
+        {
+          "title": "Ingresa y canjea",
+          "description": "Escribe el código de Slime RNG exactamente como se muestra, luego presiona Canjear para reclamar la recompensa."
+        }
+      ],
+      "tips": [
+        "Los códigos de Slime RNG distinguen entre mayúsculas y minúsculas, así que copia las letras mayúsculas y la puntuación exactamente.",
+        "Usa las recompensas de Roll speed y Luck cuando puedas permanecer activo para una sesión más larga.",
+        "Los códigos de Slime RNG pertenecen a esta experiencia de Roblox y son independientes de otros juegos con temática de Slimes."
+      ]
+    },
+    "slimeRngBeginnerGuide": {
+      "eyebrow": "Ruta de inicio",
+      "title": "Guía para principiantes de Slime RNG",
+      "intro": "Slime RNG comienza con hacer Roll, equipar, luchar, ganar monedas y comprar mejoras en un orden claro. El camino más fuerte para principiantes es automatizar los Rolls, mejorar la Roll Speed, desbloquear zonas, escalar el recuento de enemigos y prepararse para el Goop antes de tu primer rebirth.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Haz Roll para obtener tus primeros slimes",
+          "goal": "Construye un equipo de combate básico.",
+          "description": "Haz Roll para obtener algunos slimes de Slime RNG y equipa las mejores unidades que consigas para que tu equipo pueda derrotar enemigos y empezar a ganar monedas.",
+          "priority": "Alta"
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Busca a Fin pronto",
+          "goal": "Consigue un atacante inicial confiable.",
+          "description": "Fin es una opción de daño destacada al inicio de Slime RNG y debe subirse de nivel antes que los slimes iniciales más débiles.",
+          "priority": "Alta"
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Compra Auto Roll por 200 monedas",
+          "goal": "Elimina el rolling manual del ciclo principal.",
+          "description": "Auto Roll mantiene activo el ciclo de rolling de Slime RNG y es la primera gran compra de calidad de vida.",
+          "priority": "Esencial"
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Mejora la Roll Speed",
+          "goal": "Aumenta el total de Rolls con el tiempo.",
+          "description": "La Roll Speed mejora la frecuencia con la que puedes hacer Roll, lo que hace que cada ventana de Luck boost de Slime RNG sea más valiosa.",
+          "priority": "Esencial"
+        },
+        {
+          "title": "Desbloquea la siguiente zona",
+          "goal": "Escala tus ingresos de monedas.",
+          "description": "Muévete a zonas de Slime RNG más fuertes una vez que tu equipo pueda mantener el ritmo en lugar de cultivar en exceso el área inicial.",
+          "priority": "Alta"
+        },
+        {
+          "title": "Prioriza el recuento de enemigos",
+          "goal": "Crea más objetivos de ingresos.",
+          "description": "El recuento de enemigos es una mejora importante de Slime RNG porque más enemigos significan más bajas y más monedas cuando tu equipo tiene suficiente daño.",
+          "priority": "Alta"
+        },
+        {
+          "title": "Alimenta con frutas a tus mejores slimes",
+          "goal": "Convierte manzanas y otras frutas en poder útil.",
+          "description": "Pon las recompensas de frutas de Slime RNG en tus slimes más fuertes en lugar de repartir la XP entre unidades débiles.",
+          "priority": "Media"
+        },
+        {
+          "title": "Alcanza 10,000,000 de monedas para el Goop",
+          "goal": "Prepárate para la progresión de rebirth.",
+          "description": "El Goop se desbloquea tras una inversión de 10,000,000 de monedas y se convierte en el puente de Slime RNG hacia el crecimiento por rebirth.",
+          "priority": "Esencial"
+        },
+        {
+          "title": "Haz rebirth cuando estés listo",
+          "goal": "Convierte el progreso en multiplicadores permanentes.",
+          "description": "Los rebirths de Slime RNG reinician las monedas y el acceso a zonas, pero mantienen el progreso importante a largo plazo, como slimes, consumibles, mejoras y ganancias de Luck.",
+          "priority": "Principiante tardío"
+        },
+        {
+          "title": "Únete al grupo de Stouts Studio",
+          "goal": "Reclama una ventaja de Luck permanente.",
+          "description": "Unirse al grupo de Roblox de Stouts Studio otorga a los jugadores de Slime RNG un bono permanente de +1 de Luck.",
+          "priority": "Recomendado"
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Compra el Auto Roll de Slime RNG antes de buscar mejoras de Luck costosas.",
+        "La Roll Speed mejora cada recompensa de código que potencia las sesiones de Roll.",
+        "Mantén nivelado a tu mejor repartidor de daño de Slime RNG para que las nuevas zonas se sientan fluidas.",
+        "Guarda las ventanas de boost largas para sesiones en las que puedas hacer Roll y luchar activamente."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
+    "slimeRngTierList": {
+      "eyebrow": "Mejores Slimes",
+      "title": "Tier List de Slime RNG",
+      "intro": "La tier list de Slime RNG clasifica a los slimes por valor práctico, daño, velocidad, utilidad e impacto en la progresión. Void Slime es el objetivo final, las variantes Huge dominan el juego tardío, Orca y Lucky Slime lideran el farmeo a mitad del juego, y Fin es el mejor objetivo de daño inicial.",
+      "tiers": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "tier": "SSS",
+          "summary": "Tier definitivo de Slime RNG para el poder de slime más fuerte conocido.",
+          "slimes": [
+            {
+              "name": "Void Slime",
+              "damage": "25,000",
+              "speed": "2.0",
+              "rarity": "Mítico",
+              "role": "DPS definitivo",
+              "notes": "El principal objetivo de colección y combate a largo plazo en Slime RNG."
+            }
+          ]
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "tier": "S",
+          "summary": "Tier meta de Slime RNG para el juego tardío, basado en variantes Huge y utilidad valiosa.",
+          "slimes": [
+            {
+              "name": "Huge Spike",
+              "damage": "7,500",
+              "speed": "1.5",
+              "rarity": "Legendario - Variante Huge",
+              "role": "DPS de perforación",
+              "notes": "Uno de los objetivos de Slime RNG con mayor DPS y ataques de perforación."
+            },
+            {
+              "name": "Huge Rocky",
+              "damage": "5,000",
+              "speed": "0.8",
+              "rarity": "Legendario - Variante Huge",
+              "role": "Daño de tanque en área",
+              "notes": "Una opción masiva de daño de área en Slime RNG para avanzar en zonas del juego tardío."
+            },
+            {
+              "name": "Huge Lucky",
+              "damage": "3,000",
+              "speed": "1.0",
+              "rarity": "Legendario - Variante Huge",
+              "role": "Potenciador de Luck",
+              "notes": "Una elección de soporte de Luck de primer nivel en Slime RNG para la caza de slimes raros."
+            }
+          ]
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "tier": "A",
+          "summary": "Tier fuerte de mitad de juego de Slime RNG para equipos de farmeo estables.",
+          "slimes": [
+            {
+              "name": "Orca",
+              "damage": "180",
+              "speed": "0.9",
+              "rarity": "Raro",
+              "role": "Carry de mitad de juego",
+              "notes": "Excelente DPS de Slime RNG una vez que tu equipo inicial esté listo para escalar."
+            },
+            {
+              "name": "Lucky Slime",
+              "damage": "120",
+              "speed": "1.1",
+              "rarity": "Raro",
+              "role": "Soporte de Luck",
+              "notes": "Una unidad de soporte de Slime RNG para el farmeo de drops raros y sesiones largas de Roll."
+            }
+          ]
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "tier": "B",
+          "summary": "Slimes útiles de Slime RNG para el inicio y mitad del juego que sirven de puente en la progresión.",
+          "slimes": [
+            {
+              "name": "Spike",
+              "damage": "55",
+              "speed": "1.2",
+              "rarity": "Poco común",
+              "role": "Atacante rápido",
+              "notes": "Un atacante rápido de Slime RNG para el combate inicial y la limpieza de enemigos."
+            },
+            {
+              "name": "Fin",
+              "damage": "45",
+              "speed": "1.0",
+              "rarity": "Común",
+              "role": "DPS inicial",
+              "notes": "El mejor objetivo de DPS inicial de Slime RNG y un primer slime inteligente para subir de nivel."
+            },
+            {
+              "name": "Rocky",
+              "damage": "35",
+              "speed": "0.7",
+              "rarity": "Poco común",
+              "role": "Tanque defensivo",
+              "notes": "Una opción robusta de Slime RNG cuando la supervivencia es importante."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "summary": "Tier base inicial de Slime RNG antes de que lleguen slimes más fuertes.",
+          "slimes": [
+            {
+              "name": "Basic Slime",
+              "damage": "25",
+              "speed": "1.0",
+              "rarity": "Común",
+              "role": "Marcador de posición inicial",
+              "notes": "Una unidad temporal de Slime RNG para el mismísimo comienzo."
+            }
+          ]
+        }
+      ]
+    },
+    "slimeRngSlimeCollection": {
+      "eyebrow": "Base de datos de Slime",
+      "title": "Colección de Slime de Slime RNG",
+      "intro": "La colección de Slime RNG consiste en hacer Roll, equipar, subir de nivel y reemplazar slimes a medida que tu cuenta crece. Usa esta base de datos para decidir qué slimes de Slime RNG vale la pena conservar, alimentar y usar para armar tu equipo.",
+      "slimes": [
+        {
+          "name": "Fin",
+          "rarity": "Común",
+          "role": "DPS inicial",
+          "stage": "Inicio del juego",
+          "description": "El mejor repartidor de daño inicial de Slime RNG y un excelente primer objetivo para subir de nivel.",
+          "recommendedUse": "Súbelo de nivel pronto y úsalo como tu primer Slime de DPS confiable."
+        },
+        {
+          "name": "Basic Slime",
+          "rarity": "Común",
+          "role": "Sustituto inicial",
+          "stage": "Principiante",
+          "description": "El Slime inicial estándar de Slime RNG con poco poder individual y fácil disponibilidad.",
+          "recommendedUse": "Úsalo hasta que aparezcan mejores slimes para el inicio del juego."
+        },
+        {
+          "name": "Green Slime",
+          "rarity": "Poco común",
+          "role": "Unidad equilibrada",
+          "stage": "Inicio del juego",
+          "description": "Un Slime de Slime RNG equilibrado con una mezcla de daño y vida.",
+          "recommendedUse": "Úsalo como relleno temporal en el equipo antes de obtener slimes de DPS o utilidad más fuertes."
+        },
+        {
+          "name": "Rocky",
+          "rarity": "Poco común",
+          "role": "Tanque",
+          "stage": "Inicio a mitad del juego",
+          "description": "Un Slime de Slime RNG robusto con mayor vida y una producción de daño más lenta.",
+          "recommendedUse": "Úsalo en configuraciones defensivas cuando la supervivencia sea importante."
+        },
+        {
+          "name": "Spike",
+          "rarity": "Poco común",
+          "role": "DPS",
+          "stage": "Inicio a mitad del juego",
+          "description": "Un atacante de Slime RNG afilado con mayor daño y ataques más rápidos que los slimes básicos.",
+          "recommendedUse": "Úsalo para eliminar enemigos más rápido antes de que los slimes raros y Huge tomen el control."
+        },
+        {
+          "name": "Water Slime",
+          "rarity": "Común",
+          "role": "Utilidad",
+          "stage": "Inicio del juego",
+          "description": "Un Slime de Slime RNG flexible con estadísticas moderadas.",
+          "recommendedUse": "Úsalo en un espacio al inicio del juego cuando tu equipo necesite opciones estables."
+        },
+        {
+          "name": "Fire Slime",
+          "rarity": "Poco común",
+          "role": "Daño en el tiempo",
+          "stage": "Mitad del juego",
+          "description": "Un Slime de Slime RNG ardiente que añade presión con estilo de quemadura.",
+          "recommendedUse": "Úsalo cuando las peleas largas se beneficien del daño adicional en el tiempo."
+        },
+        {
+          "name": "Ice Slime",
+          "rarity": "Poco común",
+          "role": "Control de utilidad",
+          "stage": "Mitad del juego",
+          "description": "Un Slime de utilidad de Slime RNG que frena el impulso de los enemigos.",
+          "recommendedUse": "Úsalo cuando el control sea más útil que el daño puro."
+        },
+        {
+          "name": "Orca",
+          "rarity": "Raro",
+          "role": "DPS meta",
+          "stage": "Mitad del juego",
+          "description": "Un poderoso Slime de Slime RNG para la mitad del juego con excelente valor para liderar el progreso.",
+          "recommendedUse": "Prioriza subirlo de nivel una vez obtenido porque puede liderar el progreso."
+        },
+        {
+          "name": "Lucky Slime",
+          "rarity": "Raro",
+          "role": "Luck boost",
+          "stage": "Mitad del juego",
+          "description": "Un Slime raro de Slime RNG diseñado como soporte de Luck.",
+          "recommendedUse": "Equípalo durante el farmeo de raros y sesiones de Roll más largas."
+        },
+        {
+          "name": "Huge Rocky",
+          "rarity": "Legendario - Variante Huge",
+          "role": "Daño de área",
+          "stage": "Final del juego",
+          "description": "Una enorme variante Huge de Rocky en Slime RNG con un fuerte daño de área.",
+          "recommendedUse": "Consérvalo como pilar al final del juego para farmear y avanzar por zonas."
+        },
+        {
+          "name": "Huge Spike",
+          "rarity": "Legendario - Variante Huge",
+          "role": "DPS de perforación",
+          "stage": "Final del juego",
+          "description": "Una colosal variante Huge de Spike en Slime RNG con alto daño y ataques de perforación.",
+          "recommendedUse": "Úsalo como uno de los objetivos más fuertes de variante Huge centrados en el daño."
+        },
+        {
+          "name": "Huge Lucky",
+          "rarity": "Legendario - Variante Huge",
+          "role": "Soporte de Luck prémium",
+          "stage": "Final del juego",
+          "description": "Un potenciador de Luck de Slime RNG de primer nivel para la caza de slimes raros.",
+          "recommendedUse": "Úsalo durante las sesiones de caza de raros y objetivos de colección del final del juego."
+        },
+        {
+          "name": "Void Slime",
+          "rarity": "Mítico",
+          "role": "Definitivo de Tier SSS",
+          "stage": "Etapa final",
+          "description": "El Slime definitivo de Slime RNG con un valor inigualable a largo plazo.",
+          "recommendedUse": "Considéralo como el objetivo máximo de la colección."
         }
       ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+      "collectionTips": [
+        "Alimenta con las frutas de recompensa de Slime RNG a los slimes que realmente uses.",
+        "Mantén unidades de Slime RNG centradas en Luck listas para las sesiones de caza de raros.",
+        "Reemplaza los slimes iniciales una vez que tus variantes raras o Huge puedan liderar las peleas."
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+    "slimeRngRebirthGuide": {
+      "eyebrow": "Sistema de prestigio",
+      "title": "Guía de Rebirth de Slime RNG",
+      "subtitle": "Haz Rebirth en el momento adecuado y convierte Goop en Luck permanente.",
+      "intro": "El Rebirth de Slime RNG es el sistema de reinicio principal para la mitad y el final del juego. Reinicia la economía de tu partida, pero te otorga un multiplicador de Luck permanente que agiliza mucho la futura caza de slimes.",
+      "strategyNote": "El ritmo más fuerte de Rebirth en Slime RNG consiste en reconstruir tu motor de monedas, desbloquear Goop, farmear lo suficiente para el siguiente ciclo y hacer Rebirth una vez que la ganancia de Luck permanente valga más que quedarse en una zona lenta.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "step": 1,
+          "title": "Alcanza el límite de 10,000,000 de monedas",
+          "description": "Antes de que el Rebirth de Slime RNG sea realista, enfócate en alcanzar el requisito de 10 millones de monedas que desbloquea la obtención de Goop. El gasto inicial debe priorizar la velocidad de ingresos sobre las mejoras de Luck pura.",
+          "keyPoints": [
+            "Las monedas se usan para hacer Roll en Slime RNG, mejoras y desbloqueo de zonas.",
+            "La mecánica de Goop de Slime RNG se desbloquea tras gastar exactamente 10,000,000 de monedas.",
+            "El conteo de enemigos y las zonas más fuertes suelen importar más que la Luck antes de este umbral."
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "step": 2,
+          "title": "Farmea Goop tras el desbloqueo",
+          "description": "El Goop es la moneda de prestigio de Slime RNG que se usa para el Rebirth. Una vez desbloqueado, farméalo de forma constante en lugar de quedarte en ciclos de monedas de bajo valor.",
+          "keyPoints": [
+            "El Goop es raro comparado con las monedas.",
+            "El Goop se usa para el Rebirth de Slime RNG en lugar de las mejoras normales del inicio del juego.",
+            "La zona 3 y las zonas posteriores son puntos de partida prácticos para el farmeo de Goop en Slime RNG."
+          ]
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "step": 3,
+          "title": "Conoce qué reinicia el Rebirth de Slime RNG",
+          "description": "Un Rebirth de Slime RNG reinicia tu saldo de monedas y vuelve a bloquear las zonas, por lo que tu próxima partida empezará desde el principio económicamente.",
+          "keyPoints": [
+            "El saldo de monedas se reinicia a cero.",
+            "Las zonas de Slime RNG deben desbloquearse de nuevo.",
+            "El reinicio se compensa con un aumento permanente del multiplicador de Luck."
+          ]
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "step": 4,
+          "title": "Conoce qué conserva el Rebirth de Slime RNG",
+          "description": "El Rebirth de Slime RNG es poderoso porque no borra toda tu cuenta. Tu colección conservada te ayuda a reconstruir mucho más rápido en el siguiente ciclo.",
+          "keyPoints": [
+            "Conservas tus slimes de Slime RNG.",
+            "Conservas las frutas y consumibles.",
+            "Conservas las mejoras.",
+            "Los slimes fuertes tipo Huge o Shiny pueden liderar el siguiente ciclo de Slime RNG a través de las zonas iniciales rápidamente."
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "step": 5,
+          "title": "Haz Rebirth pronto cuando el Goop esté listo",
+          "description": "El cambio recomendado en Slime RNG es hacer Rebirth una vez que tengas suficiente Goop en lugar de sobre-farmear en una zona estancada. Los Rebirth tempranos crean saltos en el multiplicador que hacen que la siguiente partida sea más eficiente.",
+          "keyPoints": [
+            "Los multiplicadores de Rebirth de Slime RNG se acumulan a lo largo de varios ciclos.",
+            "Un salto en el multiplicador puede hacer que la caza de slimes raros sea mucho más rápida.",
+            "Esperar demasiado en una zona de farmeo débil ralentiza el progreso general en Slime RNG."
+          ]
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "step": 6,
+          "title": "Acumula el Rebirth de Slime RNG con Luck gratuita",
+          "description": "La Luck permanente se vuelve mucho más fuerte cuando se combina con el bono de grupo de Stouts Studio y otras fuentes de Luck de Slime RNG.",
+          "keyPoints": [
+            "El bono de grupo de Stouts Studio otorga a los jugadores de Slime RNG un bono permanente de +1 de Luck.",
+            "Los multiplicadores de Rebirth actúan como el principal escalado de Luck a largo plazo.",
+            "Usa tu próximo objetivo de Goop para decidir si ya estás listo para otro ciclo de Rebirth en Slime RNG."
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
-        {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
-        },
-        {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
-        },
-        {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
-        },
-        {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
-        }
+    "slimeRngGoopGuide": {
+      "eyebrow": "Prestige Currency",
+      "title": "Slime RNG Goop Guide",
+      "subtitle": "Unlock, farm, and spend Goop for faster Slime RNG rebirth cycles.",
+      "intro": "Goop is the currency that pushes Slime RNG from normal coin farming into rebirth progression. The 10M Coin unlock is the key mid-game bottleneck.",
+      "checklistTitle": "Slime RNG Goop Farming Checklist",
+      "checklist": [
+        "Reach the Slime RNG 10,000,000 Coin unlock.",
+        "Farm Zone 3 or later once your DPS can keep enemy kills steady.",
+        "Upgrade Roll Speed, Enemy Count, and Slime Slots before deep luck spending.",
+        "Save Goop for Slime RNG Rebirth instead of treating it like normal Coins."
       ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "question": "What is Slime RNG Goop?",
+          "answer": "Goop is Slime RNG's prestige currency. Unlike Coins, it is tied to Rebirth progression and converts a completed run into permanent long-term power.",
+          "details": [
+            "Coins support Slime RNG rolling, upgrades, and zone progression.",
+            "Goop supports Slime RNG rebirth progression.",
+            "Goop bridges mid-game farming and late-game multiplier stacking."
+          ]
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "question": "How do you unlock Slime RNG Goop?",
+          "answer": "Slime RNG Goop earning unlocks after spending exactly 10,000,000 Coins. This makes 10M Coins the first major progression gate for players aiming at rebirth.",
+          "details": [
+            "Do not over-prioritize Luck before the 10M Coin threshold.",
+            "Focus on coin velocity through zones, Enemy Count, Roll Speed, and stronger slimes.",
+            "The faster you unlock Goop, the sooner you can start Slime RNG rebirth cycles."
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "question": "Where should you farm Slime RNG Goop?",
+          "answer": "Slime RNG Goop drops begin in Zone 3 and later zones. Zone 3 and Zone 4 are practical early Goop farming targets, while higher zones produce stronger returns with better DPS.",
+          "details": [
+            "Zone 3, The Cavern, has 2,500 enemy HP and 250 Coin yield.",
+            "Zone 4, The Tundra, has 15,000 enemy HP and 1,500 Coin yield.",
+            "Higher Slime RNG zones scale sharply in both enemy HP and coin value."
+          ]
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "question": "Why is Slime RNG Goop connected to Rebirth?",
+          "answer": "Goop is used for Slime RNG rebirthing, and rebirth grants permanent luck multiplier growth. This makes Goop farming the main repeatable loop for long-term progression.",
+          "details": [
+            "Farm Goop after unlocking it.",
+            "Spend Goop through the Slime RNG rebirth system.",
+            "Use the new permanent luck multiplier to rebuild faster in the next cycle."
+          ]
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "question": "What should you upgrade before serious Slime RNG Goop farming?",
+          "answer": "Prioritize upgrades that increase kill speed and income speed before going all-in on luck. A stronger farming base gets you to rebirth faster.",
+          "details": [
+            "Auto Roll removes manual rolling bottlenecks.",
+            "Roll Speed increases total Slime RNG rolls over time.",
+            "Enemy Count can double income if your DPS can handle the extra enemies.",
+            "Slime Slots increase total deployed damage."
+          ]
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "question": "Which late-game Slime RNG upgrades help Goop farming?",
+          "answer": "After early rebirth cycles, Goop Drop upgrades, Boss Spawns, Enemy Rush, Slime Slots, and Offline Loot become more valuable because they reduce the time between rebirths.",
+          "details": [
+            "Goop Drop +10% directly improves Slime RNG Goop farming speed.",
+            "Boss Spawns can improve rewards if your team is strong enough.",
+            "Offline Loot helps maintain Slime RNG progression while away from the game."
+          ]
+        }
+      ]
+    },
+    "slimeRngLuckGuide": {
+      "eyebrow": "Rare Slime Odds",
+      "title": "Slime RNG Luck Guide",
+      "subtitle": "Stack Luck the right way for rare, Shiny, and Huge Slime RNG targets.",
+      "intro": "Luck is one of the most important stats in Slime RNG, but buying luck too early can slow your first rebirth. Build income first, unlock Goop, rebirth for permanent multipliers, then stack active luck sources for serious rare-slime hunting.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Understand What Slime RNG Luck Changes",
+          "description": "Luck improves the chance of rolling rare outcomes by reducing the effective odds of rare slimes. Strong Slime RNG luck multipliers turn long hunts into practical goals.",
+          "bestFor": "Understanding rare slime probability before spending resources"
+        },
+        {
+          "step": 2,
+          "title": "Get the Free Slime RNG Baseline Bonus",
+          "description": "Start with the free Luck bonus tied to the official Slime RNG community or game-page action. Additive Luck becomes much stronger once rebirth multipliers are applied.",
+          "bestFor": "New players and first-rebirth preparation"
+        },
+        {
+          "step": 3,
+          "title": "Prioritize Income Before Slime RNG Luck",
+          "description": "Before the 10M Coin Goop unlock, Roll Speed, Enemy Count, stronger zones, and better DPS usually matter more than stacking Luck.",
+          "bestFor": "Early game and pre-Goop progression"
+        },
+        {
+          "step": 4,
+          "title": "Use Slime RNG Rebirth as the Main Luck Engine",
+          "description": "Rebirth adds permanent luck multiplier growth, making each future cycle stronger. Early rebirth jumps can speed up rare slime hunting dramatically.",
+          "bestFor": "Mid-game players starting Goop cycles"
+        },
+        {
+          "step": 5,
+          "title": "Add Super Luck and Ultra Luck Later",
+          "description": "Super Luck and Ultra Luck become more valuable after rebirth multipliers are active. Direct Luck increases compound harder once permanent multipliers are already strong.",
+          "bestFor": "Post-rebirth farming and rare slime hunting"
+        },
+        {
+          "step": 6,
+          "title": "Use Slime RNG Lucky Slime Effects",
+          "description": "Lucky Slime provides a passive luck role, while Huge Lucky is a top-tier variant with a 3x Luck multiplier. These effects are valuable when hunting Shiny, Huge, or Mythic-tier slimes.",
+          "bestFor": "Late-game slime collection and high-rarity rolling"
+        },
+        {
+          "step": 7,
+          "title": "Time Slime RNG Luck Boosts Around Active Rolling",
+          "description": "Luck potions from codes and rewards are best used when you are actively rolling, have strong roll speed, and can sustain enough income to keep the hunting session efficient.",
+          "bestFor": "Boost windows, code rewards, and focused rare-hunting sessions"
+        }
+      ]
+    },
+    "slimeRngHugeSlimesGuide": {
+      "eyebrow": "Rare Variants",
+      "title": "Slime RNG Huge Slimes Guide",
+      "subtitle": "Huge Slimes, Shiny Slimes, and the best Slime RNG late-game variants.",
+      "intro": "Slime RNG Huge Slimes are ultra-rare mutated variants with massive combat value. Huge Rocky, Huge Spike, and Huge Lucky are especially important for late-game pushing, farming, and rare-slime hunting.",
+      "items": [
+        {
+          "name": "Shiny Variant",
+          "rarity": "Ultra Rare Variant",
+          "odds": "1 in 500,000 additional chance",
+          "role": "Enhanced stat variant",
+          "description": "A Shiny Slime has improved stats and a unique visual aura. It is rarer than a standard Slime RNG slime and becomes especially valuable when attached to strong base slime types.",
+          "recommendedUse": "Keep and level strong Shiny variants instead of treating them as normal collection fillers."
+        },
+        {
+          "name": "Huge Variant",
+          "rarity": "Ultra Rare Variant",
+          "odds": "1 in 1,000,000 additional chance",
+          "role": "High-damage combat variant",
+          "description": "A Huge Slime has a massive damage multiplier and expanded area impact. Huge variants are among the most important Slime RNG upgrades for late-game zone pushing and faster farming.",
+          "recommendedUse": "Prioritize Huge variants when building a team for high-HP zones and Goop farming."
+        },
+        {
+          "name": "Huge Shiny",
+          "rarity": "Rarest Variant Combination",
+          "odds": "Huge mutation plus Shiny mutation",
+          "role": "Top-end collection and combat chase",
+          "description": "Huge Shiny combines the Huge and Shiny outcomes, making it one of the rarest and strongest Slime RNG variant types.",
+          "recommendedUse": "Treat as an endgame chase target and build around it when rolled on a strong slime type."
+        },
+        {
+          "name": "Huge Rocky",
+          "rarity": "Legendary - Huge Variant",
+          "odds": "Huge mutation tier",
+          "role": "Late-game bruiser",
+          "description": "Huge Rocky is an enormous Rocky variant with a massive damage multiplier and expanded area impact. It is an S-Tier Slime RNG late-game slime.",
+          "recommendedUse": "Use for stable late-game farming when you need durability, area pressure, and steady zone clearing."
+        },
+        {
+          "name": "Huge Spike",
+          "rarity": "Legendary - Huge Variant",
+          "odds": "Huge mutation tier",
+          "role": "High-DPS attacker",
+          "description": "Huge Spike is a colossal Spike variant with devastating Slime RNG damage. Its piercing attacks make it a strong damage-focused pick.",
+          "recommendedUse": "Use for aggressive farming, boss-style targets, and zones where raw damage matters more than utility."
+        },
+        {
+          "name": "Huge Lucky",
+          "rarity": "Legendary - Huge Variant",
+          "odds": "Huge mutation tier",
+          "role": "Luck multiplier support",
+          "description": "Huge Lucky is one of the best Slime RNG luck boosters with a 3x Luck multiplier. It is one of the most valuable slimes for rare-slime hunting.",
+          "recommendedUse": "Equip during focused rare, Shiny, Huge, and Mythic hunting sessions to improve long-term collection efficiency."
+        },
+        {
+          "name": "Void Slime",
+          "rarity": "Mythic Rarity",
+          "odds": "Estimated 1 in 10,000,000",
+          "role": "Endgame chase benchmark",
+          "description": "Void Slime is a Mythic-tier Slime RNG slime with unmatched power and game-changing unique abilities. It is not a Huge variant, but it represents the kind of target late-game luck stacking is built around.",
+          "recommendedUse": "Use Huge Lucky, rebirth multipliers, and active luck boosts when pushing toward Mythic-tier hunting goals."
         }
       ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+      "tips": [
+        "Slime RNG Huge variants are worth keeping even when their base slime is not your usual favorite.",
+        "Huge Lucky is a strong support target for rare hunting because its value is tied to Luck rather than only damage.",
+        "Huge Shiny outcomes are endgame collection goals and should be protected from accidental replacement."
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
+    "slimeRngVoidSlimeGuide": {
+      "eyebrow": "Objetivo de Slime Mítico",
+      "title": "Guía de Slime RNG Void Slime",
+      "subtitle": "Void Slime es el Slime de nivel Mítico más buscado y un objetivo de colección de Slime RNG de alto nivel.",
+      "intro": "Void Slime se sitúa en la cima de la escala de progresión de Slime RNG como un Slime Mítico de nivel SSS. Con probabilidades listadas de 1 en 10,000,000, los jugadores deben tratarlo como un objetivo de juego avanzado basado en un alto volumen de Roll, multiplicadores de Luck de Rebirth y una fuerte eficiencia de farmeo.",
+      "items": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "title": "Resumen de Void Slime en Slime RNG",
+          "rarity": "Mítico",
+          "tier": "SSS",
+          "damage": "25,000",
+          "speed": "2.0",
+          "role": "Slime de búsqueda definitivo",
+          "summary": "Void Slime es un Slime de rareza Mítica con un poder de juego avanzado inigualable y habilidades únicas que cambian el juego. Se posiciona por encima de Huge Spike, Huge Rocky, Huge Lucky, Orca y Lucky Slime en la lista de niveles de Slime RNG."
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "title": "Probabilidades de Roll listadas en Slime RNG",
+          "odds": "1 en 10,000,000",
+          "searchIntent": "void slime, slime mítico, slime más raro",
+          "summary": "Void Slime es el objetivo de Slime RNG confirmado más raro en la base de datos actual de slimes. Sus probabilidades lo convierten en un objetivo de colección a largo plazo, por lo que los jugadores deben enfocarse en aumentar el total de rolls en lugar de esperar resultados rápidos."
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "title": "Por qué los jugadores de Slime RNG buscan al Void Slime",
+          "powerPosition": "Nivel de Slime más alto listado",
+          "summary": "Void Slime combina la rareza Mítica con el valor de daño más alto listado en la lista de niveles actual de Slime RNG. Funciona tanto como un símbolo de prestigio como un objetivo de poder práctico para el juego avanzado en ciclos de farmeo intensos."
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "title": "Ruta de preparación para Void Slime en Slime RNG",
+          "focus": "Volumen de Roll más escalado de Luck",
+          "summary": "Antes de cazar seriamente al Void Slime, automatiza el rolling, aumenta la Roll Speed, avanza en los ciclos de Rebirth y acumula Super Luck, Ultra Luck y multiplicadores permanentes de Rebirth. Más rolls por minuto y multiplicadores de Luck más fuertes mejoran directamente la eficiencia de caza en sesiones largas."
         },
         {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "title": "Ventaja de Rebirth en Slime RNG",
+          "focus": "Multiplicador de Luck permanente",
+          "summary": "La caza de Void Slime se vuelve más eficiente después del Rebirth porque el Rebirth añade un crecimiento permanente al multiplicador de Luck. Los Slime fuertes conservados también permiten a los jugadores reconstruirse más rápido después de cada reinicio, creando más ventanas de rolling de alta eficiencia con el tiempo."
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "title": "Bucle de caza de juego avanzado en Slime RNG",
+          "focus": "Farmear, Rebirth, acumular Luck, Roll",
+          "summary": "El bucle más eficiente es farmear zonas de alto rendimiento, desbloquear y farmear Goop, hacer Rebirth tan pronto como el siguiente multiplicador esté listo, y luego usar la base de Luck más fuerte para hacer Roll de forma más agresiva."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
+    "slimeRngZoneMap": {
+      "eyebrow": "Progresión de Zonas",
+      "title": "Mapa de Zonas de Slime RNG",
+      "subtitle": "Compara el HP de los enemigos, el rendimiento de monedas, los costos de desbloqueo y el tiempo de velocidad de limpieza en Slime RNG.",
+      "intro": "Las zonas de Slime RNG escalan drásticamente: cada nueva área tiene enemigos con más vida pero un rendimiento de monedas mucho mejor. Avanza cuando tu equipo pueda eliminar a los enemigos actuales en menos de 10 segundos, ya que avanzar demasiado pronto ralentiza el farmeo, mientras que quedarse demasiado tiempo desperdicia el potencial de ingresos.",
+      "items": [
         {
-          "name": "Exploración",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
-            }
+          "zone": 1,
+          "name": "The Meadow",
+          "phase": "Zona Inicial",
+          "enemyHp": "100",
+          "coinYield": "10 Monedas",
+          "unlock": "Inicio",
+          "recommendation": "Comienza aquí, realiza Roll de Slimes de Slime RNG básicos, equipa a tu mejor equipo y acumula suficientes monedas para la automatización temprana."
+        },
+        {
+          "zone": 2,
+          "name": "The Forest",
+          "phase": "Juego Temprano",
+          "enemyHp": "500",
+          "coinYield": "50 Monedas",
+          "unlock": "2,000 Monedas",
+          "recommendation": "Múdate aquí después de que tu equipo inicial elimine rápidamente a los enemigos de The Meadow. Este es el primer salto significativo en el rendimiento de monedas de Slime RNG."
+        },
+        {
+          "zone": 3,
+          "name": "The Cavern",
+          "phase": "Juego Medio",
+          "enemyHp": "2,500",
+          "coinYield": "250 Monedas",
+          "unlock": "15,000 Monedas",
+          "recommendation": "Entra cuando los enemigos de Zone 2 mueran sin problemas. Aquí también es donde el farmeo de Goop en Slime RNG se vuelve relevante tras desbloquear la mecánica de Goop."
+        },
+        {
+          "zone": 4,
+          "name": "The Tundra",
+          "phase": "Juego Medio",
+          "enemyHp": "15,000",
+          "coinYield": "1,500 Monedas",
+          "unlock": "100,000 Monedas",
+          "recommendation": "Usa esta zona como un área de farmeo de juego medio más fuerte en Slime RNG una vez que tu DPS pueda manejar el salto de HP sin tiempos de eliminación largos."
+        },
+        {
+          "zone": 5,
+          "name": "The Storm",
+          "phase": "Juego Avanzado",
+          "enemyHp": "100,000",
+          "coinYield": "10,000 Monedas",
+          "unlock": "750,000 Monedas",
+          "recommendation": "Presiona aquí cuando tu equipo de Slime RNG tenga suficiente daño y mejoras de Enemy Count para mantener los ingresos moviéndose eficientemente."
+        },
+        {
+          "zone": 6,
+          "name": "The Void",
+          "phase": "Juego Avanzado",
+          "enemyHp": "750,000",
+          "coinYield": "75,000 Monedas",
+          "unlock": "5,000,000 Monedas",
+          "recommendation": "Usa esta zona para el farmeo serio de monedas en el juego avanzado de Slime RNG antes de los desbloqueos de nivel superior. Las mejoras de Slime Slots y DPS son importantes aquí."
+        },
+        {
+          "zone": 7,
+          "name": "The Crystal Cave",
+          "phase": "Final del Juego",
+          "enemyHp": "5,000,000",
+          "coinYield": "500,000 Monedas",
+          "unlock": "35,000,000 Monedas",
+          "recommendation": "Farmea aquí después de que tus ciclos de Rebirth en Slime RNG y tus Slime conservados puedan manejar enemigos con millones de HP a un ritmo práctico."
+        },
+        {
+          "zone": 8,
+          "name": "The Alien Hive",
+          "phase": "Definitivo",
+          "enemyHp": "35,000,000",
+          "coinYield": "3,500,000 Monedas",
+          "unlock": "250,000,000 Monedas",
+          "recommendation": "Esta es la última zona listada de Slime RNG y el área con mayor rendimiento de monedas. Entra cuando tu equipo pueda mantener eliminaciones rápidas contra enemigos de 35M de HP."
+        }
+      ]
+    },
+    "slimeRngCoinsFarmingGuide": {
+      "eyebrow": "Farmeo de Monedas",
+      "title": "Guía de Farmeo de Monedas en Slime RNG",
+      "subtitle": "Usa DPS, automatización, sincronización de zonas y mejoras de ingresos para ganar monedas en Slime RNG más rápido.",
+      "intro": "Las monedas son la base de la progresión inicial y media en Slime RNG. Permiten realizar Roll, mejoras, desbloqueos de zonas y alcanzar el hito de 10,000,000 de monedas para el Goop. Si el progreso se ralentiza, el cuello de botella suele ser el DPS, la elección de la zona o un gasto temprano que favorece la Luck antes que la velocidad de ingresos.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Construye un Equipo de Eliminación Rápida en Slime RNG",
+          "goal": "Mejorar el DPS antes de avanzar a zonas más difíciles.",
+          "actions": [
+            "Equipa tus Slime de Slime RNG más fuertes en lugar de mantener activos a los iniciales de bajo daño.",
+            "Prioriza a Fin al principio porque está listado como el mejor atacante del juego temprano.",
+            "Alimenta con frutas a tus mejores Slime para aumentar su XP y mejorar el poder de farmeo."
+          ],
+          "why": "Las monedas provienen de las eliminaciones de enemigos, por lo que las muertes más rápidas generan un farmeo de Slime RNG más rápido antes de que importe cualquier estrategia avanzada."
+        },
+        {
+          "step": 2,
+          "title": "Compra Auto Roll en Slime RNG Pronto",
+          "goal": "Eliminar el cuello de botella del Roll manual.",
+          "actions": [
+            "Compra el Auto Roll por 200 monedas como prioridad inicial.",
+            "Sigue haciendo Roll mientras tu equipo farmea enemigos en la zona actual.",
+            "Usa nuevos Slime más fuertes para mejorar el DPS futuro y la velocidad de limpieza de zonas."
+          ],
+          "why": "Auto Roll mantiene la progresión de Slime RNG en movimiento mientras te enfocas en las mejoras, los desbloqueos de zonas y la fuerza del equipo."
+        },
+        {
+          "step": 3,
+          "title": "Mejora los Ingresos en Slime RNG Antes de Gastar Mucho en Luck",
+          "goal": "Llegar a 10,000,000 de monedas más rápido.",
+          "actions": [
+            "Prioriza el Enemy Count cuando tu equipo tenga suficiente DPS.",
+            "Usa la velocidad de Roll para aumentar el volumen total de Roll y mejorar la probabilidad de obtener mejoras de Slime útiles con el tiempo.",
+            "No inviertas de más en Luck antes de que tu motor de monedas sea fuerte."
+          ],
+          "why": "Enemy Count puede aumentar directamente los ingresos al añadir más objetivos, mientras que la Luck mejora la calidad de los Roll pero no genera directamente las 10M de monedas necesarias para el Goop."
+        },
+        {
+          "step": 4,
+          "title": "Cambia de Zona en Slime RNG Según la Velocidad de Limpieza",
+          "goal": "Evitar perder tiempo en zonas que son demasiado débiles o demasiado difíciles.",
+          "actions": [
+            "Muévete a la siguiente zona cuando los enemigos actuales mueran en menos de 10 segundos.",
+            "Usa The Forest, The Cavern, The Tundra, The Storm, The Void, The Crystal Cave y The Alien Hive como saltos de ingresos.",
+            "Si los enemigos tardan demasiado en morir, quédate atrás y mejora primero el DPS, los Slime Slots o el Enemy Count."
+          ],
+          "why": "Cada zona superior de Slime RNG ofrece un mejor rendimiento de monedas, pero solo si tu equipo puede eliminar a los enemigos lo suficientemente rápido."
+        },
+        {
+          "step": 5,
+          "title": "Usa los Slime Slots de Slime RNG para Multiplicar el Daño",
+          "goal": "Aumentar el DPS de todo el equipo.",
+          "actions": [
+            "Compra Slime Slots cuando estén disponibles, ya que más Slime desplegados significan más daño total.",
+            "Combina los Slime Slots con Slime más fuertes obtenidos mediante Roll e inversión de XP con frutas.",
+            "Usa el DPS adicional para farmear zonas de mayor HP con mayor eficiencia."
+          ],
+          "why": "Más Slime generan una mayor producción de daño, lo que reduce el tiempo de eliminación y mejora las monedas de Slime RNG por minuto."
+        },
+        {
+          "step": 6,
+          "title": "Trata las 10M de Monedas como el Punto de Control de Juego Medio en Slime RNG",
+          "goal": "Desbloquear el Goop y prepararse para el Rebirth.",
+          "actions": [
+            "Impulsa las mejoras de ingresos hasta que puedas gastar 10,000,000 de monedas para desbloquear la obtención de Goop.",
+            "Farmea en las zonas 3 y posteriores para obtener Goop una vez desbloqueada la mecánica.",
+            "Usa el Rebirth para obtener un crecimiento permanente del multiplicador de Luck, luego repite el ciclo de farmeo más rápido."
+          ],
+          "why": "El primer umbral de 10M de monedas desbloquea la economía de prestigio. Después del Rebirth, los Slime conservados y los multiplicadores permanentes hacen que el farmeo de monedas posterior en Slime RNG sea más rápido."
+        }
+      ]
+    },
+    "slimeRngUpgradesGuide": {
+      "eyebrow": "Prioridad de Mejora",
+      "title": "Guía de Mejoras de Slime RNG",
+      "subtitle": "Desarrolla la automatización de Slime RNG, el volumen de Roll, la velocidad de eliminación, el acceso a zonas y los ingresos de monedas antes de realizar un gasto profundo en Luck.",
+      "intro": "Las mejoras de Slime RNG deben seguir el cuello de botella actual del jugador. Si necesitas monedas, prioriza Auto Roll, Cantidad de Enemigos, Espacios de Slime y progresión de zona. Después de que los ciclos de Goop y Rebirth estén activos, cambia a Super Luck, Ultra Luck, Goop Drop, Boss Spawns, Enemy Rush y Offline Loot.",
+      "items": [
+        {
+          "upgrade": "Auto Roll",
+          "priority": "S",
+          "bestTiming": "Inmediatamente al inicio del juego",
+          "effect": "Automatiza el Roll de Slime RNG después de la compra.",
+          "useCase": "Cómpralo por 200 monedas para eliminar los clics manuales y mantener la adquisición de Slime funcionando mientras farmeas."
+        },
+        {
+          "upgrade": "Roll Speed",
+          "priority": "S",
+          "bestTiming": "Al inicio del juego y siempre útil más adelante",
+          "effect": "Aumenta el total de Slime RNG Rolls a lo largo del tiempo.",
+          "useCase": "Más Rolls por minuto significan más oportunidades de encontrar Slimes más fuertes, Slimes raros y objetivos de búsqueda a largo plazo."
+        },
+        {
+          "upgrade": "Enemy Count",
+          "priority": "S",
+          "bestTiming": "De inicio a mitad del juego, una vez que el DPS sea estable",
+          "effect": "Añade más enemigos de Slime RNG para farmear a la vez.",
+          "useCase": "Prioriza antes de gastar mucho en Luck porque más objetivos pueden aumentar directamente el ingreso de monedas cuando tu equipo mata lo suficientemente rápido."
+        },
+        {
+          "upgrade": "Slime Slots",
+          "priority": "S",
+          "bestTiming": "De la mitad del juego en adelante",
+          "effect": "Permite que más Slimes de Slime RNG luchen al mismo tiempo.",
+          "useCase": "Más Slimes desplegados significa más DPS, eliminaciones más rápidas, mejor progresión de zona y un farmeo de monedas más fuerte."
+        },
+        {
+          "upgrade": "Super Luck",
+          "priority": "A",
+          "bestTiming": "Después de construir la primera base de ingresos",
+          "effect": "Mejora las probabilidades de Roll de Slimes raros en Slime RNG.",
+          "useCase": "Cómpralo después de que tu motor de monedas sea lo suficientemente fuerte. Se vuelve mucho mejor cuando se combina con los multiplicadores de Rebirth."
+        },
+        {
+          "upgrade": "Ultra Luck",
+          "priority": "A",
+          "bestTiming": "Post-Rebirth y cacería en el juego tardío",
+          "effect": "Mejora aún más las probabilidades de Roll de Slimes raros en Slime RNG.",
+          "useCase": "Úsalo para la cacería de Slimes de alto nivel, especialmente cuando busques variantes Huge, objetivos Mythic y metas de Roll en sesiones largas."
+        },
+        {
+          "upgrade": "Goop Drop",
+          "priority": "A",
+          "bestTiming": "Después de desbloquear el Goop",
+          "effect": "Mejora la eficiencia de farmeo de Goop en Slime RNG en un 10% por nivel.",
+          "useCase": "Usa esto para acortar el tiempo entre ciclos de Rebirth, ya que el Goop es la moneda de prestigio clave."
+        },
+        {
+          "upgrade": "Boss Spawns",
+          "priority": "A",
+          "bestTiming": "Cuando tu equipo pueda manejar enemigos con mucha vida",
+          "effect": "Aumenta el acceso a oportunidades de farmeo de Slime RNG centradas en jefes.",
+          "useCase": "Los jefes tienen mucha más vida pero un mejor potencial de recompensa, por lo que esto funciona mejor después de que tu DPS sea fuerte."
+        },
+        {
+          "upgrade": "Enemy Rush",
+          "priority": "B+",
+          "bestTiming": "Juego tardío cuando la disponibilidad de enemigos limita el farmeo",
+          "effect": "Aumenta la tasa de aparición de enemigos en Slime RNG en un 25%.",
+          "useCase": "Es fuerte cuando tu equipo mata enemigos más rápido de lo que aparecen. Mejora el flujo de farmeo si el DPS ya es alto."
+        },
+        {
+          "upgrade": "Offline Loot",
+          "priority": "B+",
+          "bestTiming": "Mitad a finales del juego",
+          "effect": "Genera recompensas de Slime RNG escaladas mientras no estás, basadas en el DPS actual.",
+          "useCase": "Útil para mantener la progresión entre sesiones, especialmente después de que tu equipo y zonas ya son fuertes."
+        },
+        {
+          "upgrade": "Lucky Clover",
+          "priority": "B",
+          "bestTiming": "Mejora de apoyo para el juego tardío",
+          "effect": "Aumenta la frecuencia de la mecánica de trébol en un 20%.",
+          "useCase": "Funciona como una mejora de apoyo relacionada con Luck después de que los sistemas principales de ingresos, Rebirth y Roll Speed ya estén desarrollados."
+        }
+      ]
+    },
+    "slimeRngFruitsAndXpGuide": {
+      "eyebrow": "Consumibles",
+      "title": "Guía de Frutas y XP de Slime RNG",
+      "subtitle": "Usa frutas de Slime RNG para subir de nivel a tus Slimes más fuertes y mejorar tu velocidad de farmeo.",
+      "intro": "Las frutas son objetos de progresión simples pero importantes en Slime RNG. Dáselas a tus Slimes de mayor rareza o mayor DPS, especialmente variantes Huge, Orca, Lucky Slime o el carry principal que mantengas a través de los ciclos de Rebirth.",
+      "items": [
+        {
+          "item": "Apple",
+          "type": "Fruta / Consumible",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Slime de Slime RNG de mayor rareza o carry principal de DPS",
+          "knownSources": "Recompensas de códigos como craftAway y semils; recompensas y drops de frutas generales",
+          "usageNote": "Es mejor guardarlas para Slimes de Slime RNG que sigan siendo útiles después del Rebirth en lugar de Slimes iniciales de bajo nivel."
+        },
+        {
+          "item": "Cherry",
+          "type": "Fruta / Consumible",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Slimes carry de Slime RNG para la mitad y el final del juego",
+          "knownSources": "Recompensas de frutas y progresión de consumibles",
+          "usageNote": "Úsalas en Slimes de Slime RNG que aumenten directamente la velocidad de eliminación, porque las eliminaciones más rápidas significan un farmeo de monedas y Goop más veloz."
+        },
+        {
+          "item": "Carrot",
+          "type": "Fruta / Consumible",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Orca, Huge Rocky, Huge Spike, Huge Lucky o Void Slime",
+          "knownSources": "Recompensas de frutas y progresión de consumibles",
+          "usageNote": "Bueno para acercar a un Slime clave de Slime RNG a los hitos de nivel importantes antes de entrar en zonas más difíciles."
+        },
+        {
+          "item": "Banana",
+          "type": "Fruta / Consumible",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Slimes de Slime RNG para el juego tardío con fuerte DPS, AoE o utilidad de Luck",
+          "knownSources": "Recompensas de frutas y progresión de consumibles",
+          "usageNote": "Úsalas regularmente en tus mejores Slimes de Slime RNG a largo plazo en lugar de repartir la XP poco a poco entre cada Slime."
+        },
+        {
+          "item": "Leveling Priority",
+          "type": "Estrategia",
+          "xpPerUse": "XP basada en frutas",
+          "bestTarget": "Primero un carry principal de Slime RNG, luego Slimes de utilidad secundarios",
+          "knownSources": "Guías de progresión para principiantes y avanzados",
+          "usageNote": "Un Slime Huge nivelado o un Slime raro y fuerte de Slime RNG tiene mucho más valor de farmeo que varios Slimes de bajo nivel sin mejorar."
+        }
+      ]
+    },
+    "slimeRngDiceAndRollSpeedGuide": {
+      "eyebrow": "Estrategia de Rolling",
+      "title": "Guía de Dados y Roll Speed de Slime RNG",
+      "subtitle": "Roll Speed te ayuda a hacer Roll con más frecuencia, mientras que Luck mejora la calidad de cada Roll de Slime RNG.",
+      "intro": "Dice, Big Dice, Auto Roll, mejoras de Roll Speed, Roll Speed Boosts y Luck Boosts apoyan la cacería de Slimes raros, pero cumplen funciones diferentes. Más Rolls aumentan el número de oportunidades, mientras que los multiplicadores de Luck mejoran las probabilidades dentro de cada oportunidad.",
+      "items": [
+        {
+          "question": "¿Qué mejora realmente el Roll Speed de Slime RNG?",
+          "answer": "Roll Speed aumenta cuántos Rolls de Slime RNG puedes hacer en un tiempo determinado. Más Rolls significan más intentos de obtener Slimes raros, shiny, Huge y Mythic.",
+          "bestUse": "Mejora el Roll Speed de Slime RNG temprano después de comprar Auto Roll porque el Rolling más rápido se acumula en cada sesión de farmeo.",
+          "relatedRewards": "Mejoras de Roll Speed, Roll Speed Boost"
+        },
+        {
+          "question": "¿Para qué se usan los Dice de Slime RNG?",
+          "answer": "Los Dice están vinculados a la progresión de Roll Speed y la eficiencia de Rolling en Slime RNG. La ruta para principiantes orienta a los jugadores a usar la moneda Dice para mejoras de Roll Speed en los primeros 15 minutos.",
+          "bestUse": "Gasta los Dice de Slime RNG en Roll Speed cuando tu objetivo sea aumentar el total de Rolls por minuto.",
+          "relatedRewards": "Moneda Dice, mejoras de Roll Speed"
+        },
+        {
+          "question": "¿Para qué es mejor usar el Big Dice de Slime RNG?",
+          "answer": "Big Dice aparece como recompensa de códigos como time2Grind y pertenece a la categoría de recompensas centradas en el Roll. Es mejor usarlo cuando estés farmeando activamente y puedas beneficiarte de una sesión de Rolling más fuerte.",
+          "bestUse": "Combina el Big Dice de Slime RNG con Luck Boosts o una sesión con multiplicador de Rebirth alto para maximizar los intentos de Slimes raros.",
+          "relatedRewards": "time2Grind"
+        },
+        {
+          "question": "¿Cuándo debería usar el Roll Speed Boost de Slime RNG?",
+          "answer": "Roll Speed Boost es más fuerte cuando puedes permanecer activo lo suficiente para beneficiarte de la frecuencia de Roll extra. Las recompensas de códigos como craftAway y semils incluyen Roll Speed Boost junto con Ultra Luck Boost y Apples.",
+          "bestUse": "Úsalo después de que Auto Roll esté habilitado y cuando estés buscando Slimes raros de Slime RNG, variantes Huge o un equipo más fuerte antes de la siguiente zona.",
+          "relatedRewards": "craftAway, semils"
+        },
+        {
+          "question": "¿Cuál es la diferencia en Slime RNG entre Luck y más Rolls?",
+          "answer": "Más Rolls aumentan el número de intentos que realizas. Luck mejora la calidad de cada Roll al reducir las probabilidades efectivas, especialmente después de que los multiplicadores de Rebirth y las mejoras de Luck se acumulan.",
+          "bestUse": "Prioriza el Roll Speed y los ingresos de Slime RNG al principio, luego acumula Luck intensamente después de desbloquear los ciclos de Goop y Rebirth.",
+          "relatedRewards": "Ultra Luck Boost, grupo +1 Luck, multiplicadores de Rebirth"
+        },
+        {
+          "question": "¿Debería usar los códigos de Slime RNG para Dice y Boosts inmediatamente?",
+          "answer": "Usa las recompensas pequeñas de monedas cuando sea necesario, pero guarda las recompensas de Roll de alto valor para sesiones activas donde el Auto Roll, Roll Speed y tu mejor configuración de Luck estén listos.",
+          "bestUse": "El mejor momento es después de completar el tutorial de Slime RNG, comprar el Auto Roll y cuando tu equipo pueda farmear consistentemente sin detenerse.",
+          "relatedRewards": "time2Grind, craftAway, semils"
+        }
+      ]
+    },
+    "slimeRngTradingValues": {
+      "eyebrow": "Trading",
+      "title": "Slime RNG Trading Values",
+      "subtitle": "Compare Slime RNG slime values before trading Huge variants, rare slimes, and early-game carries.",
+      "intro": "Trading value in Slime RNG is driven by rarity, combat power, luck utility, and endgame demand. Huge Spike, Huge Rocky, and Huge Lucky sit at the top of the trade market, while Orca and Lucky Slime remain useful mid-game value targets.",
+      "items": [
+        {
+          "slime": "Void Slime",
+          "estimatedValue": "Priceless / Display Only",
+          "demand": "Display Only",
+          "tierOrRole": "Mythic / Ultimate showcase",
+          "tradingNote": "Mythic-tier Slime RNG slime used as an ultimate collection goal rather than a standard trade item."
+        },
+        {
+          "slime": "Huge Spike",
+          "estimatedValue": "50B+ Coins",
+          "demand": "Very High",
+          "tierOrRole": "Legendary Huge Variant / DPS",
+          "tradingNote": "Highest-demand Slime RNG Huge variant because of its elite damage role and endgame farming value."
+        },
+        {
+          "slime": "Huge Rocky",
+          "estimatedValue": "35B - 50B Coins",
+          "demand": "High",
+          "tierOrRole": "Legendary Huge Variant / AoE farming",
+          "tradingNote": "Valued for massive AoE and late-game Slime RNG farming efficiency."
+        },
+        {
+          "slime": "Huge Lucky",
+          "estimatedValue": "25B - 40B Coins",
+          "demand": "High",
+          "tierOrRole": "Legendary Huge Variant / Luck utility",
+          "tradingNote": "Strong Slime RNG value because its luck multiplier supports future rare-slime hunting."
+        },
+        {
+          "slime": "Orca",
+          "estimatedValue": "500M - 1B Coins",
+          "demand": "Medium-High",
+          "tierOrRole": "Rare / Mid-game carry",
+          "tradingNote": "Excellent mid-game Slime RNG DPS option and a practical target for players pushing into late-game zones."
+        },
+        {
+          "slime": "Lucky Slime",
+          "estimatedValue": "300M - 800M Coins",
+          "demand": "Medium",
+          "tierOrRole": "Rare / Luck passive",
+          "tradingNote": "Useful for farming rare drops, though pure DPS Huge variants usually command stronger Slime RNG demand."
+        },
+        {
+          "slime": "Fin",
+          "estimatedValue": "50M - 150M Coins",
+          "demand": "Medium",
+          "tierOrRole": "Common / Early-game DPS",
+          "tradingNote": "Strong starter value because it is one of the best early Slime RNG damage dealers."
+        },
+        {
+          "slime": "Spike",
+          "estimatedValue": "30M - 80M Coins",
+          "demand": "Low-Medium",
+          "tierOrRole": "Uncommon / Fast attacker",
+          "tradingNote": "Useful early Slime RNG damage option, but it loses trade strength once players reach Orca or Huge variants."
+        },
+        {
+          "slime": "Rocky",
+          "estimatedValue": "20M - 50M Coins",
+          "demand": "Low",
+          "tierOrRole": "Uncommon / Tank",
+          "tradingNote": "Defensive role gives it some Slime RNG use, but market demand is lower than DPS-focused slimes."
+        },
+        {
+          "slime": "Fire Slime",
+          "estimatedValue": "15M - 40M Coins",
+          "demand": "Low",
+          "tierOrRole": "Uncommon / Damage over time",
+          "tradingNote": "Situational DoT value, mostly useful before stronger rare or Huge Slime RNG options are available."
+        },
+        {
+          "slime": "Ice Slime",
+          "estimatedValue": "10M - 35M Coins",
+          "demand": "Low",
+          "tierOrRole": "Uncommon / Slow utility",
+          "tradingNote": "Utility-focused Slime RNG slime with limited trade demand compared with direct DPS or luck-boosting slimes."
+        }
+      ]
+    },
+    "slimeRngUpdatesAndPatchNotes": {
+      "eyebrow": "Updates",
+      "title": "Slime RNG Updates and Patch Notes",
+      "subtitle": "Track Slime RNG new zones, new slimes, code drops, balance changes, and future content directions.",
+      "intro": "Slime RNG updates affect progression routes, trading demand, roll priorities, and code rewards. The most important recent changes include Zone 8, Void Slime, Huge variants, Dice-based Roll Speed progression, and new promo-code reward cycles.",
+      "items": [
+        {
+          "date": "April 25, 2026",
+          "version": "Live Data Update",
+          "title": "Slime RNG New Promo Codes Released",
+          "category": "Promo Codes",
+          "highlights": [
+            "time2Grind added with Ultra Luck Boost and Big Dice rewards",
+            "craftAway added with Ultra Luck Boost, Roll Speed Boost, and 4 Apples",
+            "semils listed with Ultra Luck Boost, Roll Speed Boost, and Apples",
+            "Code rewards support Slime RNG rolling speed, luck stacking, and slime leveling"
           ]
         },
         {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
+          "date": "April 20, 2026",
+          "version": "Version 1.2",
+          "title": "Slime RNG Zone 8 and Void Slime Update",
+          "category": "Major Update",
+          "highlights": [
+            "Added Zone 8: The Alien Hive",
+            "Zone 8 requires 250M Coins to unlock",
+            "Introduced Void Slime as a Mythic-tier slime",
+            "Added Lucky Clover upgrade",
+            "Added offline loot retention scaling",
+            "Increased rebirth multiplier gains by 15%",
+            "Increased Goop drop rates in Zones 5-7",
+            "Reduced enemy health in Zones 6-7 for smoother progression"
           ]
         },
         {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
+          "date": "April 18, 2026",
+          "version": "Live Data Update",
+          "title": "Slime RNG Huge Slime Variants Confirmed",
+          "category": "Game Mechanic",
+          "highlights": [
+            "Huge Rocky confirmed as a high-value late-game AoE variant",
+            "Huge Spike confirmed as a top DPS trading target",
+            "Huge Lucky confirmed as a major luck-utility variant",
+            "Huge variants became major targets for Slime RNG endgame trading and farming"
           ]
         },
         {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
+          "date": "April 12, 2026",
+          "version": "Live Data Update",
+          "title": "Slime RNG Zone 8 Requirements Discovered",
+          "category": "Zone Progression",
+          "highlights": [
+            "The Alien Hive requires 250M Coins",
+            "Zone 8 enemies reach 35M HP",
+            "Zone 8 enemy kills can yield 3.5M Coins",
+            "Late-game Slime RNG teams need strong DPS and upgraded farming speed before pushing this zone"
           ]
         },
         {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
+          "date": "April 10, 2026",
+          "version": "Mechanics Update",
+          "title": "Slime RNG Rebirth Multiplier Mechanics Explained",
+          "category": "Progression",
+          "highlights": [
+            "Rebirth multiplier jumps can heavily accelerate future runs",
+            "Group +1 Luck interacts with rebirth-focused progression",
+            "Luck stacking becomes much stronger after Goop and rebirth cycles are unlocked"
           ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "date": "April 8, 2026",
+          "version": "Consumables Update",
+          "title": "Slime RNG Fruit XP Values Confirmed",
+          "category": "Consumables",
+          "highlights": [
+            "Apple provides 75 XP",
+            "Cherry provides 75 XP",
+            "Carrot provides 75 XP",
+            "Banana provides 75 XP",
+            "Best use is feeding fruits to high-rarity or long-term Slime RNG carry slimes"
+          ]
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "date": "March 15, 2026",
+          "version": "Version 1.1",
+          "title": "Slime RNG Crystal Cave and Huge Variant Update",
+          "category": "Major Update",
+          "highlights": [
+            "Added Zone 7: The Crystal Cave",
+            "Introduced Huge Slime variants including Rocky, Spike, and Lucky",
+            "Added Enemy Rush upgrade with 25% spawn-rate increase",
+            "Added premium Dice currency for Roll Speed upgrades",
+            "Improved auto-roll toggle visibility",
+            "Added active slime aura indicators",
+            "Expanded inventory slots for collectors"
+          ]
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "date": "February 25, 2026",
+          "version": "Version 1.0",
+          "title": "Slime RNG Launch Version",
+          "category": "Initial Release",
+          "highlights": [
+            "Slime RNG launched on Roblox",
+            "Initial release included Zones 1-6",
+            "Core gameplay included rolling, combat, upgrades, and rebirth",
+            "Promo code system activated",
+            "Stouts Studio group integration added for +1 Luck"
+          ]
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
-        },
-        {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
-        },
-        {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
-        },
-        {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
-        },
-        {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
-        {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
-        },
-        {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
-        },
-        {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
-        {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
-        },
-        {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
-        },
-        {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
-        },
-        {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
-        },
-        {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "date": "Roadmap Watchlist",
+          "version": "Upcoming Content",
+          "title": "Slime RNG Future Update Themes",
+          "category": "Future Content",
+          "highlights": [
+            "Additional zones beyond Zone 8",
+            "New slime variants and mutation types",
+            "Super Rebirth-style progression",
+            "Tertiary currency beyond Coins and Goop",
+            "Seasonal events with limited-time Slime RNG slimes"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "FAQ de Slime RNG",
+    "titleHighlight": "Respuestas",
+    "subtitle": "Respuestas rápidas de Slime RNG para códigos, slimes, Luck, zonas y progreso de rebirth.",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Qué es Slime RNG?",
+        "answer": "Slime RNG es un recolector RNG de Roblox donde los jugadores hacen Roll para obtener slimes, equipan un equipo, derrotan slimes enemigos, ganan monedas, compran mejoras, desbloquean zonas y hacen rebirth para un crecimiento permanente."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Cómo funcionan los códigos de Slime RNG?",
+        "answer": "Los códigos de Slime RNG se canjean dentro del cuadro de códigos de la tienda y pueden otorgar recompensas como monedas, dados, pociones, manzanas, Luck boosts y Roll Speed boosts."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Qué deberían comprar primero los principiantes de Slime RNG?",
+        "answer": "Los principiantes de Slime RNG deben comprar Auto Roll, mejorar la Roll Speed, desbloquear la siguiente zona cuando estén listos y aumentar el recuento de enemigos una vez que su equipo pueda derrotarlos rápidamente."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Cuál es el mejor slime inicial de Slime RNG?",
+        "answer": "Fin es el objetivo inicial más fuerte de Slime RNG porque otorga un daño inicial confiable y ayuda a los nuevos jugadores a eliminar enemigos más rápido."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
-      },
-      {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Por qué es importante el rebirth en Slime RNG?",
+        "answer": "El rebirth de Slime RNG convierte la progresión en ganancias de multiplicadores a largo plazo, haciendo que las partidas posteriores sean más rápidas mientras se preserva el progreso importante de la cuenta."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "Juega Slime RNG hoy",
+    "description": "Comienza a hacer Roll de slimes, recolectar recompensas, construir un equipo más fuerte y avanzar hacia tu primer rebirth de Slime RNG.",
+    "joinCommunity": "Únete a Stouts Studio",
+    "joinGame": "Jugar Slime RNG"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidad",
+    "title": "Wiki de Slime RNG",
+    "description": "Slime RNG Wiki es un centro de guías independiente para jugadores de Roblox que cubre códigos, slimes, Luck, mejoras, mundos y rutas para principiantes.",
+    "community": "Enlaces oficiales",
+    "robloxGame": "Experiencia de Slime RNG en Roblox",
+    "creatorX": "Leif en X",
+    "robloxGroup": "Grupo de Stouts Studio",
+    "youtubeVideo": "Video de Slime RNG",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyrightNotice": "Aviso de derechos de autor",
+    "copyright": "© 2026 Slime RNG Wiki. Todos los derechos reservados.",
+    "disclaimer": "Slime RNG Wiki es un recurso independiente para fans y no está afiliado a Roblox Corporation ni a Stouts Studio."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "codes": {
+      "title": "Códigos de Slime RNG",
+      "description": "Los últimos códigos de Slime RNG, tablas de recompensas, pasos para canjear y formas prácticas de usar potenciadores gratuitos durante la progresión.",
+      "metaTitle": "Códigos de Slime RNG - Guía de Recompensas y Canje",
+      "metaDescription": "Encuentra códigos de Slime RNG, pasos para canjear, notas de recompensas, manejo de códigos expirados y consejos de uso de potenciadores para una progresión más rápida en Roblox.",
+      "categoryLabel": "CÓDIGOS DE SLIME RNG",
+      "whatIs": "¿Qué son los Códigos de Slime RNG?",
+      "whatIsDescription": "Los códigos de Slime RNG son frases de recompensa lanzadas para los jugadores de Roblox que pueden otorgar monedas, manzanas, dados, pociones de Luck, potenciadores de velocidad de roll y otros objetos de progresión.",
+      "why": "¿Por qué usar esta guía de Códigos de Slime RNG?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Reclama recompensas rápidamente",
+        "step1Description": "Usa la lista de códigos de Slime RNG para encontrar frases de recompensa y canjearlas antes de comenzar una larga sesión de rolling o farming.",
+        "step2Title": "Entiende cada objeto",
+        "step2Description": "Aprende cómo las monedas, manzanas, dados, pociones de Luck y los potenciadores de velocidad de roll encajan en la progresión de Slime RNG en lugar de usar las recompensas al azar.",
+        "step3Title": "Planifica mejores sesiones",
+        "step3Description": "Combina las recompensas de los códigos con tus objetivos de rebirth, Luck y economía para que cada sesión de juego de Slime RNG produzca rolls y mejoras más útiles."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Códigos de Slime RNG"
+    },
+    "rebirth": {
+      "title": "Rebirth de Slime RNG",
+      "description": "Requisitos de rebirth en Slime RNG, consejos sobre el momento ideal, notas sobre el multiplicador de Luck permanente y planificación de reinicio para una progresión fluida.",
+      "metaTitle": "Guía de Rebirth de Slime RNG - Requisitos y Tiempos",
+      "metaDescription": "Conoce los requisitos de rebirth de Slime RNG, cuándo hacer rebirth, cómo funcionan los multiplicadores de Luck permanente y cómo prepararte antes de reiniciar tu progreso.",
+      "categoryLabel": "REBIRTH DE SLIME RNG",
+      "whatIs": "¿Qué es el Rebirth de Slime RNG?",
+      "whatIsDescription": "El rebirth de Slime RNG es un reinicio de progresión que cambia tus logros actuales por beneficios más fuertes a largo plazo, especialmente ganancias de Luck permanente que ayudan en futuros rolls.",
+      "why": "¿Por qué leer esta guía de Rebirth de Slime RNG?",
+      "whySteps": {
+        "step1Title": "Cumple los requisitos más pronto",
+        "step1Description": "Sigue los requisitos de rebirth de Slime RNG para saber qué rolls, monedas, mejoras o hitos son importantes antes de reiniciar.",
+        "step2Title": "Elige el momento adecuado",
+        "step2Description": "Compara las rutas de rebirth temprano y tardío para evitar reiniciar antes de que tu configuración de Slime RNG pueda recuperarse de manera eficiente.",
+        "step3Title": "Usa bien el Luck permanente",
+        "step3Description": "Entiende cómo los multiplicadores de Luck permanente moldean la caza de slimes posterior, el uso de códigos y los planes de farming a largo plazo."
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Rebirth de Slime RNG"
     },
     "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+      "title": "Crafting en Slime RNG",
+      "description": "Recetas de crafting de Slime RNG, ubicaciones de recetas, planificación de rutas iniciales y notas de materiales para desbloquear mejoras útiles.",
+      "metaTitle": "Crafting de Slime RNG - Recetas y Ubicaciones",
+      "metaDescription": "Usa las guías de crafting de Slime RNG para encontrar ubicaciones de recetas, recetas de crafting, planificación de rutas, notas de materiales y consejos sobre el orden de desbloqueo.",
+      "categoryLabel": "CRAFTING DE SLIME RNG",
+      "whatIs": "¿Qué es el Crafting de Slime RNG?",
+      "whatIsDescription": "El crafting de Slime RNG abarca el descubrimiento de recetas, el uso de materiales y la planificación de rutas para que los jugadores puedan convertir la exploración y los recursos en herramientas de progresión más fuertes.",
+      "why": "¿Por qué leer esta guía de Crafting de Slime RNG?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Encuentra recetas más rápido",
+        "step1Description": "Usa las guías de ubicación de recetas de Slime RNG para reducir el tiempo de búsqueda y recolectar los desbloqueos de crafting necesarios para tu próxima ruta de mejora.",
+        "step2Title": "Prioriza los desbloqueos iniciales",
+        "step2Description": "Planifica las primeras ubicaciones de recetas y pasos de crafting en torno a las recompensas que mejoran el rolling, farming o el crecimiento de slimes.",
+        "step3Title": "Conecta recursos con objetivos",
+        "step3Description": "Vincula materiales y recetas con los códigos de Slime RNG, la economía, el Luck y los planes de rebirth en lugar de crear objetos sin un objetivo de progresión."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Crafting de Slime RNG"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "guide": {
+      "title": "Guía de Slime RNG",
+      "description": "Guías para principiantes de Slime RNG, rutas de progresión, explicaciones de estrategia, consejos de Roblox y planificación para pasar de noob a slime raro.",
+      "metaTitle": "Guía de Slime RNG - Consejos para Principiantes y Progresión",
+      "metaDescription": "Lee las guías de Slime RNG para rutas de inicio, conceptos básicos de Roblox, mejores estrategias, planificación de progresión, objetivos de slimes raros y consejos prácticos de juego.",
+      "categoryLabel": "GUÍA DE SLIME RNG",
+      "whatIs": "¿Qué es la sección de Guía de Slime RNG?",
+      "whatIsDescription": "La sección de Guía de Slime RNG explica el ciclo completo de juego en Roblox: obtener slimes mediante rolls, equipar equipos, ganar monedas, mejorar estadísticas, desbloquear áreas y esforzarse por conseguir hallazgos raros.",
+      "why": "¿Por qué leer esta sección de Guía de Slime RNG?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Comienza con una ruta clara",
+        "step1Description": "Sigue la orientación para principiantes de Slime RNG para entender los rolls, las mejoras, las batallas y los objetivos de colección antes de gastar recursos.",
+        "step2Title": "Evita el progreso disperso",
+        "step2Description": "Usa las guías de progresión para conectar códigos, potenciadores de Luck, monedas, crafting y rebirth en un solo plan práctico.",
+        "step3Title": "Mejora en cada sesión",
+        "step3Description": "Aplica consejos de Slime RNG para el rolling, farming y creación de equipos para que cada sesión de juego apoye un hito específico."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Slime RNG"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "slimes": {
+      "title": "Slimes de Slime RNG",
+      "description": "Listas de slimes de Slime RNG, notas de rareza, caza de slimes raros, información sobre slimes shiny y prioridades de colección.",
+      "metaTitle": "Slimes de Slime RNG - Lista de Rareza y Guía de Colección",
+      "metaDescription": "Explora los slimes de Slime RNG, guías de rareza, objetivos de slimes raros, notas de slimes shiny, cobertura de slimes peligrosos y consejos de planificación de colección.",
+      "categoryLabel": "SLIMES DE SLIME RNG",
+      "whatIs": "¿Qué son los Slimes de Slime RNG?",
+      "whatIsDescription": "Los slimes de Slime RNG son los coleccionables principales y unidades de batalla por los que los jugadores hacen rolls, comparan por rareza, suben de nivel, equipan y usan para avanzar más en la experiencia de Roblox.",
+      "why": "¿Por qué leer esta guía de Slimes de Slime RNG?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Sabe qué buscar",
+        "step1Description": "Usa las listas de slimes de Slime RNG y las guías de rareza para identificar slimes raros, shiny, peligrosos y de alto valor que valga la pena conservar.",
+        "step2Title": "Forma equipos más fuertes",
+        "step2Description": "Compara los roles de los slimes y las prioridades de colección para que tu equipo equipado apoye el farming de monedas, el combate y la progresión.",
+        "step3Title": "Rastrea objetivos de colección",
+        "step3Description": "Planifica la caza de slimes raros en torno a potenciadores de Luck, métodos de roll y objetivos de completado a largo plazo en lugar de hacer rolls sin dirección."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Slimes de Slime RNG"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "luck": {
+      "title": "Luck en Slime RNG",
+      "description": "Mecánicas de Luck en Slime RNG, planificación de auto roll, notas de probabilidad de roll, potenciadores de Luck y métodos para mejorar las probabilidades de slimes raros.",
+      "metaTitle": "Guía de Luck de Slime RNG - Potenciadores, Rolls y Probabilidades",
+      "metaDescription": "Aprende las mecánicas de Luck de Slime RNG, el tiempo de los potenciadores de Luck, la configuración del auto roll, conceptos básicos de probabilidad de roll, mejores métodos de roll y planes de caza de slimes raros.",
+      "categoryLabel": "LUCK EN SLIME RNG",
+      "whatIs": "¿Qué es el Luck en Slime RNG?",
+      "whatIsDescription": "El Luck en Slime RNG es el conjunto de bonificaciones, potenciadores, multiplicadores y prácticas de roll que influyen en la eficiencia con la que los jugadores persiguen resultados de slimes raros.",
+      "why": "¿Por qué leer esta guía de Luck de Slime RNG?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Acumula bonificaciones útiles",
+        "step1Description": "Aprende cómo se combinan los potenciadores de Luck de Slime RNG, los multiplicadores permanentes y las bonificaciones de sesión antes de gastar objetos limitados.",
+        "step2Title": "Haz rolls con mejor tiempo",
+        "step2Description": "Planifica sesiones de auto roll y los mejores métodos de roll en torno a las ventanas de potenciadores para que ocurran más intentos mientras el Luck está activo.",
+        "step3Title": "Entiende las probabilidades de roll",
+        "step3Description": "Usa las explicaciones de probabilidad de roll para establecer metas prácticas en la caza de slimes raros, shiny y de alto valor."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Luck de Slime RNG"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "economy": {
+      "title": "Economía de Slime RNG",
+      "description": "Monedas de Slime RNG, manzanas, XP, rutas de dinero, consejos de farming y planificación de recursos para mejoras y crecimiento de slimes.",
+      "metaTitle": "Economía de Slime RNG - Monedas, Manzanas, XP y Farming",
+      "metaDescription": "Usa las guías de economía de Slime RNG para monedas, farming de dinero, manzanas, planificación de XP, rutas de recursos y progresión enfocada en mejoras.",
+      "categoryLabel": "ECONOMÍA DE SLIME RNG",
+      "whatIs": "¿Qué es la Economía de Slime RNG?",
+      "whatIsDescription": "La economía de Slime RNG cubre las monedas, manzanas, XP, rutas de farming y decisiones de recursos que convierten los rolls de slimes y las batallas en mejoras constantes.",
+      "why": "¿Por qué leer esta guía de Economía de Slime RNG?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Gana monedas de forma constante",
+        "step1Description": "Usa las guías de dinero y monedas de Slime RNG para elegir métodos de farming que apoyen las mejoras, el crafting y la preparación para el rebirth.",
+        "step2Title": "Gasta recursos sabiamente",
+        "step2Description": "Entiende cuándo las manzanas, el XP y la moneda deben destinarse al crecimiento del slime, la eficiencia del roll o los bloqueos de progresión.",
+        "step3Title": "Apoya rutas a largo plazo",
+        "step3Description": "Conecta las decisiones de economía con el Luck de Slime RNG, los slimes, el crafting y el rebirth para que tus recursos sigan impulsando el siguiente hito."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Economía de Slime RNG"
     }
   }
 }

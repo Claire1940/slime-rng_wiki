@@ -85,7 +85,7 @@ function ModuleTitle({
 
 export default function HomePageClient({ latestArticles, locale, moduleLinkMap }: HomePageClientProps) {
   const localeMessages = useMessages() as any
-  const t = localeMessages?.hero?.title === enMessages.hero.title ? localeMessages : enMessages
+  const t = localeMessages || enMessages
   const fruitIcons = [Apple, Cherry, Carrot, Banana, TrendingUp]
   const diceIcons = [Clock, Dice5, Package, Sparkles, Eye, ClipboardCheck]
 

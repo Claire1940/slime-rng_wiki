@@ -4,6 +4,7 @@ import type { Language } from '@/lib/content'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import type { Locale } from '@/i18n/routing'
+import { getTranslations } from 'next-intl/server'
 import HomePageClient from './HomePageClient'
 
 /*
@@ -33,9 +34,10 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'seo.home' })
   const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://slime-rng.wiki').replace(/\/$/, '')
-  const title = 'Slime RNG Wiki - Codes, Slimes & Recipes'
-  const description = 'Slime RNG Wiki offers updated Roblox codes, slime lists, recipe locations, luck tips, upgrades, worlds, and beginner guides for faster progression.'
+  const title = t('title')
+  const description = t('description')
   const heroImage = new URL('/images/hero.webp', siteUrl).toString()
   const pageUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
 
@@ -48,21 +50,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       locale,
       url: pageUrl,
       siteName: 'Slime RNG Wiki',
-      title,
-      description,
+      title: t('ogTitle'),
+      description: t('ogDescription'),
       images: [
         {
           url: heroImage,
           width: 1920,
           height: 1080,
-          alt: 'Slime RNG Wiki - Roblox RNG Slime Collector',
+          alt: title,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title,
-      description,
+      title: t('twitterTitle'),
+      description: t('twitterDescription'),
       images: [heroImage],
       creator: '@l_eiif',
     },
@@ -71,6 +73,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'seo.home' })
   const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://slime-rng.wiki').replace(/\/$/, '')
   const heroImage = new URL('/images/hero.webp', siteUrl).toString()
   const logoImage = new URL('/android-chrome-512x512.png', siteUrl).toString()
@@ -90,13 +93,13 @@ export default async function HomePage({ params }: PageProps) {
         "@id": `${siteUrl}/#website`,
         "url": siteUrl,
         "name": "Slime RNG Wiki",
-        "description": "Slime RNG Wiki offers updated Roblox codes, slime lists, recipe locations, luck tips, upgrades, worlds, and beginner guides for faster progression.",
+        "description": t('description'),
         "image": {
           "@type": "ImageObject",
           "url": heroImage,
           "width": 1920,
           "height": 1080,
-          "caption": "Slime RNG Wiki - Roblox RNG Slime Collector",
+          "caption": t('title'),
         },
         "publisher": {
           "@id": `${siteUrl}/#organization`,

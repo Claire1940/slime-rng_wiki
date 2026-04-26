@@ -18,6 +18,7 @@ export function ArticleStructuredData({
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
 			: `${siteUrl}/${locale}/${contentType}/${slug}`
+	const localePrefix = locale === 'en' ? '' : `/${locale}`
 	const heroImage = new URL('/images/hero.webp', siteUrl).toString()
 
 	const breadcrumbData = {
@@ -28,13 +29,13 @@ export function ArticleStructuredData({
 				'@type': 'ListItem',
 				position: 1,
 				name: 'Home',
-				item: siteUrl,
+				item: `${siteUrl}${localePrefix}`,
 			},
 			{
 				'@type': 'ListItem',
 				position: 2,
 				name: contentType.charAt(0).toUpperCase() + contentType.slice(1),
-				item: `${siteUrl}/${contentType}`,
+				item: `${siteUrl}${localePrefix}/${contentType}`,
 			},
 			{
 				'@type': 'ListItem',

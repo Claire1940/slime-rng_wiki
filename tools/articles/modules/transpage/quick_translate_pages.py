@@ -14,11 +14,9 @@ with open('../../../../src/locales/en.json', 'r', encoding='utf-8') as f:
 
 # 需要翻译的语言
 lang_map = {
-    'de': 'German',
+    'pt': 'Portuguese (Brazil)',
     'es': 'Spanish (Latin America)',
-    'ja': 'Japanese',
-    'tr': 'Turkish',
-    'fr': 'French'
+    'tr': 'Turkish'
 }
 
 async def translate_pages(lang_code, lang_name):
@@ -27,7 +25,7 @@ async def translate_pages(lang_code, lang_name):
 IMPORTANT RULES:
 1. Keep all JSON keys in English (do NOT translate keys)
 2. Only translate the string values
-3. Preserve all special terms: Lucid Blocks, Apotheosis, Steam, Steam Deck, Vulkan, Hookshot, Bee Glider, Qualia, Tiamana
+3. Preserve all special terms: Slime RNG, Roblox, RNG, Secret Slime, Luck, Robux, Gamepass, Ultra Luck Potion, Roll Speed Potion, Stouts Studio
 4. Return ONLY valid JSON, no explanations
 
 JSON to translate:

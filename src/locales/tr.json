@@ -1,966 +1,1573 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Slime RNG Wiki - Kodlar, Slime'lar ve Tarifler",
+      "description": "Slime RNG Wiki, daha hızlı ilerleme için güncel Roblox kodları, Slime listeleri, tarif konumları, Luck ipuçları, yükseltmeler, dünyalar ve başlangıç rehberleri sunar.",
+      "keywords": "Slime RNG, Slime RNG wiki, Slime RNG kodları, Slime RNG Slime'ları, Slime RNG tarifleri, Roblox RNG",
+      "ogTitle": "Slime RNG Wiki - Kodlar, Slime'lar ve Tarifler",
+      "ogDescription": "Slime RNG Wiki, daha hızlı ilerleme için güncel Roblox kodları, Slime listeleri, tarif konumları, Luck ipuçları, yükseltmeler, dünyalar ve başlangıç rehberleri sunar.",
+      "twitterTitle": "Slime RNG Wiki - Kodlar, Slime'lar ve Tarifler",
+      "twitterDescription": "Slime RNG Wiki, Roblox oyuncuları için kodları, Slime'ları, tarifleri, Luck boost'larını, yükseltmeleri, dünyaları ve başlangıç rotalarını kapsar."
     }
   },
   "nav": {
-    "codes": "Codes",
+    "codes": "Kodlar",
     "rebirth": "Rebirth",
     "crafting": "Crafting",
-    "guide": "Guide",
-    "slimes": "Slimes",
+    "guide": "Rehber",
+    "slimes": "Slime'lar",
     "luck": "Luck",
-    "economy": "Economy"
+    "economy": "Ekonomi"
   },
   "common": {
     "home": "Ana Sayfa",
     "more": "Daha Fazla",
-    "playNow": "Demo İndir",
-    "switchLanguage": "Dil Değiştir",
-    "switchTheme": "Tema Değiştir",
+    "playNow": "Roblox'ta Slime RNG Oyna",
+    "switchLanguage": "Dili Değiştir",
+    "switchTheme": "Temayı Değiştir",
     "lightMode": "Açık Mod",
-    "darkMode": "Koyu Mod",
+    "darkMode": "Karanlık Mod",
     "notFound": "Sayfa Bulunamadı",
     "notFoundDescription": "Aradığınız sayfa mevcut değil.",
     "backToHome": "Ana Sayfaya Dön",
     "relatedArticles": "İlgili Makaleler",
-    "readMore": "Daha Fazla Oku"
+    "readMore": "Devamını Oku"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Sevimli Roblox RNG Slime Koleksiyoncusu",
+    "title": "Slime RNG Wiki",
+    "description": "Nadir Slime'lar için Roll yapın, ekibinizi yükseltin, düşman Slime'larla savaşın, yeni dünyaların kilidini açın ve bu sevimli Roblox RNG macerasında daha hızlı ilerlemek için Luck boost'larını kullanın.",
+    "getFreeCodesCTA": "Roblox'ta Slime RNG Oyna",
+    "playOnRobloxCTA": "Stouts Studio'ya Katıl",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "2M+",
+        "label": "Toplam Ziyaret"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "14K+",
+        "label": "Aktif Oyuncu"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "98.2%",
+        "label": "Puanlama"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "42K+",
+        "label": "Favoriler"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Oynanışı",
-    "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
+    "title": "Slime RNG Oynanışı",
+    "description": "Slime'lar için Roll yapın, daha güçlü bir savaş ekibi kurun, Coin kazanın, bölgelerin kilidini açın ve Rebirth'ler aracılığıyla ilerlemenizi uzun vadeli Luck kazançlarına dönüştürün."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Kaynaklar",
-    "subtitle": "Soygunlarda ve işbirliği gizliliğinde ustalaşmak için ihtiyacınız olan her şey",
+    "title": "Slime RNG",
+    "titleHighlight": "Rehberleri",
+    "subtitle": "Doğrudan Slime RNG kodlarına, başlangıç rotalarına, nadir Slime hedeflerine, bölge planlamasına, farming'e ve yükseltmelere göz atın.",
     "cards": [
       {
-        "icon": "İndir",
-        "title": "Demo İndirme",
-        "description": "Ücretsiz Steam demosunu edinin"
+        "icon": "ClipboardCheck",
+        "title": "Slime RNG Kodları",
+        "description": "Çalışan Slime RNG kodları, süresi dolmuş ödüller, kullanım adımları ve boost zamanlaması."
       },
       {
-        "icon": "KitapAçık",
-        "title": "Başlangıç Rehberi",
-        "description": "Temel döngü ve yaygın tuzaklar"
+        "icon": "BookOpen",
+        "title": "Slime RNG Başlangıç Rehberi",
+        "description": "İlk Roll işlemlerinden ilk Rebirth kurulumunuza kadar bir Slime RNG başlangıç yolu."
       },
       {
-        "icon": "Kullanıcılar",
-        "title": "İşbirliği Rehberi",
-        "description": "6 oyunculu roller ve kurtarma taktikleri"
+        "icon": "Star",
+        "title": "Slime RNG Tier Listesi",
+        "description": "Void Slime, Huge varyantları, Orca, Lucky Slime, Fin ve daha fazlası için Slime RNG sıralamaları."
       },
       {
-        "icon": "PanoKontrol",
-        "title": "Görevler & Amaçlar",
-        "description": "Yüksek Cüce'nin sizden istedikleri"
+        "icon": "Sparkles",
+        "title": "Slime RNG Slime Koleksiyonu",
+        "description": "Nadirlik, rol, aşama ve önerilen kullanım bilgilerini içeren bir Slime RNG Slime veritabanı."
       },
       {
-        "icon": "Klavye",
-        "title": "Kontroller & Tuş Atamaları",
-        "description": "Varsayılan tuşlar ve nasıl değiştirileceği"
+        "icon": "TrendingUp",
+        "title": "Slime RNG Rebirth Rehberi",
+        "description": "Slime RNG Rebirth zamanlaması, Goop gereksinimleri, sıfırlama kuralları ve kalıcı Luck kazançları."
       },
       {
-        "icon": "Kalkan",
-        "title": "İçerik Ayarları",
-        "description": "Yetişkinlere yönelik içerik ve geçiş seçenekleri"
+        "icon": "Package",
+        "title": "Slime RNG Goop Rehberi",
+        "description": "Slime RNG Goop kilit açmaları, farming bölgeleri, yükseltme öncelikleri ve Rebirth planlaması."
       },
       {
-        "icon": "Çekiç",
-        "title": "Üretim & Ekipman",
-        "description": "Çalınan malzemelerle donanın"
+        "icon": "Eye",
+        "title": "Slime RNG Luck Rehberi",
+        "description": "Slime RNG Luck kaynakları, Rebirth çarpanları, boost zamanlaması ve nadir Slime avcılığı."
       },
       {
-        "icon": "Paket",
-        "title": "Ganimet & Eşyalar",
-        "description": "Ne çalınır ve taşıma ipuçları"
+        "icon": "Shield",
+        "title": "Slime RNG Huge Slime'lar Rehberi",
+        "description": "Slime RNG Huge, Shiny, Huge Shiny ve oyun sonu varyant öncelikleri."
       },
       {
-        "icon": "UyarıÜçgeni",
-        "title": "Düşmanlar & Tehlikeler",
-        "description": "Tehditler ve onlarla nasıl başa çıkılır"
+        "icon": "Gem",
+        "title": "Slime RNG Void Slime Rehberi",
+        "description": "Slime RNG Void Slime nadirliği, oyun sonu hazırlığı ve Mythic avlama döngüleri."
       },
       {
-        "icon": "Göz",
-        "title": "Gizlilik & Kaçış",
-        "description": "Gizli kalın ve güvenli bir şekilde çıkış yapın"
+        "icon": "MapPinned",
+        "title": "Slime RNG Bölge Haritası",
+        "description": "Slime RNG bölge HP'si, coin verimi, kilit açma maliyetleri ve temizleme hızı zamanlaması."
       },
       {
-        "icon": "Ana Sayfa",
-        "title": "Ev Geliştirmeleri",
-        "description": "Yüzen ada üssünüzü geliştirin"
+        "icon": "Coins",
+        "title": "Slime RNG Coin Farming Rehberi",
+        "description": "Daha güçlü DPS, daha iyi bölgeler ve daha hızlı Rebirth kurulumu için Slime RNG coin farming adımları."
       },
       {
-        "icon": "MesajDairesi",
-        "title": "Topluluk & Discord",
-        "description": "Resmi bağlantılar ve grup bulma"
+        "icon": "Settings",
+        "title": "Slime RNG Yükseltme Rehberi",
+        "description": "Otomasyon, gelir, Luck, Goop ve oyun sonu farming için Slime RNG yükseltme öncelikleri."
       },
       {
-        "icon": "Ayarlar",
-        "title": "Modlar & BepInEx",
-        "description": "Çerçeve ve mod kurulumunu yapın"
+        "icon": "Apple",
+        "title": "Slime RNG Meyveler ve XP Rehberi",
+        "description": "Daha güçlü taşıyıcı Slime'lar için Slime RNG meyve XP değerleri, en iyi hedefler ve seviye atlama öncelikleri."
       },
       {
-        "icon": "Yıldız",
-        "title": "Popüler Modlar",
-        "description": "En iyi topluluk seçimleri ve özellikleri"
+        "icon": "Dice5",
+        "title": "Slime RNG Zar ve Roll Speed Rehberi",
+        "description": "Daha güçlü Roll oturumları için Slime RNG Zar, Büyük Zar, Roll Speed ve Luck zamanlaması."
       },
       {
-        "icon": "OyunKonsolu2",
-        "title": "Kontrol Cihazı Desteği",
-        "description": "UI imleci ile tam gamepad oyunu"
+        "icon": "Handshake",
+        "title": "Slime RNG Takas Değerleri",
+        "description": "Huge varyantları, nadir Slime'lar, talep ve pazar rolleri için Slime RNG takas değeri notları."
       },
       {
-        "icon": "YükselişTrendi",
-        "title": "Oyuncu Sayısı & Trendi",
-        "description": "Canlı istatistikler ve zirve takibi"
+        "icon": "Newspaper",
+        "title": "Slime RNG Güncellemeler ve Yama Notları",
+        "description": "Yeni bölgeler, Slime'lar, kodlar, denge değişiklikleri ve yol haritası hedefleri için Slime RNG güncelleme özetleri."
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo İndirme",
-      "subtitle": "Steam'de ücretsiz demoyu edinin",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30 Ocak 2026",
-      "price": "Ücretsiz",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo İndir",
-      "secondaryCTA": "Teknik Bilgileri Görüntüle",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
+    "slimeRngCodes": {
+      "eyebrow": "Ücretsiz Ödüller",
+      "title": "Slime RNG Kodları",
+      "intro": "Kısa eğitimden sonra Slime RNG kodlarını kullanın, ardından daha hızlı Slime koleksiyonu, daha iyi Luck pencereleri ve daha güçlü erken ilerleme için ödülleri daha uzun Roll oturumları sırasında kullanın.",
+      "workingUpdated": "25 Nisan 2026",
+      "workingCodes": [
         {
-          "heading": "Nereden indirilir",
-          "items": [
-            "Resmi Steam mağaza sayfasını açın ve 'Demo İndir' bölümünü kullanın.",
-            "Steam sizden oturum açmanızı isterse, önce oturum açın ve tekrar deneyin."
-          ]
+          "code": "time2Grind",
+          "reward": "İksir ve Zar",
+          "status": "Çalışıyor",
+          "bestFor": "Ekstra Roll değeri ve daha hızlı erken ilerleme"
         },
         {
-          "heading": "Kurulum & başlatma hızlı kontrolleri",
-          "items": [
-            "Varsayılan kurulum konumu: Steam Kütüphanesi klasörü → steamapps → common → (oyun klasörü).",
-            "Başlatılamıyorsa: Steam'de oyun dosyalarını doğrulayın, ardından Steam'i yeniden başlatın."
-          ]
+          "code": "craftAway",
+          "reward": "Ultra Luck Boost, Roll Speed Boost ve 4 Elma",
+          "status": "Çalışıyor",
+          "bestFor": "Luck farming, Roll Speed ve Slime XP'si"
+        },
+        {
+          "code": "semils",
+          "reward": "Luck Boost, Roll Speed Boost ve 6 Elma",
+          "status": "Çalışıyor",
+          "bestFor": "Daha uzun bir Roll oturumundan önce boost'ları istifleme"
+        },
+        {
+          "code": "test",
+          "reward": "100 Coin",
+          "status": "Çalışıyor",
+          "bestFor": "Başlangıç coin ilerlemesi"
+        },
+        {
+          "code": "gullible",
+          "reward": "1 Coin",
+          "status": "Çalışıyor",
+          "bestFor": "Mevcut her ücretsiz ödülü talep etme"
         }
+      ],
+      "expiredCodes": [
+        "THATSHUGE",
+        "RAWRRR",
+        "stonks",
+        "Release!",
+        "spin2win",
+        "GOFAST",
+        "SUPERL00T",
+        "SUNOB"
+      ],
+      "redeemSteps": [
+        {
+          "title": "Slime RNG'yi Başlatın",
+          "description": "Slime RNG Roblox deneyimini açın ve kısa eğitimi tamamlayın."
+        },
+        {
+          "title": "Mağazayı Açın",
+          "description": "Ekranın sağ tarafındaki Mağaza (Shop) düğmesini seçin."
+        },
+        {
+          "title": "Kod kutusunu bulun",
+          "description": "Mağaza menüsünün en altına gidin ve kod giriş alanını bulun."
+        },
+        {
+          "title": "Girin ve kullanın",
+          "description": "Slime RNG kodunu tam olarak gösterildiği gibi yazın, ardından ödülü almak için Kullan (Redeem) düğmesine basın."
+        }
+      ],
+      "tips": [
+        "Slime RNG kodları büyük/küçük harfe duyarlıdır, bu nedenle büyük harfleri ve noktalama işaretlerini aynen kopyalayın.",
+        "Daha uzun bir oturum için aktif kalabileceğiniz zaman Roll Speed ve Luck ödüllerini kullanın.",
+        "Slime RNG kodları bu Roblox deneyimine aittir ve diğer Slime temalı oyunlardan ayrıdır."
       ]
     },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Başlangıç Rehberi",
-      "subtitle": "Temel döngüde ustalaşın ve yaygın hatalardan kaçının",
+    "slimeRngBeginnerGuide": {
+      "eyebrow": "Başlangıç Rotası",
+      "title": "Slime RNG Başlangıç Rehberi",
+      "intro": "Slime RNG; Roll yapma, kuşanma, savaşma, Coin kazanma ve belirli bir sırayla yükseltme satın alma ile başlar. En güçlü başlangıç yolu; Roll işlemlerini otomatikleştirmek, Roll Speed'i artırmak, bölgelerin kilidini açmak, düşman sayısını ölçeklendirmek ve ilk rebirth öncesinde Goop için hazırlanmaktır.",
       "steps": [
         {
-          "number": 1,
-          "title": "Eve Girin",
-          "description": "Yüzen ada üssünüzden bir insan evine inin. Dışarıda doğun ve kilitli olmayan kapılardan veya pencerelerden içeri sızın."
+          "title": "İlk Slime'larınızı Roll yapın",
+          "goal": "Temel bir savaş ekibi kurun.",
+          "description": "Birkaç Slime RNG Slime'ı Roll yapın ve ekibinizin düşmanları yenebilmesi ve Coin kazanmaya başlayabilmesi için aldığınız en iyi birimleri kuşanın.",
+          "priority": "Yüksek"
         },
         {
-          "number": 2,
-          "title": "Görevleri Tamamlayın",
-          "description": "Yüksek Cüce görevlerini süre dolmadan bitirin. Tab tuşu aracılığıyla hedefleri kontrol edin ve öncelikle riskli görevlere öncelik verin."
+          "title": "Erken aşamada Fin arayın",
+          "goal": "Güvenilir bir başlangıç saldırganı edinin.",
+          "description": "Fin, erken aşama Slime RNG hasar seçenekleri arasında öne çıkar ve daha zayıf başlangıç Slime'larından önce seviyesi yükseltilmelidir.",
+          "priority": "Yüksek"
         },
         {
-          "number": 3,
-          "title": "Eşyaları Çalın",
-          "description": "Değerli eşyaları ve üretim malzemelerini kapın. Gürültü yapmaktan veya ev sahibine yakalanmaktan kaçının."
+          "title": "200 Coin karşılığında Auto Roll satın alın",
+          "goal": "Manuel Roll işlemini ana döngüden çıkarın.",
+          "description": "Auto Roll, Slime RNG Roll döngüsünü aktif tutar ve ilk büyük yaşam kalitesi satın alımıdır.",
+          "priority": "Temel"
         },
         {
-          "number": 4,
-          "title": "Tornado ile Kaçın",
-          "description": "Zamanlayıcı sona erdiğinde, bahçede bir tornado oluşur—güvenli bir şekilde çıkış yapmak için ona ulaşın. Erken hareket etmeye başlayın!"
+          "title": "Roll Speed'i yükseltin",
+          "goal": "Zaman içindeki toplam Roll sayısını artırın.",
+          "description": "Roll Speed, ne kadar sık Roll yapabileceğinizi iyileştirir, bu da her Slime RNG Luck boost penceresini daha değerli kılar.",
+          "priority": "Temel"
         },
         {
-          "number": 5,
-          "title": "Geliştirin & Tekrarlayın",
-          "description": "Ödülleri ve malzemeleri evde ekipman üretmek için kullanın, ardından daha iyi ekipmanlarla bir sonraki soygununuza başlayın."
+          "title": "Bir sonraki bölgenin kilidini açın",
+          "goal": "Coin gelirinizi ölçeklendirin.",
+          "description": "Ekibiniz ayak uydurabildiğinde, başlangıç alanında aşırı çiftçilik yapmak yerine daha güçlü Slime RNG bölgelerine geçin.",
+          "priority": "Yüksek"
+        },
+        {
+          "title": "Düşman Sayısına Öncelik Verin",
+          "goal": "Daha fazla gelir hedefi oluşturun.",
+          "description": "Düşman Sayısı önemli bir Slime RNG yükseltmesidir çünkü ekibiniz yeterli hasara sahip olduğunda daha fazla düşman, daha fazla öldürme ve daha fazla Coin anlamına gelir.",
+          "priority": "Yüksek"
+        },
+        {
+          "title": "En iyi Slime'larınızı meyvelerle besleyin",
+          "goal": "Elmaları ve diğer meyveleri yararlı bir güce dönüştürün.",
+          "description": "Slime RNG meyve ödüllerini, XP'yi zayıf birimlere yaymak yerine en güçlü Slime'larınıza verin.",
+          "priority": "Orta"
+        },
+        {
+          "title": "Goop için 10.000.000 Coin'e ulaşın",
+          "goal": "Rebirth ilerlemesi için hazırlanın.",
+          "description": "Goop, 10.000.000 Coin yatırımından sonra açılır ve rebirth büyümesine giden Slime RNG köprüsü olur.",
+          "priority": "Temel"
+        },
+        {
+          "title": "Hazır olduğunuzda Rebirth yapın",
+          "goal": "İlerlemeyi kalıcı çarpanlara dönüştürün.",
+          "description": "Slime RNG rebirth'leri, Slime'lar, sarf malzemeleri, yükseltmeler ve Luck kazanımları gibi önemli uzun vadeli ilerlemeleri korurken Coin'leri ve bölge erişimini sıfırlar.",
+          "priority": "İleri Seviye Başlangıç"
+        },
+        {
+          "title": "Stouts Studio grubuna katılın",
+          "goal": "Kalıcı bir Luck avantajı elde edin.",
+          "description": "Stouts Studio Roblox grubuna katılmak, Slime RNG oyuncularına kalıcı bir +1 Luck bonusu verir.",
+          "priority": "Önerilen"
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Yakalanmak",
-          "description": "Ev sahibi sizi kovalayacaktır. Saklanın, dikkat dağıtıcı unsurları kullanın ve kaçmak için görüş hattını kırın.",
-          "icon": "UyarıÜçgeni"
-        },
-        {
-          "title": "Sürenin Bitmesi",
-          "description": "Tornado zamanlayıcısı katıdır. Aşırı yağmalamak yerine erken bir şekilde çıkışa doğru ilerlemeye başlayın.",
-          "icon": "Saat"
-        },
-        {
-          "title": "Takım Arkadaşlarını Görmezden Gelmek",
-          "description": "Buzdolabı/fırın tuzaklarına yakalanan müttefikleri hızlıca kurtarın—kurtarmalar için hemen bağırın.",
-          "icon": "Kullanıcılar"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks İşbirliği Rehberi",
-      "subtitle": "Maksimum kaos için 6 oyuncuya kadar koordine olun",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Gözcü",
-          "description": "Tehditleri kontrol edin, güvenli yolları işaretleyin ve takım hareketine rehberlik edin",
-          "icon": "Göz"
-        },
-        {
-          "name": "Taşıyıcı",
-          "description": "Sırt çantası geliştirmeleriyle ağır eşyalara odaklanın ve görev ilerlemesini güvence altına alın",
-          "icon": "Paket"
-        },
-        {
-          "name": "Dikkat Dağıtıcı",
-          "description": "Güvenli pencereler oluşturmak için ev sahibini/evcil hayvanları takımdan uzağa çekin",
-          "icon": "Kullanıcılar"
-        },
-        {
-          "name": "Kurtarıcı",
-          "description": "Tuzaktan kurtarma",
-          "icon": "Kalkan"
-        }
-      ],
-      "threats": [
-        "Ev Sahibi (sizi kovalar ve tuzağa düşürür)",
-        "Kediler & Fareler (devriye yolları)",
-        "Robot Süpürge (anında tehlike)",
-        "Süre Sınırı (tornado tahliyesi)"
-      ],
-      "communication": "Görevleri ve kurtarmaları koordine etmek için sesli sohbeti (V tuşu) kullanın. Şunu söyleyin: 'Görüldü', 'Rota', 'Kurtarmaya ihtiyacım var', 'Yakında çıkış yap'."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Görevler & Amaçlar",
-      "subtitle": "Yüksek Cüce'nin istedikleri: görev örnekleri",
-      "taskTypes": [
-        {
-          "type": "Eşyaları Çalın",
-          "examples": [
-            "Yüksek Cüce hedefleri tarafından işaretlenen belirli eşyaları kapın"
-          ]
-        },
-        {
-          "type": "Konumlara Ulaşın",
-          "examples": [
-            "Evin içindeki belirtilen alanlara gidin"
-          ]
-        },
-        {
-          "type": "Yaramazlık Yapın",
-          "examples": [
-            "Bir TV'yi kırın",
-            "Bir tuvaleti su baskını yapın",
-            "Kaos yaratın"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Takım bir aradayken önce riskli görevleri yapın",
-        "Takip sırasında kaybolmamaları için görev eşyaları için bir taşıyıcı atayın",
-        "Süre dolmadan çıkışa doğru hareket etmeye başlayın"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Kontroller & Tuş Atamaları",
-      "subtitle": "Varsayılan klavye kontrolleri (ve bunları nerede değiştireceğiniz)",
-      "keybinds": [
-        {
-          "action": "Sola Hareket Et",
-          "key": "A"
-        },
-        {
-          "action": "Sağa Hareket Et",
-          "key": "D"
-        },
-        {
-          "action": "İleri Hareket Et",
-          "key": "W"
-        },
-        {
-          "action": "Geri Hareket Et",
-          "key": "S"
-        },
-        {
-          "action": "Çömelme",
-          "key": "Sol Ctrl"
-        },
-        {
-          "action": "Saldırı",
-          "key": "Sol Tık"
-        },
-        {
-          "action": "Koş",
-          "key": "Sol Shift"
-        },
-        {
-          "action": "Eşyayı Bırak",
-          "key": "G"
-        },
-        {
-          "action": "Etkileşim",
-          "key": "E"
-        },
-        {
-          "action": "Zıpla",
-          "key": "Boşluk"
-        },
-        {
-          "action": "Bas-Konuş",
-          "key": "V"
-        },
-        {
-          "action": "İtme",
-          "key": "Sağ Tık"
-        },
-        {
-          "action": "Bez Bebek",
-          "key": "Q"
-        },
-        {
-          "action": "Ekipman Yuvası 1",
-          "key": "1"
-        },
-        {
-          "action": "Ekipman Yuvası 2",
-          "key": "2"
-        },
-        {
-          "action": "Ekipman Yuvası 3",
-          "key": "3"
-        },
-        {
-          "action": "Ekipman Yuvası 4",
-          "key": "4"
-        },
-        {
-          "action": "Envanter",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Başlık menüsünden: AYARLAR'ı açın, ardından klavye ayarlarını kontrol edin. Tuş atama satırlarını filtrelemek için arama alanını kullanın."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks İçerik Ayarları",
-      "subtitle": "Yetişkinlere yönelik içerik, çıplaklık geçişi ve Steam tercihleri",
-      "descriptors": [
-        "Bazı Çıplaklık veya Cinsel İçerik",
-        "Genel Yetişkinlere Yönelik İçerik"
-      ],
-      "details": [
-        {
-          "heading": "Geliştiricilerin belirttiği şey",
-          "items": [
-            "Bir insan banyo gibi aktiviteler yaparken çıplak görünebilir.",
-            "Çıplaklık sansürlenmiştir ve isteğe bağlı olarak tamamen kapatılabilir.",
-            "Cüceler parçalanabilir ve acımasız şekillerde ölebilir."
-          ]
-        },
-        {
-          "heading": "Steam topluluk sayfasını engellerse",
-          "items": [
-            "Steam, içerik tercihlerinize bağlı olarak topluluk merkezini gizleyebilir.",
-            "Steam'in ne göstermesine izin verdiğinizi ayarlamak için Steam'in 'İçerik Tercihlerini Güncelle' seçeneğini kullanın."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Üretim & Ekipman",
-      "subtitle": "Donanın: üretim örnekleri ve her aracın ne yaptığı",
-      "equipment": [
-        {
-          "item": "Sırt Çantası",
-          "benefit": "Her koşu için daha fazla ganimet için envanter kapasitesini genişletir"
-        },
-        {
-          "item": "Cüce Eldivenleri",
-          "benefit": "Kapıları açmanızı ve daha fazla nesneyle etkileşim kurmanızı sağlar"
-        },
-        {
-          "item": "Yaylı Ayakkabılar",
-          "benefit": "Kaçışlar sırasında yüksek düşmelerden kaynaklanan hasarı önler"
-        },
-        {
-          "item": "Silah",
-          "benefit": "Köşeye sıkıştığınızda fareler gibi tehditlerle savaşmanıza yardımcı olur"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Üretim yağmalamaya nasıl bağlanır",
-          "items": [
-            "Bir koşu sırasında, eşyaları çalın ve üretim malzemesi olarak geri getirin.",
-            "Tahliyeden sonra, ödüller/malzemeler yeni üretimleri destekler."
-          ]
-        },
-        {
-          "heading": "Üs iyileştirmesi",
-          "items": [
-            "Mobilya üretin ve yüzen ada evinizi yükseltin (tam oyun özelliği)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Ganimet & Eşyalar",
-      "subtitle": "Ne çalınır: eşya türleri, risk ve taşıma ipuçları",
-      "categories": [
-        {
-          "type": "Görev Eşyaları",
-          "examples": [
-            "Yüksek Cüce tarafından hedefler için gerekli olan eşyalar"
-          ]
-        },
-        {
-          "type": "Üretim Malzemeleri",
-          "examples": [
-            "Cüce teçhizatına ve yükseltmelerine dönüştürülen ev eşyaları"
-          ]
-        },
-        {
-          "type": "Yaramazlık Hedefleri",
-          "examples": [
-            "Kırma veya su baskını gibi görevlerde yer alan nesneler"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Görev ilerlemesine öncelik verin, ardından kalan kapasiteyi üretim malzemeleriyle doldurun",
-        "Tehditler yakındaysa, eşyaları uzun açık taşımalar yerine kısa güvenli sıçramalarla hareket ettirin",
-        "Zamanlayıcı sona ermeden bahçe tahliyesine giden rotayı planlayın"
-      ],
-      "riskLevels": [
-        {
-          "level": "Düşük",
-          "description": "Girişlerin veya güvenli köşelerin yakınında"
-        },
-        {
-          "level": "Orta",
-          "description": "Daha derin odalar veya dolaşan tehditlerin yakınında"
-        },
-        {
-          "level": "Yüksek",
-          "description": "Ev sahibi devriyesinin veya robot süpürgenin yakınında"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Düşmanlar & Tehlikeler",
-      "subtitle": "Sizi neyin yakalayabileceğini bilin",
-      "threats": [
-        {
-          "name": "Ev Sahibi",
-          "trigger": "Soygun yaparken veya görev yaparken yakalanmak",
-          "behavior": "Sizi kovalar ve yakalamaya çalışır",
-          "counter": "Gizli kalın, görüş hatlarını kırın ve bir ekip olarak hareket etmeye devam edin"
-        },
-        {
-          "name": "Kediler",
-          "trigger": "Çok yaklaşmak veya yollarını kesmek",
-          "behavior": "Siz gizlice dolaşırken doğrudan bir tehdit haline gelirler",
-          "counter": "Yollarından kaçının ve sessizce geçin"
-        },
-        {
-          "name": "Fareler",
-          "trigger": "Farelerin dolaştığı alanlara girmek",
-          "behavior": "Koşular sırasında kırılgan cüceleri tehdit ederler",
-          "counter": "Dar alanlarda tetikte olun ve geri çekilmeye hazır olun"
-        },
-        {
-          "name": "Robot Süpürge",
-          "trigger": "Temizleme yolunda olmak",
-          "behavior": "Cüceleri emebilir",
-          "counter": "Onu dinleyin, yolunda durmayın ve hızlıca yeniden konumlanın"
-        },
-        {
-          "name": "Buzdolabı / Fırın Tuzağı",
-          "trigger": "Ev sahibi tarafından yakalanmak",
-          "behavior": "İçeri kilitlenebilirsiniz; takım arkadaşları zamanında kurtarmazsa ölürsünüz",
-          "counter": "Hemen bağırın; takım arkadaşları kurtarma yoluna öncelik verir"
-        },
-        {
-          "name": "Süre Sınırı",
-          "trigger": "Koşu zamanlayıcısının sınıra ulaşması",
-          "behavior": "Bahçede tahliye tornadosu belirir; kaçmak için ona ulaşmalısınız",
-          "counter": "Aşırı yağmalamayı bırakın, yeniden toplanın ve erken bir şekilde tahliyeye başlayın"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Gizlilik & Kaçış İpuçları",
-      "subtitle": "Daha fazla çalın, daha az ölün",
-      "do": [
-        "Gizli kalın ve nesnelerle etkileşim kurmadan önce siper alın",
-        "Ekip çalışmasını kullanın: tehditleri söyleyin ve rotaları koordine edin",
-        "Biri tuzağa düştüğünde veya yere serildiğinde takım arkadaşlarını hızlıca kurtarın",
-        "Kayıplarınızı azaltın ve zaman daraldığında tahliyeye gidin"
-      ],
-      "dont": [
-        "Tahliye yaklaştığında açgözlü olun",
-        "Ev sahibi aktifken takımdan çok uzağa ayrılın",
-        "Robot süpürge yollarını veya hayvan devriyelerini görmezden gelin",
-        "Bir takım arkadaşı kilitlendiğinde kurtarmaları geciktirin"
       ],
       "quickTips": [
+        "Pahalı Luck yükseltmelerinin peşinden koşmadan önce Slime RNG Auto Roll satın alın.",
+        "Roll Speed, Roll oturumlarını güçlendiren her kod ödülünü iyileştirir.",
+        "Yeni bölgelerin sorunsuz hissettirmesi için en iyi Slime RNG hasar vericinizin seviyesini yüksek tutun.",
+        "Uzun boost pencerelerini, aktif olarak Roll yapabileceğiniz ve savaşabileceğiniz oturumlar için saklayın."
+      ]
+    },
+    "slimeRngTierList": {
+      "eyebrow": "En İyi Slime'lar",
+      "title": "Slime RNG Tier Listesi",
+      "intro": "Slime RNG tier listesi; Slime'ları pratik değer, hasar, hız, fayda ve ilerleme etkisine göre sıralar. Void Slime nihai hedeftir, Huge varyantları oyun sonuna hakimdir, Orca ve Lucky Slime oyun ortası çiftçiliğini üstlenir ve Fin en iyi erken hasar hedefidir.",
+      "tiers": [
         {
-          "title": "3 Saniye Kuralı",
-          "text": "Bir sonraki hareketinizi 3 saniyede açıklayamazsanız, yakalanmak üzeresiniz demektir."
+          "tier": "SSS",
+          "summary": "Bilinen en güçlü Slime gücü için nihai Slime RNG hedef aşaması.",
+          "slimes": [
+            {
+              "name": "Void Slime",
+              "damage": "25,000",
+              "speed": "2.0",
+              "rarity": "Mythic",
+              "role": "Nihai DPS",
+              "notes": "En önemli uzun vadeli Slime RNG koleksiyon ve savaş hedefi."
+            }
+          ]
         },
         {
-          "title": "Önce Kurtarma",
-          "text": "Hızlı bir kurtarma koşuyu canlı tutar; yağmalama bekleyebilir."
+          "tier": "S",
+          "summary": "Huge varyantları ve değerli faydalar etrafında oluşturulmuş oyun sonu Slime RNG meta aşaması.",
+          "slimes": [
+            {
+              "name": "Huge Spike",
+              "damage": "7,500",
+              "speed": "1.5",
+              "rarity": "Legendary - Huge Variant",
+              "role": "Delici DPS",
+              "notes": "Delici saldırılara sahip en yüksek DPS'li Slime RNG hedeflerinden biri."
+            },
+            {
+              "name": "Huge Rocky",
+              "damage": "5,000",
+              "speed": "0.8",
+              "rarity": "Legendary - Huge Variant",
+              "role": "AoE Tank Hasarı",
+              "notes": "Oyun sonu bölge ilerlemesi için devasa bir Slime RNG alan hasarı seçeneği."
+            },
+            {
+              "name": "Huge Lucky",
+              "damage": "3,000",
+              "speed": "1.0",
+              "rarity": "Legendary - Huge Variant",
+              "role": "Luck Artırıcı",
+              "notes": "Nadir Slime avcılığı için birinci sınıf bir Slime RNG Luck destek seçimi."
+            }
+          ]
         },
         {
-          "title": "Tahliye Disiplini",
-          "text": "Erken toplanın ve panik başlamadan önce tornadoya başlayın."
+          "tier": "A",
+          "summary": "İstikrarlı çiftçilik ekipleri için güçlü Slime RNG oyun ortası aşaması.",
+          "slimes": [
+            {
+              "name": "Orca",
+              "damage": "180",
+              "speed": "0.9",
+              "rarity": "Rare",
+              "role": "Oyun Ortası Taşıyıcısı",
+              "notes": "Başlangıç ekibiniz ölçeklenmeye hazır olduğunda mükemmel Slime RNG DPS."
+            },
+            {
+              "name": "Lucky Slime",
+              "damage": "120",
+              "speed": "1.1",
+              "rarity": "Rare",
+              "role": "Luck Desteği",
+              "notes": "Nadir düşürme çiftçiliği ve uzun Roll oturumları için bir Slime RNG destek birimi."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "summary": "İlerlemeyi birbirine bağlayan kullanışlı Slime RNG erken ve orta oyun Slime'ları.",
+          "slimes": [
+            {
+              "name": "Spike",
+              "damage": "55",
+              "speed": "1.2",
+              "rarity": "Uncommon",
+              "role": "Hızlı Saldırgan",
+              "notes": "Erken savaş ve düşman temizleme için hızlı bir Slime RNG saldırganı."
+            },
+            {
+              "name": "Fin",
+              "damage": "45",
+              "speed": "1.0",
+              "rarity": "Common",
+              "role": "Başlangıç DPS",
+              "notes": "En iyi erken Slime RNG DPS hedefi ve seviye atlatılacak akıllıca bir ilk Slime."
+            },
+            {
+              "name": "Rocky",
+              "damage": "35",
+              "speed": "0.7",
+              "rarity": "Uncommon",
+              "role": "Savunma Tankı",
+              "notes": "Hayatta kalmanın önemli olduğu durumlar için sağlam bir Slime RNG seçeneği."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "summary": "Daha güçlü Slime'lar gelmeden önceki başlangıç Slime RNG temel aşaması.",
+          "slimes": [
+            {
+              "name": "Basic Slime",
+              "damage": "25",
+              "speed": "1.0",
+              "rarity": "Common",
+              "role": "Başlangıç Yer Tutucusu",
+              "notes": "En başı için geçici bir Slime RNG birimi."
+            }
+          ]
         }
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Ev Geliştirmeleri",
-      "subtitle": "Üret, inşa et, yükselt",
-      "branches": [
+    "slimeRngSlimeCollection": {
+      "eyebrow": "Slime Veritabanı",
+      "title": "Slime RNG Slime Koleksiyonu",
+      "intro": "Slime RNG koleksiyonu, hesabınız büyüdükçe Slime'ları Roll yapma, donatma, seviye atlatma ve değiştirme üzerinedir. Hangi Slime RNG Slime'larının tutulmaya, beslenmeye ve etrafında strateji kurmaya değer olduğuna karar vermek için bu veritabanını kullanın.",
+      "slimes": [
         {
-          "branch": "Depolama",
-          "summary": "Daha fazla taşıyın ve daha fazlasını geri getirin",
-          "items": [
-            "Sırt Çantası (envanter genişletme)"
-          ]
+          "name": "Fin",
+          "rarity": "Yaygın",
+          "role": "Başlangıç DPS",
+          "stage": "Oyun Başı",
+          "description": "En iyi Slime RNG oyun başı hasar vericisi ve akıllıca bir ilk seviye atlatma hedefi.",
+          "recommendedUse": "Erken seviye atlatın ve ilk güvenilir DPS Slime'ınız olarak kullanın."
         },
         {
-          "branch": "Yardımcı Program",
-          "summary": "Evle daha etkili etkileşim kurun",
-          "items": [
-            "Cüce Eldivenleri (kapıları ve daha fazlasını açmanızı sağlar)"
-          ]
+          "name": "Basic Slime",
+          "rarity": "Yaygın",
+          "role": "Başlangıç Yer Tutucusu",
+          "stage": "Başlangıç",
+          "description": "Düşük bireysel güce ve kolay bulunabilirliğe sahip standart Slime RNG başlangıç Slime'ı.",
+          "recommendedUse": "Daha iyi oyun başı Slime'ları gelene kadar kullanın."
         },
         {
-          "branch": "Hareketlilik",
-          "summary": "Dikey alanlarda daha güvenli hareket edin",
-          "items": [
-            "Yaylı Ayakkabılar (düşme hasarını azaltır)"
-          ]
+          "name": "Green Slime",
+          "rarity": "Sıradışı",
+          "role": "Dengeli Birim",
+          "stage": "Oyun Başı",
+          "description": "Hasar ve can karışımına sahip dengeli bir Slime RNG Slime'ı.",
+          "recommendedUse": "Daha güçlü DPS veya yardımcı Slime'lardan önce geçici bir takım doldurucu olarak kullanın."
         },
         {
-          "branch": "Savunma",
-          "summary": "Gerekirse küçük tehditlerle başa çıkın",
-          "items": [
-            "Silahlar (fareler gibi tehditler için)"
-          ]
+          "name": "Rocky",
+          "rarity": "Sıradışı",
+          "role": "Tank",
+          "stage": "Oyun Başı - Orta Oyun",
+          "description": "Daha yüksek cana ve daha yavaş hasar çıkışına sahip sağlam bir Slime RNG Slime'ı.",
+          "recommendedUse": "Hayatta kalmanın önemli olduğu savunma dizilimlerinde kullanın."
         },
         {
-          "branch": "Ana Üs",
-          "summary": "Mobilya üretin ve yüzen ada evinizi yükseltin",
-          "items": [
-            "Fonksiyonel mobilya yükseltmeleri"
-          ]
+          "name": "Spike",
+          "rarity": "Sıradışı",
+          "role": "DPS",
+          "stage": "Oyun Başı - Orta Oyun",
+          "description": "Temel Slime'lardan daha yüksek hasara ve daha hızlı saldırılara sahip keskin bir Slime RNG saldırganı.",
+          "recommendedUse": "Nadir ve Huge Slime'lar devralmadan önce daha hızlı düşman temizlemek için kullanın."
+        },
+        {
+          "name": "Water Slime",
+          "rarity": "Yaygın",
+          "role": "Yardımcı",
+          "stage": "Oyun Başı",
+          "description": "Orta düzey istatistiklere sahip esnek bir Slime RNG Slime'ı.",
+          "recommendedUse": "Takımınızın istikrarlı seçeneklere ihtiyaç duyduğu oyun başı aşamasında bir yuva olarak kullanın."
+        },
+        {
+          "name": "Fire Slime",
+          "rarity": "Sıradışı",
+          "role": "Zamanla Hasar",
+          "stage": "Orta Oyun",
+          "description": "Yanma tarzı baskı ekleyen ateşli bir Slime RNG Slime'ı.",
+          "recommendedUse": "Uzun süren savaşların ekstra zamanla hasardan fayda sağladığı durumlarda kullanın."
+        },
+        {
+          "name": "Ice Slime",
+          "rarity": "Sıradışı",
+          "role": "Yardımcı Kontrol",
+          "stage": "Orta Oyun",
+          "description": "Düşman ivmesini yavaşlatan bir Slime RNG yardımcı Slime'ı.",
+          "recommendedUse": "Kontrolün saf hasardan daha yararlı olduğu durumlarda kullanın."
+        },
+        {
+          "name": "Orca",
+          "rarity": "Nadir",
+          "role": "Meta DPS",
+          "stage": "Orta Oyun",
+          "description": "Mükemmel taşıma değerine sahip güçlü bir Slime RNG orta oyun Slime'ı.",
+          "recommendedUse": "Elde edildiğinde seviye atlatmaya öncelik verin çünkü ilerlemeyi taşıyabilir."
+        },
+        {
+          "name": "Lucky Slime",
+          "rarity": "Nadir",
+          "role": "Luck Boost",
+          "stage": "Orta Oyun",
+          "description": "Luck desteği etrafında oluşturulmuş nadir bir Slime RNG Slime'ı.",
+          "recommendedUse": "Nadir farm yaparken ve uzun Roll seansları sırasında kuşanın."
+        },
+        {
+          "name": "Huge Rocky",
+          "rarity": "Efsanevi - Huge Varyantı",
+          "role": "AoE Hasarı",
+          "stage": "Oyun Sonu",
+          "description": "Güçlü alan hasarına sahip devasa bir Slime RNG Rocky varyantı.",
+          "recommendedUse": "Farm ve bölge ilerlemesi için oyun sonu çapası olarak tutun."
+        },
+        {
+          "name": "Huge Spike",
+          "rarity": "Efsanevi - Huge Varyantı",
+          "role": "Delici DPS",
+          "stage": "Oyun Sonu",
+          "description": "Yüksek hasarlı ve delici saldırılara sahip devasa bir Slime RNG Spike varyantı.",
+          "recommendedUse": "En güçlü hasar odaklı Huge varyantı hedeflerinden biri olarak kullanın."
+        },
+        {
+          "name": "Huge Lucky",
+          "rarity": "Efsanevi - Huge Varyantı",
+          "role": "Premium Luck Desteği",
+          "stage": "Oyun Sonu",
+          "description": "Nadir Slime avcılığı için üst düzey bir Slime RNG Luck artırıcı.",
+          "recommendedUse": "Nadir avlama seansları ve oyun sonu koleksiyon hedefleri sırasında kullanın."
+        },
+        {
+          "name": "Void Slime",
+          "rarity": "Mistik",
+          "role": "SSS-Tier Nihai",
+          "stage": "Oyun Sonu",
+          "description": "Eşsiz uzun vadeli değere sahip nihai Slime RNG hedef Slime'ı.",
+          "recommendedUse": "Nihai koleksiyon hedefi olarak görün."
         }
       ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Önce depolama",
-          "reason": "Daha fazla taşıma kapasitesi her koşunun getirisini artırır"
-        },
-        {
-          "rank": 2,
-          "title": "Sıradaki yardımcı program",
-          "reason": "Daha iyi etkileşimler tehlike bölgelerinde geçirilen süreyi azaltır"
-        },
-        {
-          "rank": 3,
-          "title": "Hayatta kalmak için hareketlilik",
-          "reason": "Düşme güvenliği kaçarken önlenebilir ölümleri önler"
-        }
+      "collectionTips": [
+        "Slime RNG meyve ödüllerini gerçekten kullandığınız Slime'lara yedirin.",
+        "Luck odaklı Slime RNG birimlerini nadir avlama seansları için hazır tutun.",
+        "Nadir veya Huge varyantlarınız savaşları taşıyabildiğinde başlangıç Slime'larını değiştirin."
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Topluluk & Discord",
-      "subtitle": "Kadrolar, güncellemeler, tartışmalar bulun",
-      "links": [
-        {
-          "title": "Resmi Discord",
-          "subtitle": "Duyurular • Geri Bildirim • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Resmi X (Twitter)",
-          "subtitle": "Güncellemeler & geliştirici gönderileri",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Topluluk Merkezi",
-          "subtitle": "Tartışmalar • Ekran Görüntüleri • Rehberler",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Mağaza Sayfası",
-          "subtitle": "İstek Listesi • Demo • Resmi açıklama",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Modlar & BepInEx Kurulumu",
-      "subtitle": "Modları temiz bir şekilde kurun",
-      "steps": [
+    "slimeRngRebirthGuide": {
+      "eyebrow": "Prestij Sistemi",
+      "title": "Slime RNG Rebirth Rehberi",
+      "subtitle": "Doğru zamanda Rebirth yapın ve Goop'u kalıcı Luck'a dönüştürün.",
+      "intro": "Slime RNG Rebirth, ana orta-geç oyun sıfırlama sistemidir. Koşu ekonominizi sıfırlar ancak gelecekteki Slime avcılığını çok daha hızlı hale getiren kalıcı bir Luck çarpanı verir.",
+      "strategyNote": "En güçlü Slime RNG rebirth ritmi; coin motorunuzu yeniden inşa etmek, Goop kilidini açmak, bir sonraki döngü için yeterince farm yapmak ve kalıcı Luck kazancı yavaş bir bölgede kalmaktan daha değerli olduğunda rebirth yapmaktır.",
+      "items": [
         {
           "step": 1,
-          "title": "BepInEx 5'i Kurun",
-          "text": "BepInEx 5'i indirin ve oyun kök klasörüne çıkarın."
+          "title": "10.000.000 Coin Kapısına Ulaşın",
+          "description": "Slime RNG rebirth gerçekçi hale gelmeden önce, Goop kazanımını açan 10M Coin gereksinimine ulaşmaya odaklanın. Erken harcamalar, saf Luck yükseltmeleri yerine gelir hızına öncelik vermelidir.",
+          "keyPoints": [
+            "Coin'ler Slime RNG Roll yapma, yükseltmeler ve bölge kilitlerini açmak için kullanılır.",
+            "Slime RNG Goop mekaniği, tam olarak 10.000.000 Coin harcandıktan sonra açılır.",
+            "Bu eşikten önce Düşman Sayısı ve daha güçlü bölgeler genellikle Luck'tan daha önemlidir."
+          ]
         },
         {
           "step": 2,
-          "title": "Klasörleri oluşturmak için bir kez başlatın",
-          "text": "Oyunu ana menüye başlatın, ardından kapatın. Bu, BepInEx klasör yapısını oluşturur."
+          "title": "Kilit Açıldıktan Sonra Goop Farm Yapın",
+          "description": "Goop, rebirth için kullanılan Slime RNG prestij para birimidir. Kilidi açıldıktan sonra, düşük değerli coin döngülerinde kalmak yerine tutarlı bir şekilde farm yapın.",
+          "keyPoints": [
+            "Goop, Coin'lere kıyasla nadirdir.",
+            "Goop, normal oyun başı yükseltmelerinden ziyade Slime RNG Rebirth için kullanılır.",
+            "Bölge 3 ve sonraki bölgeler, Slime RNG Goop farmı için pratik başlangıç noktalarıdır."
+          ]
         },
         {
           "step": 3,
-          "title": "Modları kurun",
-          "text": "Mod .dll dosyalarını eklenti klasörüne yerleştirin."
+          "title": "Slime RNG Rebirth'ün Neleri Sıfırladığını Bilin",
+          "description": "Bir Slime RNG rebirth, coin bakiyenizi sıfırlar ve bölgeleri tekrar kilitler, böylece bir sonraki koşunuz ekonomik olarak baştan başlar.",
+          "keyPoints": [
+            "Coin bakiyesi sıfırlanır.",
+            "Slime RNG bölgelerinin tekrar açılması gerekir.",
+            "Sıfırlama, kalıcı bir Luck çarpanı artışı ile dengelenir."
+          ]
         },
         {
           "step": 4,
-          "title": "Kurulumu doğrulayın",
-          "text": "Oyunu yeniden başlatın ve mod özelliğinin (kamera geçişi, UI imleci vb.) kullanılabilir olduğunu onaylayın."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Tipik Steam kurulumu",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
+          "title": "Slime RNG Rebirth'ün Neleri Koruduğunu Bilin",
+          "description": "Slime RNG Rebirth güçlüdür çünkü tüm hesabınızı silmez. Korunan koleksiyonunuz, bir sonraki döngüde çok daha hızlı yeniden inşa etmenize yardımcı olur.",
+          "keyPoints": [
+            "Slime RNG Slime'larınızı korursunuz.",
+            "Meyveleri ve tüketilebilir eşyaları korursunuz.",
+            "Yükseltmeleri korursunuz.",
+            "Güçlü Huge veya Shiny Slime'lar, bir sonraki Slime RNG döngüsünü erken bölgelerden hızla taşıyabilir."
+          ]
         },
         {
-          "label": "Eklenti klasörü",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
+          "step": 5,
+          "title": "Goop Hazır Olduğunda Erken Rebirth Yapın",
+          "description": "Önerilen Slime RNG stratejisi, durgun bir bölgede aşırı farm yapmak yerine yeterli Goop'a sahip olduğunuzda rebirth yapmaktır. Erken rebirth'ler, bir sonraki koşuyu daha verimli hale getiren çarpan sıçramaları yaratır.",
+          "keyPoints": [
+            "Slime RNG rebirth çarpanları birden fazla döngü boyunca birleşerek artar.",
+            "Bir çarpan sıçraması, nadir Slime avcılığını çok daha hızlı hale getirebilir.",
+            "Zayıf bir farm bölgesinde çok uzun süre beklemek, genel Slime RNG ilerlemesini yavaşlatır."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Slime RNG Rebirth'ü Ücretsiz Luck ile Birleştirin",
+          "description": "Kalıcı Luck, Stouts Studio grup bonusu ve diğer Slime RNG'si Luck kaynaklarıyla birleştirildiğinde çok daha güçlü hale gelir.",
+          "keyPoints": [
+            "Stouts Studio grup bonusu, Slime RNG oyuncularına kalıcı +1 Luck bonusu verir.",
+            "Rebirth çarpanları, uzun vadeli ana Luck ölçeklendirmesi işlevi görür.",
+            "Bir sonraki Slime RNG rebirth döngüsünün hazır olup olmadığına karar vermek için bir sonraki Goop hedefinizi kullanın."
+          ]
         }
-      ],
-      "multiplayerNote": "Modlanmış işbirliği oynanış özellikleri için herkes BepInEx'i ve aynı oynanış modlarını kurmalıdır."
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Popüler Modlar",
-      "subtitle": "En iyi topluluk seçimleri",
-      "mods": [
+    "slimeRngGoopGuide": {
+      "eyebrow": "Prestij Para Birimi",
+      "title": "Slime RNG Goop Rehberi",
+      "subtitle": "Daha hızlı Slime RNG rebirth döngüleri için Goop kilidini açın, farm yapın ve harcayın.",
+      "intro": "Goop, Slime RNG'yi normal coin farmından rebirth ilerlemesine taşıyan para birimidir. 10M Coin kilidi, oyun ortasının en önemli darboğazıdır.",
+      "checklistTitle": "Slime RNG Goop Farm Listesi",
+      "checklist": [
+        "Slime RNG 10.000.000 Coin kilidine ulaşın.",
+        "DPS'iniz düşman öldürme hızını sabit tutabildiğinde Bölge 3 veya sonrasında farm yapın.",
+        "Ciddi Luck harcamalarından önce Roll Speed, Düşman Sayısı ve Slime Slotlarını yükseltin.",
+        "Goop'u normal Coin gibi harcamak yerine Slime RNG Rebirth için biriktirin."
+      ],
+      "items": [
         {
-          "title": "Doğma Menüsü",
-          "tags": [
-            "Eğlence",
-            "Araçlar",
-            "Yalnızca Ev Sahibi"
-          ],
-          "description": "Uçuş modu ile bir eşya doğma menüsü ekler.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Doğma menüsünü aç"
-            },
-            {
-              "key": "V",
-              "action": "Uçmayı etkinleştir"
-            }
-          ],
-          "note": "Yalnızca Ev Sahibi; başkalarının katılmak için yüklemesi gerekmez."
-        },
-        {
-          "title": "Üçüncü Şahıs Görünümü",
-          "tags": [
-            "Kamera",
-            "Yaşam Kalitesi"
-          ],
-          "description": "Üçüncü şahıs kamera görünümü ekler.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "Birinci şahıs / üçüncü şahıs arasında geçiş yap"
-            }
+          "question": "Slime RNG Goop nedir?",
+          "answer": "Goop, Slime RNG'nin prestij para birimidir. Coin'lerin aksine, Rebirth ilerlemesine bağlıdır ve tamamlanmış bir turu kalıcı uzun vadeli güce dönüştürür.",
+          "details": [
+            "Coin'ler Slime RNG roll işlemlerini, yükseltmeleri ve bölge ilerlemesini destekler.",
+            "Goop, Slime RNG rebirth ilerlemesini destekler.",
+            "Goop, oyun ortası farmı ile oyun sonu çarpan biriktirme arasında köprü kurar."
           ]
         },
         {
-          "title": "Daha Fazla Şapka",
-          "tags": [
-            "Kozmetik"
-          ],
-          "description": "Cüceler için ek şapka rengi seçenekleri ekler.",
-          "colors": [
-            "Mavi",
-            "Yeşil",
-            "Turuncu",
-            "Mor",
-            "Siyah",
-            "Kırmızı"
+          "question": "Slime RNG Goop kilidini nasıl açarsınız?",
+          "answer": "Slime RNG Goop kazanımı, tam olarak 10.000.000 Coin harcandıktan sonra açılır. Bu, 10M Coin'i rebirth hedefleyen oyuncular için ilk büyük ilerleme kapısı yapar.",
+          "details": [
+            "10M Coin eşiğinden önce Luck'a aşırı öncelik vermeyin.",
+            "Bölgeler üzerinden coin hızına, Düşman Sayısına, Roll Speed'e ve daha güçlü Slime'lara odaklanın.",
+            "Goop kilidini ne kadar hızlı açarsanız, Slime RNG rebirth döngülerine o kadar erken başlayabilirsiniz."
           ]
         },
         {
-          "title": "TV'de DOOM",
-          "tags": [
-            "Eğlence",
-            "Mini oyun"
+          "question": "Slime RNG Goop nerede farm edilmelidir?",
+          "answer": "Slime RNG Goop düşüşleri Bölge 3 ve sonraki bölgelerde başlar. Bölge 3 ve Bölge 4 pratik erken Goop farm hedefleridir, daha yüksek bölgeler ise daha iyi DPS ile daha güçlü getiriler sağlar.",
+          "details": [
+            "Bölge 3, Mağara, 2.500 düşman HP'sine ve 250 Coin getirisine sahiptir.",
+            "Bölge 4, Tundra, 15.000 düşman HP'sine ve 1.500 Coin getirisine sahiptir.",
+            "Daha yüksek Slime RNG bölgeleri hem düşman HP'si hem de coin değeri bakımından keskin bir şekilde artar."
+          ]
+        },
+        {
+          "question": "Slime RNG Goop neden Rebirth ile bağlantılıdır?",
+          "answer": "Goop, Slime RNG rebirthing için kullanılır ve rebirth kalıcı Luck çarpanı artışı sağlar. Bu, Goop farmını uzun vadeli ilerleme için ana tekrarlanabilir döngü haline getirir.",
+          "details": [
+            "Kilidini açtıktan sonra Goop farmı yapın.",
+            "Goop'u Slime RNG rebirth sistemi üzerinden harcayın.",
+            "Bir sonraki döngüde daha hızlı gelişmek için yeni kalıcı Luck çarpanını kullanın."
+          ]
+        },
+        {
+          "question": "Ciddi Slime RNG Goop farmına başlamadan önce neleri yükseltmelisiniz?",
+          "answer": "Luck'a odaklanmadan önce öldürme hızını ve gelir hızını artıran yükseltmelere öncelik verin. Güçlü bir farm temeli, sizi rebirth'e daha hızlı ulaştırır.",
+          "details": [
+            "Auto Roll, manuel rolling darboğazlarını ortadan kaldırır.",
+            "Roll Speed, zamanla toplam Slime RNG roll sayısını artırır.",
+            "Düşman Sayısı, DPS'iniz ekstra düşmanları idare edebiliyorsa geliri ikiye katlayabilir.",
+            "Slime Slotları, yerleştirilen toplam hasarı artırır."
+          ]
+        },
+        {
+          "question": "Hangi oyun sonu Slime RNG yükseltmeleri Goop farmına yardımcı olur?",
+          "answer": "Erken rebirth döngülerinden sonra, Goop Drop yükseltmeleri, Boss Spawns, Enemy Rush, Slime Slotları ve Çevrimdışı Ganimet daha değerli hale gelir çünkü rebirth'ler arasındaki süreyi kısaltırlar.",
+          "details": [
+            "Goop Drop +%10, Slime RNG Goop farm hızını doğrudan iyileştirir.",
+            "Boss Spawns, ekibiniz yeterince güçlüyse ödülleri iyileştirebilir.",
+            "Çevrimdışı Ganimet, oyundan uzaktayken Slime RNG ilerlemesini korumaya yardımcı olur."
+          ]
+        }
+      ]
+    },
+    "slimeRngLuckGuide": {
+      "eyebrow": "Nadir Slime Olasılıkları",
+      "title": "Slime RNG Luck Rehberi",
+      "subtitle": "Nadir, Shiny ve Huge Slime RNG hedefleri için Luck'ı doğru şekilde biriktirin.",
+      "intro": "Luck, Slime RNG'deki en önemli istatistiklerden biridir, ancak çok erken Luck satın almak ilk rebirth'inizi yavaşlatabilir. Önce gelir elde edin, Goop kilidini açın, kalıcı çarpanlar için rebirth yapın, ardından ciddi nadir Slime avı için aktif Luck kaynaklarını biriktirin.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Slime RNG Luck'ın Neleri Değiştirdiğini Anlayın",
+          "description": "Luck, nadir Slime'ların etkili oranlarını azaltarak nadir sonuçlar elde etme şansını artırır. Güçlü Slime RNG Luck çarpanları, uzun avları pratik hedeflere dönüştürür.",
+          "bestFor": "Kaynak harcamadan önce nadir Slime olasılıklarını anlamak"
+        },
+        {
+          "step": 2,
+          "title": "Ücretsiz Slime RNG Temel Bonusunu Alın",
+          "description": "Resmi Slime RNG topluluğuna veya oyun sayfası aksiyonuna bağlı ücretsiz Luck bonusuyla başlayın. Rebirth çarpanları uygulandığında eklemeli Luck çok daha güçlü hale gelir.",
+          "bestFor": "Yeni oyuncular ve ilk rebirth hazırlığı"
+        },
+        {
+          "step": 3,
+          "title": "Slime RNG Luck'tan Önce Gelire Öncelik Verin",
+          "description": "10M Coin Goop kilidinden önce Roll Speed, Düşman Sayısı, daha güçlü bölgeler ve daha iyi DPS genellikle Luck biriktirmekten daha önemlidir.",
+          "bestFor": "Erken oyun ve Goop öncesi ilerleme"
+        },
+        {
+          "step": 4,
+          "title": "Slime RNG Rebirth'ü Ana Luck Motoru Olarak Kullanın",
+          "description": "Rebirth, kalıcı Luck çarpanı artışı ekleyerek her bir sonraki döngüyü daha güçlü hale getirir. Erken rebirth atlamaları, nadir Slime avını önemli ölçüde hızlandırabilir.",
+          "bestFor": "Goop döngülerine başlayan oyun ortası oyuncuları"
+        },
+        {
+          "step": 5,
+          "title": "Super Luck ve Ultra Luck'ı Daha Sonra Ekleyin",
+          "description": "Super Luck ve Ultra Luck, rebirth çarpanları aktif olduktan sonra daha değerli hale gelir. Doğrudan Luck artışları, kalıcı çarpanlar zaten güçlüyse daha fazla etki eder.",
+          "bestFor": "Rebirth sonrası farm ve nadir Slime avı"
+        },
+        {
+          "step": 6,
+          "title": "Slime RNG Lucky Slime Etkilerini Kullanın",
+          "description": "Lucky Slime pasif bir Luck rolü sağlarken, Huge Lucky 3x Luck çarpanına sahip üst düzey bir varyanttır. Bu etkiler Shiny, Huge veya Mythic seviye Slime avlarken değerlidir.",
+          "bestFor": "Oyun sonu Slime koleksiyonu ve yüksek nadirlikte roll işlemleri"
+        },
+        {
+          "step": 7,
+          "title": "Slime RNG Luck Boost'larını Aktif Rolling Zamanına Ayarlayın",
+          "description": "Kodlardan ve ödüllerden gelen Luck iksirleri, en iyi aktif olarak Roll yaparken, güçlü Roll Speed'e sahipken ve avlanma seansını verimli tutmak için yeterli geliri sürdürebildiğinizde kullanılır.",
+          "bestFor": "Boost pencereleri, kod ödülleri ve odaklanmış nadir avlama seansları"
+        }
+      ]
+    },
+    "slimeRngHugeSlimesGuide": {
+      "eyebrow": "Nadir Varyantlar",
+      "title": "Slime RNG Huge Slimes Rehberi",
+      "subtitle": "Huge Slime'lar, Shiny Slime'lar ve en iyi Slime RNG oyun sonu varyantları.",
+      "intro": "Slime RNG Huge Slime'lar, devasa savaş değerine sahip ultra nadir mutasyona uğramış varyantlardır. Huge Rocky, Huge Spike ve Huge Lucky, oyun sonu ilerlemesi, farm ve nadir Slime avı için özellikle önemlidir.",
+      "items": [
+        {
+          "name": "Shiny Varyantı",
+          "rarity": "Ultra Nadir Varyant",
+          "odds": "Ek 500.000'de 1 şans",
+          "role": "Gelişmiş istatistik varyantı",
+          "description": "Bir Shiny Slime iyileştirilmiş istatistiklere ve benzersiz bir görsel auraya sahiptir. Standart bir Slime RNG Slime'ından daha nadirdir ve güçlü temel Slime türlerine eklendiğinde özellikle değerli hale gelir.",
+          "recommendedUse": "Güçlü Shiny varyantlarını normal koleksiyon dolgusu olarak görmek yerine saklayın ve seviyelerini yükseltin."
+        },
+        {
+          "name": "Huge Varyantı",
+          "rarity": "Ultra Nadir Varyant",
+          "odds": "Ek 1.000.000'da 1 şans",
+          "role": "Yüksek hasarlı savaş varyantı",
+          "description": "Bir Huge Slime devasa bir hasar çarpanına ve genişletilmiş alan etkisine sahiptir. Huge varyantları, oyun sonu bölge ilerlemesi ve daha hızlı farm için en önemli Slime RNG yükseltmeleri arasındadır.",
+          "recommendedUse": "Yüksek HP'li bölgeler ve Goop farmı için bir ekip kurarken Huge varyantlarına öncelik verin."
+        },
+        {
+          "name": "Huge Shiny",
+          "rarity": "En Nadir Varyant Kombinasyonu",
+          "odds": "Huge mutasyonu artı Shiny mutasyonu",
+          "role": "En üst düzey koleksiyon ve savaş hedefi",
+          "description": "Huge Shiny, Huge ve Shiny sonuçlarını birleştirerek onu en nadir ve en güçlü Slime RNG varyant türlerinden biri yapar.",
+          "recommendedUse": "Bunu bir oyun sonu hedefi olarak görün ve güçlü bir Slime türünde çıktığında etrafına ekip kurun."
+        },
+        {
+          "name": "Huge Rocky",
+          "rarity": "Efsanevi - Huge Varyantı",
+          "odds": "Huge mutasyon aşaması",
+          "role": "Oyun sonu dövüşçüsü",
+          "description": "Huge Rocky, devasa bir hasar çarpanına ve genişletilmiş alan etkisine sahip muazzam bir Rocky varyantıdır. Bir S-Tier Slime RNG oyun sonu Slime'ıdır.",
+          "recommendedUse": "Dayanıklılığa, alan baskısına ve istikrarlı bölge temizlemeye ihtiyaç duyduğunuzda istikrarlı oyun sonu farmı için kullanın."
+        },
+        {
+          "name": "Huge Spike",
+          "rarity": "Efsanevi - Huge Varyantı",
+          "odds": "Huge mutasyon aşaması",
+          "role": "Yüksek DPS'li saldırgan",
+          "description": "Huge Spike, yıkıcı Slime RNG hasarına sahip devasa bir Spike varyantıdır. Delici saldırıları onu güçlü bir hasar odaklı seçim yapar.",
+          "recommendedUse": "Agresif farm, boss tarzı hedefler ve ham hasarın işlevsellikten daha önemli olduğu bölgeler için kullanın."
+        },
+        {
+          "name": "Huge Lucky",
+          "rarity": "Efsanevi - Huge Varyantı",
+          "odds": "Huge mutasyon aşaması",
+          "role": "Luck çarpanı desteği",
+          "description": "Huge Lucky, 3x Luck çarpanı ile en iyi Slime RNG Luck artırıcılarından biridir. Nadir Slime avı için en değerli Slime'lardan biridir.",
+          "recommendedUse": "Uzun vadeli koleksiyon verimliliğini artırmak için odaklanmış nadir, Shiny, Huge ve Mythic avlama seansları sırasında kuşanın."
+        },
+        {
+          "name": "Void Slime",
+          "rarity": "Mythic Nadirlik",
+          "odds": "Tahmini 10.000.000'da 1",
+          "role": "Oyun sonu hedef ölçütü",
+          "description": "Void Slime, eşsiz güce ve oyunun gidişatını değiştiren benzersiz yeteneklere sahip Mythic seviye bir Slime RNG Slime'ıdır. Bir Huge varyantı değildir, ancak oyun sonu Luck biriktirmenin etrafında kurulduğu hedef türünü temsil eder.",
+          "recommendedUse": "Mythic seviye av hedeflerine doğru ilerlerken Huge Lucky, rebirth çarpanları ve aktif Luck boost'larını kullanın."
+        }
+      ],
+      "tips": [
+        "Slime RNG Huge varyantları, temel Slime'ları her zamanki favoriniz olmasa bile saklamaya değerdir.",
+        "Huge Lucky, nadir avcılığı için güçlü bir destek hedefidir çünkü değeri sadece hasara değil Luck'a bağlıdır.",
+        "Huge Shiny sonuçları oyun sonu koleksiyon hedefleridir ve yanlışlıkla değiştirilmeye karşı korunmalıdır."
+      ]
+    },
+    "slimeRngVoidSlimeGuide": {
+      "eyebrow": "Mythic Slime Hedefi",
+      "title": "Slime RNG Void Slime Rehberi",
+      "subtitle": "Void Slime, Mythic kademeli kovalama Slime'ıdır ve üst düzey bir Slime RNG koleksiyon hedefidir.",
+      "intro": "Void Slime, SSS kademeli bir Mythic Slime olarak Slime RNG ilerleme basamağının en tepesinde yer alır. 10.000.000'da 1 olarak listelenen oranlarla oyuncular, bunu yüksek Roll hacmi, Rebirth Luck çarpanları ve güçlü çiftçilik verimliliği etrafında inşa edilmiş bir oyun sonu hedefi olarak görmelidir.",
+      "items": [
+        {
+          "title": "Slime RNG Void Slime Genel Bakış",
+          "rarity": "Mythic",
+          "tier": "SSS",
+          "damage": "25.000",
+          "speed": "2.0",
+          "role": "Nihai kovalama Slime'ı",
+          "summary": "Void Slime, eşsiz oyun sonu gücüne ve oyunun kurallarını değiştiren benzersiz yeteneklere sahip Mythic nadirlikte bir Slime'dır. Slime RNG kademe listesinde Huge Spike, Huge Rocky, Huge Lucky, Orca ve Lucky Slime'ın üzerinde konumlandırılmıştır."
+        },
+        {
+          "title": "Slime RNG Listelenen Roll Oranları",
+          "odds": "10.000.000'da 1",
+          "searchIntent": "void slime, mythic slime, en nadir slime",
+          "summary": "Void Slime, mevcut Slime veritabanındaki onaylanmış en nadir Slime RNG hedefidir. Oranları onu uzun vadeli bir koleksiyon hedefi haline getirir, bu nedenle oyuncular hızlı sonuçlar beklemek yerine toplam Roll sayısını artırmaya odaklanmalıdır."
+        },
+        {
+          "title": "Slime RNG Oyuncuları Neden Void Slime Peşinde Koşar?",
+          "powerPosition": "Listelenen en yüksek Slime kademesi",
+          "summary": "Void Slime, Mythic nadirliği mevcut Slime RNG kademe listesindeki en yüksek listelenen hasar değeriyle birleştirir. Hem bir prestij göstergesi hem de derin çiftçilik döngüleri için pratik bir oyun sonu güç hedefi olarak işlev görür."
+        },
+        {
+          "title": "Slime RNG Void Slime Hazırlık Yolu",
+          "focus": "Roll hacmi artı Luck ölçeklendirmesi",
+          "summary": "Ciddi bir şekilde Void Slime avlamadan önce, Roll işlemini otomatikleştirin, Roll Speed artırın, Rebirth döngülerini zorlayın ve Super Luck, Ultra Luck ve kalıcı Rebirth çarpanlarını biriktirin. Dakika başına daha fazla Roll ve daha güçlü Luck çarpanları, uzun süreli avlanma verimliliğini doğrudan artırır."
+        },
+        {
+          "title": "Slime RNG Rebirth Avantajı",
+          "focus": "Kalıcı Luck çarpanı",
+          "summary": "Void Slime avcılığı Rebirth'ten sonra daha verimli hale gelir çünkü Rebirth kalıcı Luck çarpanı büyümesi ekler. Güçlü tutulan Slime'lar ayrıca oyuncuların her sıfırlamadan sonra daha hızlı yeniden inşa etmelerini sağlayarak zamanla daha fazla yüksek verimli Roll pencereleri oluşturur."
+        },
+        {
+          "title": "Slime RNG Oyun Sonu Avlanma Döngüsü",
+          "focus": "Farm yap, Rebirth yap, Luck biriktir, Roll yap",
+          "summary": "En verimli döngü, yüksek verimli bölgelerde farm yapmak, Goop kilidini açıp farm yapmak, bir sonraki çarpan hazır olur olmaz Rebirth yapmak ve ardından daha agresif bir şekilde Roll yapmak için daha güçlü Luck tabanını kullanmaktır."
+        }
+      ]
+    },
+    "slimeRngZoneMap": {
+      "eyebrow": "Bölge İlerlemesi",
+      "title": "Slime RNG Bölge Haritası",
+      "subtitle": "Slime RNG düşman HP'sini, coin verimini, kilit açma maliyetlerini ve temizleme hızı zamanlamasını karşılaştırın.",
+      "intro": "Slime RNG bölgeleri keskin bir şekilde ölçeklenir: her yeni alan daha yüksek düşman canına ancak çok daha iyi coin verimine sahiptir. Takımınız mevcut düşmanları 10 saniyenin altında temizleyebildiğinde ilerleyin, çünkü çok erken hareket etmek çiftçiliği yavaşlatırken, çok uzun süre kalmak gelir potansiyelini boşa harcar.",
+      "items": [
+        {
+          "zone": 1,
+          "name": "The Meadow",
+          "phase": "Başlangıç Bölgesi",
+          "enemyHp": "100",
+          "coinYield": "10 Coin",
+          "unlock": "Başlangıç",
+          "recommendation": "Buradan başlayın, temel Slime RNG Slime'ları için Roll yapın, en iyi takımınızı kuşanın ve erken otomasyon için yeterli Coin biriktirin."
+        },
+        {
+          "zone": 2,
+          "name": "The Forest",
+          "phase": "Oyun Başı",
+          "enemyHp": "500",
+          "coinYield": "50 Coin",
+          "unlock": "2.000 Coin",
+          "recommendation": "Başlangıç takımınız Meadow düşmanlarını hızlıca temizledikten sonra buraya geçin. Bu, ilk anlamlı Slime RNG coin verimi artışıdır."
+        },
+        {
+          "zone": 3,
+          "name": "The Cavern",
+          "phase": "Oyun Ortası",
+          "enemyHp": "2.500",
+          "coinYield": "250 Coin",
+          "unlock": "15.000 Coin",
+          "recommendation": "Bölge 2 düşmanları sorunsuz bir şekilde öldüğünde girin. Burası aynı zamanda Goop mekaniği açıldıktan sonra Slime RNG Goop çiftçiliğinin anlamlı hale geldiği yerdir."
+        },
+        {
+          "zone": 4,
+          "name": "The Tundra",
+          "phase": "Oyun Ortası",
+          "enemyHp": "15.000",
+          "coinYield": "1.500 Coin",
+          "unlock": "100.000 Coin",
+          "recommendation": "DPS'niz uzun öldürme süreleri olmadan HP artışını kaldırabildiğinde, burayı daha güçlü bir Slime RNG oyun ortası çiftçilik bölgesi olarak kullanın."
+        },
+        {
+          "zone": 5,
+          "name": "The Storm",
+          "phase": "Oyun Sonu",
+          "enemyHp": "100.000",
+          "coinYield": "10.000 Coin",
+          "unlock": "750.000 Coin",
+          "recommendation": "Slime RNG takımınız geliri verimli bir şekilde tutmak için yeterli hasara ve Düşman Sayısı yükseltmelerine sahip olduğunda burayı zorlayın."
+        },
+        {
+          "zone": 6,
+          "name": "The Void",
+          "phase": "Oyun Sonu",
+          "enemyHp": "750.000",
+          "coinYield": "75.000 Coin",
+          "unlock": "5.000.000 Coin",
+          "recommendation": "Daha üst düzey kilitleri açmadan önce ciddi Slime RNG oyun sonu coin çiftçiliği için bu bölgeyi kullanın. Güçlü Slime Slotları ve DPS yükseltmeleri burada önemlidir."
+        },
+        {
+          "zone": 7,
+          "name": "The Crystal Cave",
+          "phase": "Oyun Sonu",
+          "enemyHp": "5.000.000",
+          "coinYield": "500.000 Coin",
+          "unlock": "35.000.000 Coin",
+          "recommendation": "Slime RNG Rebirth döngüleriniz ve elinizde tuttuğunuz Slime'lar milyonlarca HP'ye sahip düşmanları pratik bir hızda halledebilecek duruma geldiğinde burada farm yapın."
+        },
+        {
+          "zone": 8,
+          "name": "The Alien Hive",
+          "phase": "Nihai",
+          "enemyHp": "35.000.000",
+          "coinYield": "3.500.000 Coin",
+          "unlock": "250.000.000 Coin",
+          "recommendation": "Bu, listelenen son Slime RNG bölgesidir ve en yüksek coin verimi alanıdır. Takımınız 35M HP'li düşmanlara karşı hızlı öldürme sağlayabildiğinde girin."
+        }
+      ]
+    },
+    "slimeRngCoinsFarmingGuide": {
+      "eyebrow": "Coin Çiftçiliği",
+      "title": "Slime RNG Coin Çiftçiliği Rehberi",
+      "subtitle": "Daha hızlı Slime RNG Coin kazanmak için DPS, otomasyon, bölge zamanlaması ve gelir yükseltmelerini kullanın.",
+      "intro": "Coin'ler, erken ve orta oyun Slime RNG ilerlemesinin temelidir. Roll yapmayı, yükseltmeleri, bölge kilitlerini açmayı ve 10.000.000 Coin Goop kontrol noktasını desteklerler. İlerleme yavaşlarsa, darboğaz genellikle DPS, bölge zamanlaması veya gelir hızından önce Luck'ı tercih eden erken harcamalardır.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Hızlı Bir Slime RNG Öldürme Takımı Kurun",
+          "goal": "Daha zor bölgeleri zorlamadan önce DPS'yi geliştirin.",
+          "actions": [
+            "Düşük hasarlı başlangıç Slime'larını aktif tutmak yerine en güçlü Slime RNG Slime'larınızı kuşanın.",
+            "Fin'i erken önceliklendirin çünkü en iyi oyun başı hasar vericisi olarak listelenmiştir.",
+            "XP'yi artırmak ve çiftçilik gücünü geliştirmek için en iyi Slime'larınıza meyve yedirin."
           ],
-          "description": "Orijinal DOOM'u oyun içi bir TV'de oynayın, ses TV hoparlöründen gelsin.",
+          "why": "Coin'ler düşman öldürmelerinden gelir, bu nedenle daha hızlı öldürmeler, herhangi bir gelişmiş strateji önemli olmadan önce daha hızlı Slime RNG çiftçiliği sağlar."
+        },
+        {
+          "step": 2,
+          "title": "Erken Slime RNG Auto Roll Satın Alın",
+          "goal": "Manuel Roll darboğazını ortadan kaldırın.",
+          "actions": [
+            "Erken bir öncelik olarak 200 Coin karşılığında Auto Roll satın alın.",
+            "Takımınız mevcut bölgedeki düşmanları farm yaparken Roll yapmaya devam edin.",
+            "Gelecekteki DPS'yi ve bölge temizleme hızını artırmak için yeni güçlü Slime'ları kullanın."
+          ],
+          "why": "Auto Roll, siz yükseltmelere, bölge kilitlerine ve takım gücüne odaklanırken Slime RNG ilerlemesini devam ettirir."
+        },
+        {
+          "step": 3,
+          "title": "Ağır Luck Harcamalarından Önce Slime RNG Gelirini Yükseltin",
+          "goal": "10.000.000 Coin'e daha hızlı ulaşın.",
+          "actions": [
+            "Takımınız yeterli DPS'ye sahip olduğunda Düşman Sayısına öncelik verin.",
+            "Toplam Roll hacmini artırmak ve zamanla yararlı Slime yükseltme şansını iyileştirmek için Roll Speed kullanın.",
+            "Coin motorunuz güçlenmeden önce Luck'a aşırı yatırım yapmayın."
+          ],
+          "why": "Düşman Sayısı daha fazla hedef ekleyerek geliri doğrudan artırabilirken, Luck Roll kalitesini artırır ancak Goop için gereken 10M Coin'i doğrudan üretmez."
+        },
+        {
+          "step": 4,
+          "title": "Temizleme Hızına Göre Slime RNG Bölgelerini Değiştirin",
+          "goal": "Çok zayıf veya çok zor bölgelerde zaman kaybetmekten kaçının.",
+          "actions": [
+            "Mevcut düşmanlar 10 saniyenin altında öldüğünde bir sonraki bölgeye geçin.",
+            "The Forest, The Cavern, The Tundra, The Storm, The Void, The Crystal Cave ve The Alien Hive'ı gelir sıçramaları olarak kullanın.",
+            "Düşmanların ölmesi çok uzun sürüyorsa, geri durun ve önce DPS, Slime Slotları veya Düşman Sayısını yükseltin."
+          ],
+          "why": "Her daha yüksek Slime RNG bölgesi daha iyi coin verimi sağlar, ancak yalnızca takımınız düşmanları yeterince hızlı temizleyebiliyorsa."
+        },
+        {
+          "step": 5,
+          "title": "Hasarı Katlamak İçin Slime RNG Slime Slotlarını Kullanın",
+          "goal": "Takım genelindeki DPS'yi artırın.",
+          "actions": [
+            "Mevcut olduğunda Slime Slotları satın alın çünkü daha fazla konuşlandırılmış Slime, daha fazla toplam hasar demektir.",
+            "Slime Slotlarını Roll yaparak ve meyve XP yatırımıyla elde edilen daha güçlü Slime'larla eşleştirin.",
+            "Daha yüksek HP'li bölgeleri daha verimli bir şekilde farm yapmak için ekstra DPS'yi kullanın."
+          ],
+          "why": "Daha fazla Slime daha fazla hasar çıktısı oluşturur, bu da öldürme süresini kısaltır ve dakika başına Slime RNG Coin miktarını artırır."
+        },
+        {
+          "step": 6,
+          "title": "10M Coin'i Slime RNG Oyun Ortası Kontrol Noktası Olarak Görün",
+          "goal": "Goop kilidini açın ve Rebirth için hazırlanın.",
+          "actions": [
+            "Goop düşürmelerinin kilidini açmak için 10.000.000 Coin harcayana kadar gelir yükseltmelerini zorlayın.",
+            "Mekanik açıldıktan sonra Goop için bölge 3 ve sonrasında farm yapın.",
+            "Kalıcı Luck çarpanı büyümesi kazanmak için Rebirth kullanın, ardından çiftçilik döngüsünü daha hızlı tekrarlayın."
+          ],
+          "why": "İlk 10M Coin eşiği prestij ekonomisinin kilidini açar. Rebirth'ten sonra, elde tutulan Slime'lar ve kalıcı çarpanlar sonraki Slime RNG coin çiftçiliğini daha hızlı hale getirir."
+        }
+      ]
+    },
+    "slimeRngUpgradesGuide": {
+      "eyebrow": "Yükseltme Önceliği",
+      "title": "Slime RNG Yükseltme Rehberi",
+      "subtitle": "Derin Luck harcamalarından önce Slime RNG otomasyonu, Roll hacmi, öldürme hızı, bölge erişimi ve coin geliri oluşturun.",
+      "intro": "Slime RNG yükseltmeleri oyuncunun mevcut darboğazını takip etmelidir. Coin'e ihtiyacınız varsa Auto Roll, Enemy Count, Slime Slots ve bölge ilerlemesine öncelik verin. Goop ve Rebirth döngüleri aktif olduktan sonra Super Luck, Ultra Luck, Goop Drop, Boss Spawns, Enemy Rush ve Offline Loot'a geçiş yapın.",
+      "items": [
+        {
+          "upgrade": "Auto Roll",
+          "priority": "S",
+          "bestTiming": "Oyunun başında hemen",
+          "effect": "Satın alındıktan sonra Slime RNG Roll işlemini otomatikleştirir.",
+          "useCase": "Manuel tıklamayı ortadan kaldırmak ve farm yaparken Slime edinimini sürdürmek için 200 Coin karşılığında satın alın."
+        },
+        {
+          "upgrade": "Roll Speed",
+          "priority": "S",
+          "bestTiming": "Oyunun başında ve ileride her zaman yararlıdır",
+          "effect": "Zamanla toplam Slime RNG Roll sayısını artırır.",
+          "useCase": "Dakika başına daha fazla Roll, daha güçlü Slime'lar, nadir Slime'lar ve uzun vadeli hedefler bulma şansının artması demektir."
+        },
+        {
+          "upgrade": "Enemy Count",
+          "priority": "S",
+          "bestTiming": "Oyunun başından ortasına kadar, DPS sabitlendiğinde",
+          "effect": "Aynı anda farm yapmak için daha fazla Slime RNG düşmanı ekler.",
+          "useCase": "Yoğun Luck harcamasından önce buna öncelik verin çünkü ekibiniz yeterince hızlı öldürdüğünde daha fazla hedef doğrudan coin gelirini artırabilir."
+        },
+        {
+          "upgrade": "Slime Slots",
+          "priority": "S",
+          "bestTiming": "Oyunun ortasından itibaren",
+          "effect": "Aynı anda daha fazla Slime RNG Slime'ının savaşmasına izin verir.",
+          "useCase": "Daha fazla konuşlandırılmış Slime; daha fazla DPS, daha hızlı öldürme, daha iyi bölge ilerlemesi ve daha güçlü coin farm'ı demektir."
+        },
+        {
+          "upgrade": "Super Luck",
+          "priority": "A",
+          "bestTiming": "İlk gelir temeli oluşturulduktan sonra",
+          "effect": "Nadir Slime RNG Slime'ı Roll ihtimallerini iyileştirir.",
+          "useCase": "Coin motorunuz yeterince güçlü olduktan sonra satın alın. Rebirth çarpanlarıyla birleştirildiğinde çok daha iyi hale gelir."
+        },
+        {
+          "upgrade": "Ultra Luck",
+          "priority": "A",
+          "bestTiming": "Rebirth sonrası ve oyun sonu avcılığı",
+          "effect": "Nadir Slime RNG Slime'ı Roll ihtimallerini daha da iyileştirir.",
+          "useCase": "Özellikle Huge varyantları, Mythic hedefleri ve uzun süreli Roll hedeflerini kovalarken üst düzey Slime avcılığı için kullanın."
+        },
+        {
+          "upgrade": "Goop Drop",
+          "priority": "A",
+          "bestTiming": "Goop açıldıktan sonra",
+          "effect": "Slime RNG Goop farm verimliliğini seviye başına %10 artırır.",
+          "useCase": "Goop temel prestij para birimi olduğundan, Rebirth döngüleri arasındaki süreyi kısaltmak için bunu kullanın."
+        },
+        {
+          "upgrade": "Boss Spawns",
+          "priority": "A",
+          "bestTiming": "Ekibiniz yüksek HP'li düşmanlarla başa çıkabildiğinde",
+          "effect": "Boss odaklı Slime RNG farm fırsatlarına erişimi artırır.",
+          "useCase": "Boss'ların canı çok daha yüksektir ancak ödül potansiyelleri daha iyidir, bu nedenle bu en iyi DPS'niz güçlü olduğunda işe yarar."
+        },
+        {
+          "upgrade": "Enemy Rush",
+          "priority": "B+",
+          "bestTiming": "Düşman mevcudiyetinin farm'ı sınırladığı oyun sonu",
+          "effect": "Slime RNG düşman doğma oranını %25 artırır.",
+          "useCase": "Ekibiniz düşmanları göründüklerinden daha hızlı öldürdüğünde güçlüdür. DPS zaten yüksekse farm akışını iyileştirir."
+        },
+        {
+          "upgrade": "Offline Loot",
+          "priority": "B+",
+          "bestTiming": "Oyunun ortasından sonuna kadar",
+          "effect": "Uzakta olduğunuzda mevcut DPS'ye göre ölçeklendirilmiş Slime RNG ödülleri üretir.",
+          "useCase": "Özellikle ekibiniz ve bölgeleriniz zaten güçlüyken, oturumlar arasında ilerlemeyi sürdürmek için kullanışlıdır."
+        },
+        {
+          "upgrade": "Lucky Clover",
+          "priority": "B",
+          "bestTiming": "Oyun sonu destek yükseltmesi",
+          "effect": "Yonca mekaniği sıklığını %20 artırır.",
+          "useCase": "Ana gelir, Rebirth ve Roll hızı sistemleri zaten geliştirildikten sonra destekleyici bir Luck ile ilgili yükseltme olarak çalışır."
+        }
+      ]
+    },
+    "slimeRngFruitsAndXpGuide": {
+      "eyebrow": "Sarf Malzemeleri",
+      "title": "Slime RNG Meyveler ve XP Rehberi",
+      "subtitle": "En güçlü Slime'larınızın seviyesini yükseltmek ve farm hızınızı artırmak için Slime RNG meyvelerini kullanın.",
+      "intro": "Meyveler, Slime RNG'deki basit ama önemli ilerleme öğeleridir. Onları en yüksek nadirlikteki veya en yüksek DPS'li Slime'larınıza, özellikle Huge varyantlarına, Orca, Lucky Slime veya Rebirth döngüleri boyunca tuttuğunuz ana taşıyıcıya yedirin.",
+      "items": [
+        {
+          "item": "Apple",
+          "type": "Meyve / Sarf Malzemesi",
+          "xpPerUse": "75 XP",
+          "bestTarget": "En yüksek nadirlikteki Slime RNG Slime'ı veya ana DPS taşıyıcısı",
+          "knownSources": "craftAway ve semils gibi kod ödülleri; genel meyve düşmeleri ve ödülleri",
+          "usageNote": "Düşük seviyeli başlangıç Slime'ları yerine Rebirth'ten sonra da yararlı kalan Slime RNG Slime'ları için saklanması en iyisidir."
+        },
+        {
+          "item": "Cherry",
+          "type": "Meyve / Sarf Malzemesi",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Oyun ortası ve oyun sonu Slime RNG taşıyıcı Slime'ları",
+          "knownSources": "Meyve ödülleri ve sarf malzemesi ilerlemesi",
+          "usageNote": "Doğrudan öldürme hızını artıran Slime RNG Slime'larında kullanın, çünkü daha hızlı öldürme, daha hızlı coin ve Goop farm'ı demektir."
+        },
+        {
+          "item": "Carrot",
+          "type": "Meyve / Sarf Malzemesi",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Orca, Huge Rocky, Huge Spike, Huge Lucky veya Void Slime",
+          "knownSources": "Meyve ödülleri ve sarf malzemesi ilerlemesi",
+          "usageNote": "Daha zor bölgelere girmeden önce kilit bir Slime RNG Slime'ını ana seviye eşiklerine yaklaştırmak için iyidir."
+        },
+        {
+          "item": "Banana",
+          "type": "Meyve / Sarf Malzemesi",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Güçlü DPS, AoE veya Luck faydası olan oyun sonu Slime RNG Slime'ları",
+          "knownSources": "Meyve ödülleri ve sarf malzemesi ilerlemesi",
+          "usageNote": "XP'yi her Slime'a ince bir şekilde yaymak yerine, en iyi uzun vadeli Slime RNG Slime'larınızda düzenli olarak kullanın."
+        },
+        {
+          "item": "Leveling Priority",
+          "type": "Strateji",
+          "xpPerUse": "Meyve tabanlı XP",
+          "bestTarget": "Önce bir Slime RNG ana taşıyıcısı, ardından ikincil yardımcı Slime'lar",
+          "knownSources": "Başlangıç ve ileri düzey ilerleme rehberleri",
+          "usageNote": "Seviyesi yükseltilmiş bir Huge Slime veya güçlü bir nadir Slime RNG Slime'ı, seviyesi düşük birkaç alt kademe Slime'dan çok daha iyi farm değerine sahiptir."
+        }
+      ]
+    },
+    "slimeRngDiceAndRollSpeedGuide": {
+      "eyebrow": "Roll Stratejisi",
+      "title": "Slime RNG Zar ve Roll Hızı Rehberi",
+      "subtitle": "Roll Speed daha sık Roll yapmanıza yardımcı olurken, Luck her bir Slime RNG Roll işleminin kalitesini artırır.",
+      "intro": "Dice, Big Dice, Auto Roll, Roll Speed yükseltmeleri, Roll Speed Boost'ları ve Luck Boost'larının tümü nadir Slime avcılığını destekler ancak farklı işler yaparlar. Daha fazla Roll, elde ettiğiniz şans sayısını artırırken, Luck çarpanları her şansın içindeki ihtimalleri iyileştirir.",
+      "items": [
+        {
+          "question": "Slime RNG Roll Speed aslında neyi geliştirir?",
+          "answer": "Roll Speed, belirli bir zaman diliminde kaç tane Slime RNG Roll yapabileceğinizi artırır. Daha fazla Roll; nadir, shiny, huge ve mythic Slime'lar için daha fazla deneme demektir.",
+          "bestUse": "Auto Roll satın aldıktan sonra Slime RNG Roll Speed'i erkenden yükseltin çünkü daha hızlı Roll yapmak her farm oturumunda katlanarak artar.",
+          "relatedRewards": "Roll Speed yükseltmeleri, Roll Speed Boost"
+        },
+        {
+          "question": "Slime RNG Dice ne için kullanılır?",
+          "answer": "Dice, Slime RNG Roll Speed ilerlemesine ve Roll verimliliğine bağlıdır. Başlangıç rotası, oyuncuları ilk 15 dakika içinde Roll Speed yükseltmeleri için Dice para birimini kullanmaya yönlendirir.",
+          "bestUse": "Amacınız dakika başına toplam Roll sayısını artırmak olduğunda Slime RNG Dice'ı Roll Speed için harcayın.",
+          "relatedRewards": "Dice para birimi, Roll Speed yükseltmeleri"
+        },
+        {
+          "question": "Slime RNG Big Dice en iyi ne için kullanılır?",
+          "answer": "Big Dice, time2Grind gibi kodlardan bir ödül olarak görünür ve Roll odaklı ödül kategorisine aittir. En iyi, aktif olarak farm yaparken ve daha güçlü bir Roll oturumundan yararlanabileceğiniz zaman kullanılır.",
+          "bestUse": "Nadir Slime denemelerini maksimize etmek için Slime RNG Big Dice'ı Luck Boost'ları veya yüksek Rebirth çarpanlı bir oturumla eşleştirin.",
+          "relatedRewards": "time2Grind"
+        },
+        {
+          "question": "Slime RNG Roll Speed Boost ne zaman kullanılmalı?",
+          "answer": "Roll Speed Boost, ekstra Roll sıklığından yararlanacak kadar uzun süre aktif kalabildiğinizde en güçlüdür. craftAway ve semils gibi kod ödülleri, Ultra Luck Boost ve Apple'ların yanı sıra Roll Speed Boost içerir.",
+          "bestUse": "Auto Roll etkinleştirildikten sonra ve nadir Slime RNG Slime'ları, Huge varyantları veya bir sonraki bölgeden önce daha güçlü bir ekip için zorlarken kullanın.",
+          "relatedRewards": "craftAway, semils"
+        },
+        {
+          "question": "Luck ve daha fazla Roll arasındaki Slime RNG farkı nedir?",
+          "answer": "Daha fazla Roll, aldığınız şans sayısını artırır. Luck, özellikle Rebirth çarpanları ve Luck yükseltmeleri bir araya geldikten sonra, efektif ihtimalleri azaltarak her Roll içindeki şans kalitesini artırır.",
+          "bestUse": "Erken aşamada Slime RNG Roll Speed ve gelire öncelik verin, ardından Goop ve Rebirth döngüleri açıldıktan sonra Luck'ı yoğun bir şekilde biriktirin.",
+          "relatedRewards": "Ultra Luck Boost, grup +1 Luck, Rebirth çarpanları"
+        },
+        {
+          "question": "Dice ve boost'lar için Slime RNG kodlarını hemen kullanmalı mıyım?",
+          "answer": "Küçük coin ödüllerini ihtiyaç duyduğunuzda kullanın, ancak yüksek değerli Roll ödüllerini Auto Roll, Roll Speed ve en iyi Luck kurulumunuzun hazır olduğu aktif oturumlar için saklayın.",
+          "bestUse": "En iyi zamanlama, Slime RNG eğitiminin tamamlanmasından, Auto Roll satın alınmasından sonra ve ekibiniz durmadan tutarlı bir şekilde farm yapabildiğindedir.",
+          "relatedRewards": "time2Grind, craftAway, semils"
+        }
+      ]
+    },
+    "slimeRngTradingValues": {
+      "eyebrow": "Takas",
+      "title": "Slime RNG Takas Değerleri",
+      "subtitle": "Huge varyantları, nadir Slime'lar ve oyun başı taşıyıcıları takas etmeden önce Slime RNG Slime değerlerini karşılaştırın.",
+      "intro": "Slime RNG'deki takas değeri; nadirlik, savaş gücü, Luck faydası ve oyun sonu talebiyle belirlenir. Huge Spike, Huge Rocky ve Huge Lucky takas piyasasının zirvesinde yer alırken, Orca ve Lucky Slime orta oyun için kullanışlı değer hedefleri olmaya devam ediyor.",
+      "items": [
+        {
+          "slime": "Void Slime",
+          "estimatedValue": "Paha Biçilemez / Sadece Sergilemelik",
+          "demand": "Sadece Sergilemelik",
+          "tierOrRole": "Mythic / Nihai sergileme",
+          "tradingNote": "Standart bir takas öğesinden ziyade nihai bir koleksiyon hedefi olarak kullanılan Mythic kademe Slime RNG Slime'ı."
+        },
+        {
+          "slime": "Huge Spike",
+          "estimatedValue": "50B+ Coin",
+          "demand": "Çok Yüksek",
+          "tierOrRole": "Legendary Huge Varyantı / DPS",
+          "tradingNote": "Seçkin hasar rolü ve oyun sonu farm değeri nedeniyle en yüksek talebe sahip Slime RNG Huge varyantı."
+        },
+        {
+          "slime": "Huge Rocky",
+          "estimatedValue": "35B - 50B Coin",
+          "demand": "Yüksek",
+          "tierOrRole": "Legendary Huge Varyantı / AoE farm",
+          "tradingNote": "Muazzam AoE ve oyun sonu Slime RNG farm verimliliği nedeniyle değerlidir."
+        },
+        {
+          "slime": "Huge Lucky",
+          "estimatedValue": "25B - 40B Coin",
+          "demand": "Yüksek",
+          "tierOrRole": "Legendary Huge Varyantı / Luck faydası",
+          "tradingNote": "Luck çarpanı gelecekteki nadir Slime avlarını desteklediği için güçlü bir Slime RNG değerine sahiptir."
+        },
+        {
+          "slime": "Orca",
+          "estimatedValue": "500M - 1B Coin",
+          "demand": "Orta-Yüksek",
+          "tierOrRole": "Rare / Orta oyun taşıyıcısı",
+          "tradingNote": "Mükemmel bir orta oyun Slime RNG DPS seçeneği ve oyun sonu bölgelerine ilerleyen oyuncular için pratik bir hedeftir."
+        },
+        {
+          "slime": "Lucky Slime",
+          "estimatedValue": "300M - 800M Coin",
+          "demand": "Orta",
+          "tierOrRole": "Rare / Luck pasifi",
+          "tradingNote": "Nadir düşürmeleri farm'lamak için kullanışlıdır, ancak saf DPS Huge varyantları genellikle daha güçlü Slime RNG talebi görür."
+        },
+        {
+          "slime": "Fin",
+          "estimatedValue": "50M - 150M Coin",
+          "demand": "Orta",
+          "tierOrRole": "Common / Oyun başı DPS",
+          "tradingNote": "En iyi erken aşama Slime RNG hasar vericilerinden biri olduğu için güçlü bir başlangıç değerine sahiptir."
+        },
+        {
+          "slime": "Spike",
+          "estimatedValue": "30M - 80M Coin",
+          "demand": "Düşük-Orta",
+          "tierOrRole": "Uncommon / Hızlı saldırgan",
+          "tradingNote": "Kullanışlı bir erken aşama Slime RNG hasar seçeneğidir, ancak oyuncular Orca veya Huge varyantlarına ulaştığında takas gücünü kaybeder."
+        },
+        {
+          "slime": "Rocky",
+          "estimatedValue": "20M - 50M Coin",
+          "demand": "Düşük",
+          "tierOrRole": "Uncommon / Tank",
+          "tradingNote": "Savunma rolü ona bir miktar Slime RNG kullanımı sağlar, ancak piyasa talebi DPS odaklı Slime'lardan daha düşüktür."
+        },
+        {
+          "slime": "Fire Slime",
+          "estimatedValue": "15M - 40M Coin",
+          "demand": "Düşük",
+          "tierOrRole": "Uncommon / Zamanla hasar",
+          "tradingNote": "Durumsal DoT değeri, çoğunlukla daha güçlü nadir veya Huge Slime RNG seçenekleri mevcut olmadan önce kullanışlıdır."
+        },
+        {
+          "slime": "Ice Slime",
+          "estimatedValue": "10M - 35M Coin",
+          "demand": "Düşük",
+          "tierOrRole": "Uncommon / Yavaşlatma faydası",
+          "tradingNote": "Doğrudan DPS veya Luck artıran Slime'lara kıyasla sınırlı takas talebi olan, fayda odaklı Slime RNG Slime'ı."
+        }
+      ]
+    },
+    "slimeRngUpdatesAndPatchNotes": {
+      "eyebrow": "Güncellemeler",
+      "title": "Slime RNG Güncellemeleri ve Yama Notları",
+      "subtitle": "Slime RNG yeni bölgelerini, yeni Slime'ları, kod paylaşımlarını, denge değişikliklerini ve gelecekteki içerik yönlerini takip edin.",
+      "intro": "Slime RNG güncellemeleri ilerleme rotalarını, takas talebini, Roll önceliklerini ve kod ödüllerini etkiler. En önemli son değişiklikler arasında Bölge 8, Void Slime, Huge varyantları, Zar tabanlı Roll Speed ilerlemesi ve yeni promosyon kodu ödül döngüleri yer alıyor.",
+      "items": [
+        {
+          "date": "25 Nisan 2026",
+          "version": "Canlı Veri Güncellemesi",
+          "title": "Slime RNG Yeni Promosyon Kodları Yayınlandı",
+          "category": "Promosyon Kodları",
           "highlights": [
-            "Çok oyunculu modda çalışır, böylece diğer oyuncular aynı TV'de izleyebilir",
-            "Shareware DOOM bölüm verilerini içerir (Bölüm 1)"
+            "Ultra Luck Boost ve Big Dice ödülleriyle time2Grind eklendi",
+            "Ultra Luck Boost, Roll Speed Boost ve 4 Elma ile craftAway eklendi",
+            "Ultra Luck Boost, Roll Speed Boost ve Elmalar ile semils listelendi",
+            "Kod ödülleri Slime RNG Roll hızını, Luck biriktirmeyi ve Slime seviye atlamayı destekler"
           ]
-        }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Lucid Blocks Kontrol Cihazı Desteği",
-      "subtitle": "Tam gamepad oyunu",
-      "native": {
-        "title": "Oyun İçi Ayarlar",
-        "description": "Kontrolleri ayarlamak için oyunun bağlamaları/ayarlar menülerini kullanın."
-      },
-      "mod": {
-        "title": "Kontrol Cihazı Desteği Modu",
-        "description": "Menüde gezinme için eksiksiz gamepad/kontrol cihazı desteği ve bir UI imleci ekler."
-      },
-      "features": [
-        "Tam Oynanış Kontrolleri: hareket, kamera, savaş, etkileşimler ve yetenekler gamepad'e eşlenmiştir",
-        "UI İmleç Gezinmesi: menülerde beyaz bir daire imleci görünür; tıklamak ve kaydırıcıları sürüklemek için A'ya basın",
-        "Envanter Gezinmesi: envanteri açmak için Seç'i basılı tutun; basılı tutarken gezinmek için sağ çubuğu kullanın",
-        "Kaydırılabilir Menüler: sağ çubuk, üretim tariflerini, ayarları ve diğer kaydırılabilir UI alanlarını kaydırır",
-        "Hızlı Erişim Çubuğu Döngüsü: D-pad sol/sağ, 4 hızlı erişim çubuğu yuvası arasında döngü yapar",
-        "Sorunsuz Giriş Değiştirme: klavye/fare ile kontrol cihazını otomatik olarak algılar"
-      ]
-    },
-    "playerCount": {
-      "title": "Lucid Blocks Oyuncu Sayısı & Trendi",
-      "subtitle": "Canlı popülerlik anlık görüntüsü",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Şu anda oyuncu"
-        },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24 saatlik zirve"
-        },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Tüm zamanların zirvesi"
-        }
-      },
-      "milestones": [
-        {
-          "date": "30 Ocak 2026",
-          "title": "Steam'de demo yayınlandı",
-          "detail": "Herkese açık demo PC'de (Steam) kullanıma sunuldu."
         },
         {
-          "date": "8 Şubat 2026",
-          "title": "Tüm zamanların zirvesine ulaşıldı",
-          "detail": "Demo, kaydedilen en yüksek eş zamanlı oyuncu sayısına ulaştı."
+          "date": "20 Nisan 2026",
+          "version": "Versiyon 1.2",
+          "title": "Slime RNG Bölge 8 ve Void Slime Güncellemesi",
+          "category": "Büyük Güncelleme",
+          "highlights": [
+            "Bölge 8 Eklendi: Uzaylı Kovanı",
+            "Bölge 8'in kilidini açmak için 250M Coin gerekir",
+            "Void Slime, Mythic kademe bir Slime olarak tanıtıldı",
+            "Lucky Clover yükseltmesi eklendi",
+            "Çevrimdışı ganimet tutma ölçeklendirmesi eklendi",
+            "Rebirth çarpanı kazançları %15 artırıldı",
+            "Bölge 5-7'deki Goop düşme oranları artırıldı",
+            "Daha akıcı bir ilerleme için Bölge 6-7'deki düşman canı azaltıldı"
+          ]
+        },
+        {
+          "date": "18 Nisan 2026",
+          "version": "Canlı Veri Güncellemesi",
+          "title": "Slime RNG Huge Slime Varyantları Onaylandı",
+          "category": "Oyun Mekaniği",
+          "highlights": [
+            "Huge Rocky, yüksek değerli bir oyun sonu AoE varyantı olarak onaylandı",
+            "Huge Spike, en iyi DPS takas hedefi olarak onaylandı",
+            "Huge Lucky, önemli bir Luck faydası varyantı olarak onaylandı",
+            "Huge varyantları, Slime RNG oyun sonu takas ve farm işlemleri için ana hedefler haline geldi"
+          ]
+        },
+        {
+          "date": "12 Nisan 2026",
+          "version": "Canlı Veri Güncellemesi",
+          "title": "Slime RNG Bölge 8 Gereksinimleri Keşfedildi",
+          "category": "Bölge İlerlemesi",
+          "highlights": [
+            "Uzaylı Kovanı 250M Coin gerektirir",
+            "Bölge 8 düşmanları 35M HP'ye ulaşır",
+            "Bölge 8 düşman öldürmeleri 3.5M Coin kazandırabilir",
+            "Oyun sonu Slime RNG ekiplerinin bu bölgeyi zorlamadan önce güçlü DPS'ye ve yükseltilmiş farm hızına ihtiyacı var"
+          ]
+        },
+        {
+          "date": "10 Nisan 2026",
+          "version": "Mekanik Güncellemesi",
+          "title": "Slime RNG Rebirth Çarpanı Mekanikleri Açıklandı",
+          "category": "İlerleme",
+          "highlights": [
+            "Rebirth çarpanı sıçramaları gelecekteki turları büyük ölçüde hızlandırabilir",
+            "Grup +1 Luck, Rebirth odaklı ilerleme ile etkileşime girer",
+            "Luck biriktirme, Goop ve Rebirth döngüleri açıldıktan sonra çok daha güçlü hale gelir"
+          ]
+        },
+        {
+          "date": "8 Nisan 2026",
+          "version": "Sarf Malzemeleri Güncellemesi",
+          "title": "Slime RNG Meyve XP Değerleri Onaylandı",
+          "category": "Sarf Malzemeleri",
+          "highlights": [
+            "Elma 75 XP sağlar",
+            "Kiraz 75 XP sağlar",
+            "Havuç 75 XP sağlar",
+            "Muz 75 XP sağlar",
+            "En iyi kullanım, meyveleri yüksek nadirlikteki veya uzun vadeli Slime RNG taşıyıcı Slime'larına yedirmektir"
+          ]
+        },
+        {
+          "date": "15 Mart 2026",
+          "version": "Versiyon 1.1",
+          "title": "Slime RNG Kristal Mağara ve Huge Varyant Güncellemesi",
+          "category": "Büyük Güncelleme",
+          "highlights": [
+            "Bölge 7 Eklendi: Kristal Mağara",
+            "Rocky, Spike ve Lucky dahil Huge Slime varyantları tanıtıldı",
+            "25% doğma oranı artışı sağlayan Enemy Rush yükseltmesi eklendi",
+            "Roll Speed yükseltmeleri için premium Zar para birimi eklendi",
+            "Otomatik Roll düğmesi görünürlüğü iyileştirildi",
+            "Aktif Slime aura göstergeleri eklendi",
+            "Koleksiyoncular için envanter yuvaları genişletildi"
+          ]
+        },
+        {
+          "date": "25 Şubat 2026",
+          "version": "Versiyon 1.0",
+          "title": "Slime RNG Lansman Versiyonu",
+          "category": "İlk Yayın",
+          "highlights": [
+            "Slime RNG, Roblox'ta yayınlandı",
+            "İlk sürüm Bölge 1-6'yı içeriyordu",
+            "Temel oynanış Roll yapma, savaş, yükseltmeler ve Rebirth içeriyordu",
+            "Promosyon kodu sistemi aktif edildi",
+            "Stouts Studio grup entegrasyonu eklendi ve +1 Luck sağlandı"
+          ]
+        },
+        {
+          "date": "Yol Haritası İzleme Listesi",
+          "version": "Gelecek İçerik",
+          "title": "Slime RNG Gelecek Güncelleme Temaları",
+          "category": "Gelecek İçerik",
+          "highlights": [
+            "Bölge 8'in ötesinde ek bölgeler",
+            "Yeni Slime varyantları ve mutasyon türleri",
+            "Süper Rebirth tarzı ilerleme",
+            "Coin ve Goop'un ötesinde üçüncü para birimi",
+            "Sınırlı süreli Slime RNG Slime'ları içeren sezonluk etkinlikler"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Sıkça Sorulan",
-    "titleHighlight": "Sorular",
-    "subtitle": "Lucid Blocks hakkında bilmeniz gereken her şey",
+    "title": "Slime RNG SSS",
+    "titleHighlight": "Cevaplar",
+    "subtitle": "Kodlar, Slime'lar, Luck, bölgeler ve rebirth ilerlemesi için hızlı Slime RNG cevapları.",
     "questions": [
       {
-        "question": "Lucid Blocks demosunu nasıl indirebilirim?",
-        "answer": "Steam mağaza sayfasını ziyaret edin ve 'Demo İndir'e tıklayın. Demo ücretsizdir ve indirmek için 2,62 GiB, disk alanı için 4,88 GiB gerektirir."
+        "question": "Slime RNG nedir?",
+        "answer": "Slime RNG, oyuncuların Slime'lar için Roll yaptığı, bir takım kurduğu, düşman Slime'ları yendiği, Coin kazandığı, yükseltmeler satın aldığı, bölgelerin kilidini açtığı ve kalıcı büyüme için rebirth yaptığı bir Roblox RNG koleksiyon oyunudur."
       },
       {
-        "question": "Lucid Blocks'u tek başıma mı oynayabilirim yoksa arkadaşlara mı ihtiyacım var?",
-        "answer": "Lucid Blocks hem tek oyunculu hem de 6 oyuncuya kadar işbirliğini destekler. Tek başına oynamak daha zordur ancak mümkündür."
+        "question": "Slime RNG kodları nasıl çalışır?",
+        "answer": "Slime RNG kodları, Shop içindeki kod kutusunda kullanılır ve Coin, zar, iksir, Elma, Luck boost'ları ve Roll Speed boost'ları gibi ödüller verebilir."
       },
       {
-        "question": "Lucid Blocks'da Yüksek Cüce görevleri nelerdir?",
-        "answer": "Yüksek Cüce, 'TV'yi kır', 'tuvaleti su baskını yap' veya 'belirli eşyaları çal' gibi hedefler atayan patronunuzdur. Ekstra ödüller için bunları tamamlayın."
+        "question": "Slime RNG'ye yeni başlayanlar ilk olarak ne satın almalı?",
+        "answer": "Slime RNG'ye yeni başlayanlar Auto Roll satın almalı, Roll Speed'i geliştirmeli, hazır olduklarında bir sonraki bölgenin kilidini açmalı ve takımları düşmanları hızlıca yenebildiğinde Enemy Count'u artırmalıdır."
       },
       {
-        "question": "Lucid Blocks için modları nasıl kurarım?",
-        "answer": "BepInEx 5'i kurun, oyunu bir kez başlatın, ardından mod DLL'lerini BepInEx/plugins/ klasörüne yerleştirin. Çok oyunculu mod için tüm oyuncuların aynı modlara ihtiyacı vardır."
+        "question": "Erken aşama için en iyi Slime RNG Slime'ı hangisidir?",
+        "answer": "Fin, güvenilir bir başlangıç hasarı verdiği ve yeni oyuncuların düşmanları daha hızlı temizlemesine yardımcı olduğu için en güçlü erken aşama Slime RNG hedefidir."
       },
       {
-        "question": "Lucid Blocks kontrol cihazlarını destekliyor mu?",
-        "answer": "Evet! Temel kontrol cihazı desteği için oyun içi ayarları kullanın veya tam UI gezinmesi için Nexus Mods'tan Kontrol Cihazı Modunu kurun."
-      },
-      {
-        "question": "Lucid Blocks için oyuncu sayısı nedir?",
-        "answer": "Şubat 2026 itibarıyla, Lucid Blocks ortalama 6.000'den fazla eş zamanlı oyuncuya sahip ve 8 Şubat 2026'da 15.272 zirveye ulaştı."
+        "question": "Slime RNG rebirth neden önemlidir?",
+        "answer": "Slime RNG rebirth, ilerlemeyi uzun vadeli çarpan kazançlarına dönüştürerek önemli hesap ilerlemesini korurken sonraki turları daha hızlı hale getirir."
       }
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
-    "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "title": "Bugün Slime RNG Oyna",
+    "description": "Slime'lar için Roll yapmaya, ödülleri toplamaya, daha güçlü bir takım kurmaya ve ilk Slime RNG rebirth'ünüze doğru ilerlemeye başlayın.",
+    "joinCommunity": "Stouts Studio'ya Katıl",
+    "joinGame": "Slime RNG Oyna"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
-    "resources": "Kaynaklar",
-    "community": "Topluluk",
+    "title": "Slime RNG Wiki",
+    "description": "Slime RNG Wiki, Roblox oyuncuları için kodlar, Slime'lar, Luck, yükseltmeler, dünyalar ve başlangıç rotalarını kapsayan bağımsız bir rehber merkezidir.",
+    "community": "Resmi Bağlantılar",
+    "robloxGame": "Slime RNG Roblox Deneyimi",
+    "creatorX": "X'te Leif",
+    "robloxGroup": "Stouts Studio Grubu",
+    "youtubeVideo": "Slime RNG Videosu",
     "legal": "Yasal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
-    "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyrightNotice": "Telif Hakkı Bildirimi",
+    "copyright": "© 2026 Slime RNG Wiki. Tüm hakları saklıdır.",
+    "disclaimer": "Slime RNG Wiki bağımsız bir hayran kaynağıdır ve Roblox Corporation veya Stouts Studio ile bağlantılı değildir."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Rehberleri",
-      "description": "Başlangıç seviyesinden ileri düzey Apotheosis stratejilerine kadar eksiksiz oynanış rehberleri. Hayatta kalma ve üretimde ustalaşın.",
-      "metaTitle": "Lucid Blocks Rehberleri - Başlangıçtan İleri Düzey Stratejilere",
-      "metaDescription": "Başlangıç ipuçlarını, Apotheosis sistemini, hayatta kalma stratejilerini ve gerçeküstü sandbox dünyasında ustalaşmak için uzman taktiklerini kapsayan eksiksiz Lucid Blocks rehberleri.",
-      "categoryLabel": "OYUN REHBERLERİ",
-      "whatIs": "Rehberler Nedir?",
-      "whatIsDescription": "Oynanış mekaniklerini, hayatta kalma stratejilerini ve Apotheosis üretim sistemini kapsayan kapsamlı rehberler. İlk adımlardan ileri tekniklere kadar her şeyi öğrenin.",
-      "why": "Neden rehberleri okumalısınız?",
+    "codes": {
+      "title": "Slime RNG Kodları",
+      "description": "En son Slime RNG kodları, ödül tabloları, kullanma adımları ve ilerleme sırasında ücretsiz takviyeleri kullanmanın pratik yolları.",
+      "metaTitle": "Slime RNG Kodları - Ücretsiz Ödüller ve Kullanma Rehberi",
+      "metaDescription": "Daha hızlı Roblox ilerlemesi için Slime RNG kodlarını, kullanma adımları, ödül notlarını, süresi dolmuş kod işlemlerini ve takviye kullanım ipuçlarını bulun.",
+      "categoryLabel": "SLIME RNG KODLARI",
+      "whatIs": "Slime RNG Kodları Nedir?",
+      "whatIsDescription": "Slime RNG kodları, Roblox oyuncuları için yayınlanan ve coin, elma, zar, Luck iksirleri, roll speed takviyeleri ve diğer ilerleme öğeleri verebilen ödül ifadeleridir.",
+      "why": "Neden bu Slime RNG Kodları rehberini kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Temel Mekanikleri Öğrenin",
-        "step1Description": "Apotheosis sistemini anlayın ve yaygın başlangıç hatalarından kaçının",
-        "step2Title": "Hızlı İlerleme",
-        "step2Description": "Gerçeküstü dünyada hayatta kalmak ve gelişmek için kanıtlanmış yolları izleyin",
-        "step3Title": "Stratejilerde Ustalaşın",
-        "step3Description": "Keşif ve üretim için ileri düzey taktikler geliştirin"
+        "step1Title": "Ödülleri hızlıca talep edin",
+        "step1Description": "Uzun bir rolling veya farming oturumuna başlamadan önce ödül ifadelerini bulmak ve kullanmak için Slime RNG kod listesini kullanın.",
+        "step2Title": "Her öğeyi anlayın",
+        "step2Description": "Coin, elma, zar, Luck iksirleri ve roll speed takviyelerinin rastgele kullanılması yerine Slime RNG ilerlemesine nasıl uyum sağladığını öğrenin.",
+        "step3Title": "Daha iyi oturumlar planlayın",
+        "step3Description": "Kod ödüllerini rebirth, Luck ve ekonomi hedefleriyle eşleştirin, böylece her Slime RNG oyun oturumu daha yararlı roll'ler ve yükseltmeler üretsin."
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Rehberler"
+      "featured": "Öne Çıkanlar ve Temeller",
+      "all": "Tüm Slime RNG Kodları"
+    },
+    "rebirth": {
+      "title": "Slime RNG Rebirth",
+      "description": "Daha sorunsuz ilerleme için Slime RNG rebirth gereksinimleri, zamanlama tavsiyeleri, kalıcı Luck çarpanı notları ve sıfırlama planlaması.",
+      "metaTitle": "Slime RNG Rebirth Rehberi - Gereksinimler ve Zamanlama",
+      "metaDescription": "Slime RNG rebirth gereksinimlerini, ne zaman rebirth yapılacağını, kalıcı Luck çarpanlarının nasıl çalıştığını ve ilerlemeyi sıfırlamadan önce nasıl hazırlanılacağını öğrenin.",
+      "categoryLabel": "SLIME RNG REBIRTH",
+      "whatIs": "What is Slime RNG Rebirth?",
+      "whatIsDescription": "Slime RNG rebirth, mevcut dönüm noktalarını gelecekteki roll'lere yardımcı olan daha güçlü uzun vadeli faydalarla, özellikle kalıcı Luck kazanımlarıyla takas eden bir ilerleme sıfırlamasıdır.",
+      "why": "Neden bu Slime RNG Rebirth rehberini okumalısınız?",
+      "whySteps": {
+        "step1Title": "Gereksinimleri daha erken karşılayın",
+        "step1Description": "Sıfırlamadan önce hangi roll'lerin, coin'lerin, yükseltmelerin veya dönüm noktalarının önemli olduğunu bilmek için Slime RNG rebirth gereksinimlerini takip edin.",
+        "step2Title": "Doğru zamanlamayı seçin",
+        "step2Description": "Slime RNG kurulumunuz verimli bir şekilde toparlanmadan önce sıfırlamayı önlemek için erken ve gecikmeli rebirth rotalarını karşılaştırın.",
+        "step3Title": "Kalıcı Luck'ı iyi kullanın",
+        "step3Description": "Kalıcı Luck çarpanlarının sonraki slime avcılığını, kod kullanımını ve uzun vadeli farming planlarını nasıl şekillendirdiğini anlayın."
+      },
+      "featured": "Öne Çıkanlar ve Temeller",
+      "all": "Tüm Slime RNG Rebirth Rehberleri"
     },
     "crafting": {
-      "title": "Lucid Blocks Üretim",
-      "description": "Öz mekanikleri, tarifler ve güçlü eşyalar için üretim stratejileri ile Apotheosis füzyon sisteminde ustalaşın.",
-      "metaTitle": "Lucid Blocks Üretim - Apotheosis Sistemi ve Tarifler",
-      "metaDescription": "Lucid Blocks Apotheosis üretim sisteminde ustalaşın. Öz mekaniklerini, füzyon tariflerini ve güçlü araçlar ile silahlar oluşturma stratejilerini öğrenin.",
-      "categoryLabel": "ÜRETİM SİSTEMİ",
-      "whatIs": "Üretim Nedir?",
-      "whatIsDescription": "Apotheosis sistemi, yeni tarifler keşfetmek için altı adede kadar eşyayı birleştirdiğiniz benzersiz bir öz odaklı füzyon mekaniğidir. Sabit üretim menüleri yoktur; deney yapmak anahtardır.",
-      "why": "Neden üretimde ustalaşmalısınız?",
+      "title": "Slime RNG Crafting",
+      "description": "Yararlı yükseltmelerin kilidini açmak için Slime RNG crafting tarifleri, tarif konumları, erken rota planlaması ve materyal notları.",
+      "metaTitle": "Slime RNG Crafting - Tarifler ve Konumlar",
+      "metaDescription": "Tarif konumları, crafting tarifleri, ilk rota planlaması, materyal notları ve kilit açma sırası tavsiyeleri için Slime RNG crafting rehberlerini kullanın.",
+      "categoryLabel": "SLIME RNG CRAFTING",
+      "whatIs": "Slime RNG Crafting Nedir?",
+      "whatIsDescription": "Slime RNG crafting, oyuncuların keşif ve kaynakları daha güçlü ilerleme araçlarına dönüştürebilmesi için tarif keşfini, materyal kullanımını ve konum rotalamasını kapsar.",
+      "why": "Neden bu Slime RNG Crafting rehberini okumalısınız?",
       "whySteps": {
-        "step1Title": "Güçlü Eşyaların Kilidini Açın",
-        "step1Description": "Füzyon yoluyla temel araçları, silahları ve hareket ekipmanlarını keşfedin",
-        "step2Title": "Özleri Anlayın",
-        "step2Description": "Eşya özlerinin öngörülebilir sonuçlar oluşturmak için nasıl birleştiğini öğrenin",
-        "step3Title": "Kaynakları Optimize Edin",
-        "step3Description": "Ucuz malzemelerden çıktıyı maksimize etmek için seyreltme mekaniklerini kullanın"
+        "step1Title": "Tariflerinizi daha hızlı bulun",
+        "step1Description": "Gezinmeyi azaltmak ve bir sonraki yükseltme rotanız için gereken crafting kilitlerini toplamak için Slime RNG tarif konumu rehberlerini kullanın.",
+        "step2Title": "Erken kilit açmalara öncelik verin",
+        "step2Description": "İlk tarif konumlarını ve crafting adımlarını rolling, farming veya slime büyümesini iyileştiren ödüller etrafında planlayın.",
+        "step3Title": "Kaynakları hedeflere bağlayın",
+        "step3Description": "Bir ilerleme hedefi olmadan crafting yapmak yerine materyalleri ve tarifleri Slime RNG kodları, ekonomi, Luck ve rebirth planlarıyla eşleştirin."
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Üretim Rehberleri"
+      "featured": "Öne Çıkanlar ve Temeller",
+      "all": "Tüm Slime RNG Crafting Rehberleri"
     },
-    "items": {
-      "title": "Lucid Blocks Eşyaları",
-      "description": "Üretim tarifleri ve kullanım ipuçlarıyla birlikte araçları, silahları, hareket ekipmanlarını ve depolama çözümlerini kapsayan ayrıntılı eşya rehberleri.",
-      "metaTitle": "Lucid Blocks Eşyaları - Araçlar, Silahlar ve Ekipman Rehberi",
-      "metaDescription": "Araçlar, silahlar, hareket ekipmanları ve depolama dahil olmak üzere Lucid Blocks için eksiksiz eşya veritabanı. Her eşyayı nasıl üreteceğinizi ve etkili bir şekilde kullanacağınızı öğrenin.",
-      "categoryLabel": "EŞYALAR VE EKİPMANLAR",
-      "whatIs": "Eşyalar Nedir?",
-      "whatIsDescription": "Araçlar, silahlar, hareket ekipmanları ve işlevsel eşyalar için kapsamlı rehberler. Üretim tariflerini, kullanım stratejilerini ve en uygun kombinasyonları öğrenin.",
-      "why": "Neden eşya rehberlerine bakmalısınız?",
+    "guide": {
+      "title": "Slime RNG Rehberi",
+      "description": "Slime RNG başlangıç rehberleri, ilerleme rotaları, strateji açıklamaları, Roblox ipuçları ve noob'dan nadir slime'a planlama.",
+      "metaTitle": "Slime RNG Rehberi - Başlangıç İpuçları ve İlerleme",
+      "metaDescription": "Başlangıç rotaları, Roblox temelleri, en iyi stratejiler, ilerleme planlaması, nadir slime hedefleri ve pratik oynanış ipuçları için Slime RNG rehberlerini okuyun.",
+      "categoryLabel": "SLIME RNG REHBERİ",
+      "whatIs": "Slime RNG Rehberi bölümü nedir?",
+      "whatIsDescription": "Slime RNG Rehberi bölümü, tam Roblox oynanış döngüsünü açıklar: slime roll'leme, takımlar kurma, coin kazanma, istatistikleri yükseltme, alanların kilidini açma ve nadir buluntulara doğru ilerleme.",
+      "why": "Neden bu Slime RNG Rehberi bölümünü okumalısınız?",
       "whySteps": {
-        "step1Title": "Üretim Tariflerini Öğrenin",
-        "step1Description": "Apotheosis kullanarak temel araçları ve silahları nasıl üreteceğinizi keşfedin",
-        "step2Title": "Ekipmanı Optimize Edin",
-        "step2Description": "Oyun tarzınız ve ilerleme aşamanız için en iyi eşyaları seçin",
-        "step3Title": "Hayatta Kalmayı Geliştirin",
-        "step3Description": "Tehlikeli dünyada gezinmek için hareket ekipmanları ve silahlar kuşanın"
+        "step1Title": "Net bir rota ile başlayın",
+        "step1Description": "Kaynakları harcamadan önce roll'leri, yükseltmeleri, savaşları ve koleksiyon hedeflerini anlamak için Slime RNG başlangıç rehberliğini takip edin.",
+        "step2Title": "Dağınık ilerlemeden kaçının",
+        "step2Description": "Kodları, Luck takviyelerini, coin'leri, crafting'i ve rebirth'ü tek bir pratik planda birleştirmek için ilerleme rehberlerini kullanın.",
+        "step3Title": "Her oturumu iyileştirin",
+        "step3Description": "Her oyun oturumunun belirli bir dönüm noktasını desteklemesi için rolling, farming ve takım kurma konusundaki Slime RNG ipuçlarını uygulayın."
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Eşyalar"
+      "featured": "Öne Çıkanlar ve Temeller",
+      "all": "Tüm Slime RNG Rehberleri"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biyomları",
-      "description": "Her biyom için dünya bölgelerini, çevresel özellikleri, kaynak konumlarını ve hayatta kalma ipuçlarını keşfedin.",
-      "metaTitle": "Lucid Blocks Biyomları - Dünya Bölgeleri ve Keşif",
-      "metaDescription": "Tiamana Leylines, Fog Meadow ve gerçeküstü bölgeler dahil olmak üzere Lucid Blocks biyomlarını keşfedin. Kaynakları bulun, tehlikelerden kaçının ve sonsuz dünyada gezinin.",
-      "categoryLabel": "DÜNYA BÖLGELERİ",
-      "whatIs": "Biyomlar Nedir?",
-      "whatIsDescription": "Farklı dünya bölgeleri, çevresel özellikler, kaynak dağılımı ve tehlike bölgeleri rehberleri. Her alan için ne bekleyeceğinizi ve nasıl hazırlanacağınızı öğrenin.",
-      "why": "Neden biyomları keşfetmelisiniz?",
+    "slimes": {
+      "title": "Slime RNG Slime'lar",
+      "description": "Slime RNG slime listeleri, nadirlik notları, nadir slime avcılığı, shiny slime bilgileri ve koleksiyon öncelikleri.",
+      "metaTitle": "Slime RNG Slime'lar - Nadirlik Listesi ve Koleksiyon Rehberi",
+      "metaDescription": "Slime RNG slime'larına, nadirlik rehberlerine, nadir slime hedeflerine, shiny slime notlarına, tehlikeli slime kapsamına ve koleksiyon planlama ipuçlarına göz atın.",
+      "categoryLabel": "SLIME RNG SLIME'LAR",
+      "whatIs": "Slime RNG Slime'lar Nedir?",
+      "whatIsDescription": "Slime RNG slime'ları, oyuncuların roll yaptığı, nadirliğe göre karşılaştırdığı, seviye atlattığı, kuşandığı ve Roblox deneyiminde daha ileriye gitmek için kullandığı temel koleksiyon parçaları ve savaş birimleridir.",
+      "why": "Neden bu Slime RNG Slime'lar rehberini okumalısınız?",
       "whySteps": {
-        "step1Title": "Kaynakları Bulun",
-        "step1Description": "Her bölgeye özgü nadir malzemeleri ve özleri bulun",
-        "step2Title": "Tehlikelerden Kaçının",
-        "step2Description": "Çevresel tehlikeleri ve düşman yaratıkları anlayın",
-        "step3Title": "Keşfi Planlayın",
-        "step3Description": "Her biyom türü için doğru araçları ve ekipmanları hazırlayın"
+        "step1Title": "Neyi kovalayacağınızı bilin",
+        "step1Description": "Saklamaya değer nadir, shiny, tehlikeli ve yüksek değerli slime'ları belirlemek için Slime RNG slime listelerini ve nadirlik rehberlerini kullanın.",
+        "step2Title": "Daha güçlü takımlar kurun",
+        "step2Description": "Kuşandığınız takımın coin farming'i, savaş ve ilerlemeyi desteklemesi için slime rollerini ve koleksiyon önceliklerini karşılaştırın.",
+        "step3Title": "Koleksiyon hedeflerini takip edin",
+        "step3Description": "Yönsüzce roll yapmak yerine nadir slime avlarını Luck takviyeleri, roll yöntemleri ve uzun vadeli tamamlama hedefleri etrafında planlayın."
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Biyomlar"
+      "featured": "Öne Çıkanlar ve Temeller",
+      "all": "Tüm Slime RNG Slime Rehberleri"
     },
-    "building": {
-      "title": "Lucid Blocks İnşa Etme",
-      "description": "Master Qualia kişisel boyutları, üs inşası, depolama yönetimi ve yaratıcı inşa tekniklerinde ustalaşın.",
-      "metaTitle": "Lucid Blocks İnşa Etme - Qualia ve Üs İnşası",
-      "metaDescription": "Qualia kişisel boyutları, üs inşası, depolama çözümleri ve yaratıcı inşa teknikleri ile Lucid Blocks inşa etme sisteminde ustalaşın.",
-      "categoryLabel": "İNŞA VE ÜSLER",
-      "whatIs": "İnşa Etme Nedir?",
-      "whatIsDescription": "Qualia kişisel boyut sistemi, üs inşası, depolama yönetimi ve yaratıcı inşa rehberleri. Gerçeküstü dünyada güvenli limanınızı oluşturmayı öğrenin.",
-      "why": "Neden üs inşa etmelisiniz?",
+    "luck": {
+      "title": "Slime RNG Luck",
+      "description": "Slime RNG Luck mekanikleri, auto roll planlaması, roll şansı notları, Luck takviyeleri ve nadir slime oranlarını iyileştirme yöntemleri.",
+      "metaTitle": "Slime RNG Luck Rehberi - Takviyeler, Roll'ler ve Şanslar",
+      "metaDescription": "Slime RNG Luck mekaniklerini, Luck takviyesi zamanlamasını, auto roll kurulumunu, roll şansı temellerini, en iyi roll yöntemlerini ve nadir slime avlama planlarını öğrenin.",
+      "categoryLabel": "SLIME RNG LUCK",
+      "whatIs": "Slime RNG Luck Nedir?",
+      "whatIsDescription": "Slime RNG Luck, oyuncuların nadir slime sonuçlarını ne kadar verimli bir şekilde kovalayacağını etkileyen bonuslar, takviyeler, çarpanlar ve roll uygulamaları setidir.",
+      "why": "Neden bu Slime RNG Luck rehberini okumalısınız?",
       "whySteps": {
-        "step1Title": "Güvenli Alanlar Oluşturun",
-        "step1Description": "Depolama ve üretim operasyonları için güvenli üsler kurun",
-        "step2Title": "Kaynakları Yönetin",
-        "step2Description": "Depolama çözümleriyle malzemeleri verimli bir şekilde düzenleyin",
-        "step3Title": "Qualia Kilidini Açın",
-        "step3Description": "Üstün kolaylık için kişisel cep boyutlarına erişin"
+        "step1Title": "Yararlı bonusları üst üste ekleyin",
+        "step1Description": "Sınırlı öğeleri harcamadan önce Slime RNG Luck takviyelerinin, kalıcı çarpanların ve oturum bonuslarının nasıl birleştiğini öğrenin.",
+        "step2Title": "Daha iyi zamanlama ile roll yapın",
+        "step2Description": "Luck aktifken daha fazla deneme yapılması için auto roll oturumlarını ve en iyi roll yöntemlerini takviye pencereleri etrafında planlayın.",
+        "step3Title": "Roll şanslarını anlayın",
+        "step3Description": "Nadir, shiny ve yüksek değerli slime avcılığı için pratik hedefler belirlemek üzere roll şansı açıklamalarını kullanın."
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm İnşa Rehberleri"
+      "featured": "Öne Çıkanlar ve Temeller",
+      "all": "Tüm Slime RNG Luck Rehberleri"
     },
-    "support": {
-      "title": "Lucid Blocks Destek",
-      "description": "Teknik destek, platform uyumluluğu, performans optimizasyonu ve yaygın sorunlar için sorun giderme.",
-      "metaTitle": "Lucid Blocks Destek - Teknik Yardım ve Çözümler",
-      "metaDescription": "Steam Deck kurulumu, çökme düzeltmeleri, performans optimizasyonu ve platform uyumluluk rehberleri dahil olmak üzere Lucid Blocks için teknik destek alın.",
-      "categoryLabel": "TEKNİK DESTEK",
-      "whatIs": "Destek Nedir?",
-      "whatIsDescription": "Platform uyumluluğu, performans optimizasyonu, çökme düzeltmeleri ve yaygın sorunları kapsayan teknik rehberler. Steam Deck, çok oyunculu soruları ve ayarlar hakkında yardım alın.",
-      "why": "Neden desteği kontrol etmelisiniz?",
+    "economy": {
+      "title": "Slime RNG Ekonomisi",
+      "description": "Yükseltmeler ve slime büyümesi için Slime RNG coin'leri, elmalar, XP, para rotaları, farming ipuçları ve kaynak planlaması.",
+      "metaTitle": "Slime RNG Ekonomisi - Coin'ler, Elmalar, XP ve Farming",
+      "metaDescription": "Coin'ler, para farming'i, elmalar, XP planlaması, kaynak rotaları ve yükseltme odaklı ilerleme için Slime RNG ekonomi rehberlerini kullanın.",
+      "categoryLabel": "SLIME RNG EKONOMİSİ",
+      "whatIs": "Slime RNG Ekonomisi Nedir?",
+      "whatIsDescription": "Slime RNG ekonomisi; slime roll'lerini ve savaşlarını istikrarlı yükseltmelere dönüştüren coin'leri, elmaları, XP'yi, farming rotalarını ve kaynak kararlarını kapsar.",
+      "why": "Neden bu Slime RNG Ekonomi rehberini okumalısınız?",
       "whySteps": {
-        "step1Title": "Teknik Sorunları Düzeltin",
-        "step1Description": "Çökmeleri, performans sorunlarını ve uyumluluk problemlerini çözün",
-        "step2Title": "Performansı Optimize Edin",
-        "step2Description": "Platformunuzda en iyi deneyim için ayarları yapılandırın",
-        "step3Title": "Platform Uyumluluğu",
-        "step3Description": "Steam Deck, kontrolcü desteği ve sistem gereksinimleri hakkında bilgi edinin"
+        "step1Title": "İstikrarlı bir şekilde coin kazanın",
+        "step1Description": "Yükseltmeleri, crafting'i ve rebirth hazırlığını destekleyen farming yöntemlerini seçmek için Slime RNG para ve coin rehberlerini kullanın.",
+        "step2Title": "Kaynakları akıllıca harcayın",
+        "step2Description": "Elmaların, XP'nin ve para biriminin ne zaman slime büyümesine, roll verimliliğine veya ilerleme kapılarına gitmesi gerektiğini anlayın.",
+        "step3Title": "Uzun vadeli rotaları destekleyin",
+        "step3Description": "Kaynaklarınızın bir sonraki dönüm noktasını zorlamaya devam etmesi için ekonomi kararlarını Slime RNG Luck, slime'lar, crafting ve rebirth ile bağlayın."
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Destek Makaleleri"
+      "featured": "Öne Çıkanlar ve Temeller",
+      "all": "Tüm Slime RNG Ekonomi Rehberleri"
     }
   }
 }
