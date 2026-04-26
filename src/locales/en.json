@@ -57,7 +57,7 @@
   "tools": {
     "title": "Slime RNG",
     "titleHighlight": "Guides",
-    "subtitle": "Jump straight to the Slime RNG codes, starter route, tier list, and collection database.",
+    "subtitle": "Jump straight to Slime RNG codes, starter routes, rare slime targets, zone planning, farming, and upgrades.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -98,6 +98,26 @@
         "icon": "Shield",
         "title": "Slime RNG Huge Slimes Guide",
         "description": "Slime RNG Huge, Shiny, Huge Shiny, and late-game variant priorities."
+      },
+      {
+        "icon": "Gem",
+        "title": "Slime RNG Void Slime Guide",
+        "description": "Slime RNG Void Slime rarity, late-game preparation, and Mythic hunting loops."
+      },
+      {
+        "icon": "MapPinned",
+        "title": "Slime RNG Zone Map",
+        "description": "Slime RNG zone HP, coin yield, unlock costs, and clear-speed timing."
+      },
+      {
+        "icon": "Coins",
+        "title": "Slime RNG Coins Farming Guide",
+        "description": "Slime RNG coin farming steps for stronger DPS, better zones, and faster rebirth setup."
+      },
+      {
+        "icon": "Settings",
+        "title": "Slime RNG Upgrades Guide",
+        "description": "Slime RNG upgrade priorities for automation, income, Luck, Goop, and late-game farming."
       }
     ]
   },
@@ -744,6 +764,288 @@
         "Slime RNG Huge variants are worth keeping even when their base slime is not your usual favorite.",
         "Huge Lucky is a strong support target for rare hunting because its value is tied to Luck rather than only damage.",
         "Huge Shiny outcomes are endgame collection goals and should be protected from accidental replacement."
+      ]
+    },
+    "slimeRngVoidSlimeGuide": {
+      "eyebrow": "Mythic Slime Target",
+      "title": "Slime RNG Void Slime Guide",
+      "subtitle": "Void Slime is the Mythic-tier chase slime and a top-end Slime RNG collection goal.",
+      "intro": "Void Slime sits at the top of the Slime RNG progression ladder as an SSS-tier Mythic slime. With listed odds of 1 in 10,000,000, players should treat it as a late-game target built around high roll volume, Rebirth luck multipliers, and strong farming efficiency.",
+      "items": [
+        {
+          "title": "Slime RNG Void Slime Overview",
+          "rarity": "Mythic",
+          "tier": "SSS",
+          "damage": "25,000",
+          "speed": "2.0",
+          "role": "Ultimate chase slime",
+          "summary": "Void Slime is a Mythic rarity slime with unmatched late-game power and game-changing unique abilities. It is positioned above Huge Spike, Huge Rocky, Huge Lucky, Orca, and Lucky Slime in the Slime RNG tier list."
+        },
+        {
+          "title": "Slime RNG Listed Roll Odds",
+          "odds": "1 in 10,000,000",
+          "searchIntent": "void slime, mythic slime, rarest slime",
+          "summary": "Void Slime is the rarest confirmed Slime RNG target in the current slime database. Its odds make it a long-term collection goal, so players should focus on increasing total rolls instead of expecting quick results."
+        },
+        {
+          "title": "Why Slime RNG Players Chase Void Slime",
+          "powerPosition": "Highest listed slime tier",
+          "summary": "Void Slime combines Mythic rarity with the highest listed damage value in the current Slime RNG tier list. It works as both a prestige flex and a practical late-game power target for deep farming cycles."
+        },
+        {
+          "title": "Slime RNG Void Slime Preparation Path",
+          "focus": "Roll volume plus Luck scaling",
+          "summary": "Before seriously hunting Void Slime, automate rolling, increase Roll Speed, push Rebirth cycles, and stack Super Luck, Ultra Luck, and permanent Rebirth multipliers. More rolls per minute and stronger Luck multipliers directly improve long-session hunting efficiency."
+        },
+        {
+          "title": "Slime RNG Rebirth Advantage",
+          "focus": "Permanent Luck multiplier",
+          "summary": "Void Slime hunting becomes more efficient after Rebirth because Rebirth adds permanent Luck multiplier growth. Strong retained slimes also let players rebuild faster after each reset, creating more high-efficiency rolling windows over time."
+        },
+        {
+          "title": "Slime RNG Late-Game Hunting Loop",
+          "focus": "Farm, Rebirth, Stack Luck, Roll",
+          "summary": "The most efficient loop is to farm high-yield zones, unlock and farm Goop, Rebirth as soon as the next multiplier is ready, then use the stronger Luck base to roll more aggressively."
+        }
+      ]
+    },
+    "slimeRngZoneMap": {
+      "eyebrow": "Zone Progression",
+      "title": "Slime RNG Zone Map",
+      "subtitle": "Compare Slime RNG enemy HP, coin yield, unlock costs, and clear-speed timing.",
+      "intro": "Slime RNG zones scale sharply: each new area has higher enemy health but much better coin yield. Move forward when your team can clear current enemies in under 10 seconds, because moving too early slows farming while staying too long wastes income potential.",
+      "items": [
+        {
+          "zone": 1,
+          "name": "The Meadow",
+          "phase": "Starter Zone",
+          "enemyHp": "100",
+          "coinYield": "10 Coins",
+          "unlock": "Start",
+          "recommendation": "Start here, roll basic Slime RNG slimes, equip your best team, and build enough Coins for early automation."
+        },
+        {
+          "zone": 2,
+          "name": "The Forest",
+          "phase": "Early Game",
+          "enemyHp": "500",
+          "coinYield": "50 Coins",
+          "unlock": "2,000 Coins",
+          "recommendation": "Move here after your starter team clears Meadow enemies quickly. This is the first meaningful Slime RNG coin-yield jump."
+        },
+        {
+          "zone": 3,
+          "name": "The Cavern",
+          "phase": "Mid Game",
+          "enemyHp": "2,500",
+          "coinYield": "250 Coins",
+          "unlock": "15,000 Coins",
+          "recommendation": "Enter when Zone 2 enemies die smoothly. This is also where Slime RNG Goop farming becomes relevant after the Goop mechanic is unlocked."
+        },
+        {
+          "zone": 4,
+          "name": "The Tundra",
+          "phase": "Mid Game",
+          "enemyHp": "15,000",
+          "coinYield": "1,500 Coins",
+          "unlock": "100,000 Coins",
+          "recommendation": "Use this as a stronger Slime RNG mid-game farming zone once your DPS can handle the HP jump without long kill times."
+        },
+        {
+          "zone": 5,
+          "name": "The Storm",
+          "phase": "Late Game",
+          "enemyHp": "100,000",
+          "coinYield": "10,000 Coins",
+          "unlock": "750,000 Coins",
+          "recommendation": "Push here when your Slime RNG team has enough damage and Enemy Count upgrades to keep income moving efficiently."
+        },
+        {
+          "zone": 6,
+          "name": "The Void",
+          "phase": "Late Game",
+          "enemyHp": "750,000",
+          "coinYield": "75,000 Coins",
+          "unlock": "5,000,000 Coins",
+          "recommendation": "Use this zone for serious Slime RNG late-game coin farming before higher-end unlocks. Strong Slime Slots and DPS upgrades matter here."
+        },
+        {
+          "zone": 7,
+          "name": "The Crystal Cave",
+          "phase": "End Game",
+          "enemyHp": "5,000,000",
+          "coinYield": "500,000 Coins",
+          "unlock": "35,000,000 Coins",
+          "recommendation": "Farm here after your Slime RNG Rebirth cycles and retained slimes can handle multi-million HP enemies at a practical pace."
+        },
+        {
+          "zone": 8,
+          "name": "The Alien Hive",
+          "phase": "Ultimate",
+          "enemyHp": "35,000,000",
+          "coinYield": "3,500,000 Coins",
+          "unlock": "250,000,000 Coins",
+          "recommendation": "This is the final listed Slime RNG zone and the top coin-yield area. Enter when your team can sustain fast kills against 35M HP enemies."
+        }
+      ]
+    },
+    "slimeRngCoinsFarmingGuide": {
+      "eyebrow": "Coins Farming",
+      "title": "Slime RNG Coins Farming Guide",
+      "subtitle": "Use DPS, automation, zone timing, and income upgrades to earn Slime RNG Coins faster.",
+      "intro": "Coins are the foundation of early and mid-game Slime RNG progression. They support rolling, upgrades, zone unlocks, and the 10,000,000 Coin Goop checkpoint. If progress slows, the bottleneck is usually DPS, zone timing, or early spending that favors Luck before income speed.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Build a Fast Slime RNG Kill Team",
+          "goal": "Improve DPS before pushing harder zones.",
+          "actions": [
+            "Equip your strongest Slime RNG slimes instead of keeping low-damage starters active.",
+            "Prioritize Fin early because it is listed as the best early-game damage dealer.",
+            "Feed fruits to your best slimes to raise XP and improve farming power."
+          ],
+          "why": "Coins come from enemy kills, so faster kills create faster Slime RNG farming before any advanced strategy matters."
+        },
+        {
+          "step": 2,
+          "title": "Buy Slime RNG Auto Roll Early",
+          "goal": "Remove the manual rolling bottleneck.",
+          "actions": [
+            "Purchase Auto Roll for 200 Coins as an early priority.",
+            "Keep rolling while your team farms enemies in the current zone.",
+            "Use new stronger slimes to improve future DPS and zone clear speed."
+          ],
+          "why": "Auto Roll keeps Slime RNG progression moving while you focus on upgrades, zone unlocks, and team strength."
+        },
+        {
+          "step": 3,
+          "title": "Upgrade Slime RNG Income Before Heavy Luck Spending",
+          "goal": "Reach 10,000,000 Coins faster.",
+          "actions": [
+            "Prioritize Enemy Count when your team has enough DPS.",
+            "Use Roll Speed to increase total roll volume and improve the chance of useful slime upgrades over time.",
+            "Do not over-invest in Luck before your coin engine is strong."
+          ],
+          "why": "Enemy Count can directly increase income by adding more targets, while Luck improves roll quality but does not directly generate the 10M Coins needed for Goop."
+        },
+        {
+          "step": 4,
+          "title": "Move Slime RNG Zones by Clear Speed",
+          "goal": "Avoid wasting time in zones that are too weak or too hard.",
+          "actions": [
+            "Move to the next zone when current enemies die in under 10 seconds.",
+            "Use The Forest, The Cavern, The Tundra, The Storm, The Void, The Crystal Cave, and The Alien Hive as income jumps.",
+            "If enemies take too long to kill, stay back and upgrade DPS, Slime Slots, or Enemy Count first."
+          ],
+          "why": "Each higher Slime RNG zone gives better coin yield, but only if your team can clear enemies fast enough."
+        },
+        {
+          "step": 5,
+          "title": "Use Slime RNG Slime Slots to Multiply Damage",
+          "goal": "Increase team-wide DPS.",
+          "actions": [
+            "Buy Slime Slots when available because more deployed slimes means more total damage.",
+            "Pair Slime Slots with stronger slimes from rolling and fruit XP investment.",
+            "Use the extra DPS to farm higher-HP zones more efficiently."
+          ],
+          "why": "More slimes create more damage output, which shortens kill time and improves Slime RNG Coins per minute."
+        },
+        {
+          "step": 6,
+          "title": "Treat 10M Coins as the Slime RNG Mid-Game Checkpoint",
+          "goal": "Unlock Goop and prepare for Rebirth.",
+          "actions": [
+            "Push income upgrades until you can spend 10,000,000 Coins to unlock Goop drops.",
+            "Farm zones 3 and later for Goop after the mechanic is unlocked.",
+            "Use Rebirth to gain permanent Luck multiplier growth, then repeat the farming cycle faster."
+          ],
+          "why": "The first 10M Coin threshold unlocks the prestige economy. After Rebirth, retained slimes and permanent multipliers make later Slime RNG coin farming faster."
+        }
+      ]
+    },
+    "slimeRngUpgradesGuide": {
+      "eyebrow": "Upgrade Priority",
+      "title": "Slime RNG Upgrades Guide",
+      "subtitle": "Build Slime RNG automation, roll volume, kill speed, zone access, and coin income before deep Luck spending.",
+      "intro": "Slime RNG upgrades should follow the player's current bottleneck. If you need Coins, prioritize Auto Roll, Enemy Count, Slime Slots, and zone progression. After Goop and Rebirth cycles are active, shift into Super Luck, Ultra Luck, Goop Drop, Boss Spawns, Enemy Rush, and Offline Loot.",
+      "items": [
+        {
+          "upgrade": "Auto Roll",
+          "priority": "S",
+          "bestTiming": "Immediately in early game",
+          "effect": "Automates Slime RNG rolling after purchase.",
+          "useCase": "Buy for 200 Coins to remove manual clicking and keep slime acquisition running while farming."
+        },
+        {
+          "upgrade": "Roll Speed",
+          "priority": "S",
+          "bestTiming": "Early game and always useful later",
+          "effect": "Increases total Slime RNG rolls over time.",
+          "useCase": "More rolls per minute means more chances to find stronger slimes, rare slimes, and long-term chase targets."
+        },
+        {
+          "upgrade": "Enemy Count",
+          "priority": "S",
+          "bestTiming": "Early to mid game, once DPS is stable",
+          "effect": "Adds more Slime RNG enemies to farm at once.",
+          "useCase": "Prioritize before heavy Luck spending because more targets can directly increase coin income when your team kills fast enough."
+        },
+        {
+          "upgrade": "Slime Slots",
+          "priority": "S",
+          "bestTiming": "Mid game onward",
+          "effect": "Allows more Slime RNG slimes to fight at the same time.",
+          "useCase": "More deployed slimes means more DPS, faster kills, better zone progression, and stronger coin farming."
+        },
+        {
+          "upgrade": "Super Luck",
+          "priority": "A",
+          "bestTiming": "After the first income base is built",
+          "effect": "Improves rare Slime RNG slime rolling odds.",
+          "useCase": "Buy after your coin engine is strong enough. It becomes much better when combined with Rebirth multipliers."
+        },
+        {
+          "upgrade": "Ultra Luck",
+          "priority": "A",
+          "bestTiming": "Post-Rebirth and late-game hunting",
+          "effect": "Further improves rare Slime RNG slime rolling odds.",
+          "useCase": "Use for high-end slime hunting, especially when chasing Huge variants, Mythic targets, and long-session rolling goals."
+        },
+        {
+          "upgrade": "Goop Drop",
+          "priority": "A",
+          "bestTiming": "After Goop is unlocked",
+          "effect": "Improves Slime RNG Goop farming efficiency by 10% per level.",
+          "useCase": "Use this to shorten the time between Rebirth cycles, since Goop is the key prestige currency."
+        },
+        {
+          "upgrade": "Boss Spawns",
+          "priority": "A",
+          "bestTiming": "When your team can handle high-HP enemies",
+          "effect": "Increases access to boss-focused Slime RNG farming opportunities.",
+          "useCase": "Bosses have much higher health but better reward potential, so this works best after your DPS is strong."
+        },
+        {
+          "upgrade": "Enemy Rush",
+          "priority": "B+",
+          "bestTiming": "Late game when enemy availability limits farming",
+          "effect": "Increases Slime RNG enemy spawn rate by 25%.",
+          "useCase": "Strong when your team kills enemies faster than they appear. It improves farming flow if DPS is already high."
+        },
+        {
+          "upgrade": "Offline Loot",
+          "priority": "B+",
+          "bestTiming": "Mid to late game",
+          "effect": "Generates scaled Slime RNG rewards while away based on current DPS.",
+          "useCase": "Useful for maintaining progression between sessions, especially after your team and zones are already strong."
+        },
+        {
+          "upgrade": "Lucky Clover",
+          "priority": "B",
+          "bestTiming": "Late game support upgrade",
+          "effect": "Increases clover mechanic frequency by 20%.",
+          "useCase": "Works as a supporting Luck-related upgrade after the main income, Rebirth, and roll-speed systems are already developed."
+        }
       ]
     }
   },
