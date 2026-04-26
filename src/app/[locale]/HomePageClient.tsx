@@ -6,15 +6,18 @@ import {
   BookOpen,
   Check,
   ClipboardCheck,
+  Eye,
   ExternalLink,
   Gamepad2,
   Package,
+  Shield,
   Sparkles,
   Star,
   TrendingUp,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
+import enMessages from '@/locales/en.json'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
 import { NativeBannerAd, AdBanner } from '@/components/ads'
@@ -39,7 +42,8 @@ interface HomePageClientProps {
 }
 
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
-  const t = useMessages() as any
+  const localeMessages = useMessages() as any
+  const t = localeMessages?.hero?.title === enMessages.hero.title ? localeMessages : enMessages
 
   // Scroll reveal animation
   useEffect(() => {
@@ -159,12 +163,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       {/* Latest Updates Section */}
       <LatestGuidesAccordion articles={latestArticles} locale={locale} max={30} />
 
-      {/* 广告位 3: 标准横幅 728×90 */}
-      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
-
-      {/* Tools Grid - 4 Navigation Cards */}
+      {/* Tools Grid - 8 Navigation Cards */}
       <section className="px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               {t.tools.title}{' '}
@@ -281,9 +282,116 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <h3 className="font-semibold mb-2">{t.tools.cards[3].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[3].description}</p>
             </a>
+
+            <a
+              href="#rebirth-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('rebirth-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '200ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[4].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[4].description}</p>
+            </a>
+
+            <a
+              href="#goop-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('goop-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '250ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[5].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[5].description}</p>
+            </a>
+
+            <a
+              href="#luck-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('luck-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '300ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[6].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[6].description}</p>
+            </a>
+
+            <a
+              href="#huge-slimes-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('huge-slimes-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '350ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[7].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
           </div>
         </div>
       </section>
+
+      {/* 广告位 3: 标准横幅 728×90 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
 
       {/* 广告位 4: 方形广告 300×250 */}
       <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
@@ -561,7 +669,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                     {slime.rarity}
                   </span>
                 </div>
-                <p className="text-xs uppercase tracking-wide text-muted-foreground mb-2">
+                <p className="text-xs uppercase text-muted-foreground mb-2">
                   {slime.stage}
                 </p>
                 <p className="text-sm text-muted-foreground mb-3">{slime.description}</p>
@@ -594,6 +702,265 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
 
       {/* 广告位 6: 移动端横幅 320×50 */}
       <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
+
+      {/* Module 5: Slime RNG Rebirth Guide */}
+      <section id="rebirth-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngRebirthGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngRebirthGuide.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngRebirthGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngRebirthGuide.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[1.35fr_0.75fr] gap-6">
+            <div className="scroll-reveal space-y-4">
+              {t.modules.slimeRngRebirthGuide.items.map((step: any) => (
+                <div key={step.step} className="grid grid-cols-[auto_1fr] gap-4 rounded-xl border border-border
+                                                bg-card p-5 hover:border-[hsl(var(--nav-theme)/0.5)]
+                                                transition-colors">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full
+                                  bg-[hsl(var(--nav-theme)/0.16)]
+                                  border border-[hsl(var(--nav-theme)/0.35)]">
+                    <span className="text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                      {step.step}
+                    </span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                    <p className="text-muted-foreground mb-4">{step.description}</p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+                      {step.keyPoints.map((point: string) => (
+                        <div key={point} className="flex items-start gap-2 rounded-lg border border-border
+                                                    bg-white/5 p-3 text-sm text-muted-foreground">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                          <span>{point}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="scroll-reveal lg:sticky lg:top-24 h-fit rounded-xl border border-[hsl(var(--nav-theme)/0.3)]
+                            bg-[hsl(var(--nav-theme)/0.05)] p-6">
+              <div className="flex items-center gap-2 mb-4">
+                <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="font-bold text-lg">Slime RNG Rebirth Timing</h3>
+              </div>
+              <p className="text-sm text-muted-foreground mb-5">
+                {t.modules.slimeRngRebirthGuide.strategyNote}
+              </p>
+              <div className="grid grid-cols-1 gap-3 text-sm">
+                <div className="rounded-lg border border-border bg-background/70 p-4">
+                  <p className="text-muted-foreground">Reset</p>
+                  <p className="font-semibold">Coins and zone access</p>
+                </div>
+                <div className="rounded-lg border border-border bg-background/70 p-4">
+                  <p className="text-muted-foreground">Keep</p>
+                  <p className="font-semibold">Slimes, fruits, consumables, and upgrades</p>
+                </div>
+                <div className="rounded-lg border border-border bg-background/70 p-4">
+                  <p className="text-muted-foreground">Gain</p>
+                  <p className="font-semibold">Permanent Slime RNG luck multiplier growth</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Slime RNG Goop Guide */}
+      <section id="goop-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngGoopGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngGoopGuide.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngGoopGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngGoopGuide.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_0.8fr] gap-6">
+            <div className="scroll-reveal space-y-3">
+              {t.modules.slimeRngGoopGuide.items.map((item: any) => (
+                <details key={item.question} className="group rounded-xl border border-border bg-card p-5
+                                                        open:border-[hsl(var(--nav-theme)/0.45)]">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4">
+                    <span className="font-bold text-lg">{item.question}</span>
+                    <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]
+                                           transition-transform group-open:rotate-90" />
+                  </summary>
+                  <p className="mt-4 text-muted-foreground">{item.answer}</p>
+                  <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-2">
+                    {item.details.map((detail: string) => (
+                      <div key={detail} className="flex items-start gap-2 rounded-lg border border-border
+                                                  bg-white/5 p-3 text-sm text-muted-foreground">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                        <span>{detail}</span>
+                      </div>
+                    ))}
+                  </div>
+                </details>
+              ))}
+            </div>
+
+            <div className="scroll-reveal h-fit rounded-xl border border-[hsl(var(--nav-theme)/0.3)]
+                            bg-[hsl(var(--nav-theme)/0.05)] p-6">
+              <div className="flex items-center gap-2 mb-4">
+                <Package className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="font-bold text-lg">{t.modules.slimeRngGoopGuide.checklistTitle}</h3>
+              </div>
+              <div className="space-y-3">
+                {t.modules.slimeRngGoopGuide.checklist.map((item: string) => (
+                  <div key={item} className="flex items-start gap-3 rounded-lg border border-border
+                                             bg-background/70 p-4 text-sm text-muted-foreground">
+                    <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Slime RNG Luck Guide */}
+      <section id="luck-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Eye className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngLuckGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngLuckGuide.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngLuckGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngLuckGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {t.modules.slimeRngLuckGuide.items.map((step: any) => (
+              <div key={step.step} className="rounded-xl border border-border bg-card p-5
+                                             hover:border-[hsl(var(--nav-theme)/0.5)]
+                                             transition-colors">
+                <div className="mb-4">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-full
+                                   bg-[hsl(var(--nav-theme)/0.16)]
+                                   border border-[hsl(var(--nav-theme)/0.35)]
+                                   text-sm font-bold text-[hsl(var(--nav-theme-light))]">
+                    {step.step}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                <p className="text-sm text-muted-foreground mb-4">{step.description}</p>
+                <p className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)]
+                              bg-[hsl(var(--nav-theme)/0.05)] p-3 text-sm">
+                  {step.bestFor}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Slime RNG Huge Slimes Guide */}
+      <section id="huge-slimes-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngHugeSlimesGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngHugeSlimesGuide.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngHugeSlimesGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngHugeSlimesGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            {t.modules.slimeRngHugeSlimesGuide.items.map((variant: any) => (
+              <div key={variant.name} className="rounded-xl border border-border bg-card p-5
+                                                hover:border-[hsl(var(--nav-theme)/0.5)]
+                                                transition-colors">
+                <div className="flex items-start justify-between gap-3 mb-3">
+                  <div>
+                    <h3 className="text-xl font-bold">{variant.name}</h3>
+                    <p className="text-sm text-[hsl(var(--nav-theme-light))]">{variant.role}</p>
+                  </div>
+                  <span className="text-xs px-2 py-1 rounded-full
+                                   bg-[hsl(var(--nav-theme)/0.1)]
+                                   border border-[hsl(var(--nav-theme)/0.3)]">
+                    {variant.rarity}
+                  </span>
+                </div>
+                <div className="rounded-lg border border-border bg-background/70 p-3 mb-3">
+                  <p className="text-xs uppercase text-muted-foreground">Odds</p>
+                  <p className="font-semibold">{variant.odds}</p>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{variant.description}</p>
+                <div className="flex items-start gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.25)]
+                                bg-[hsl(var(--nav-theme)/0.05)] p-3">
+                  <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                  <p className="text-sm">{variant.recommendedUse}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="scroll-reveal rounded-xl border border-[hsl(var(--nav-theme)/0.3)]
+                          bg-[hsl(var(--nav-theme)/0.05)] p-6">
+            <div className="flex items-center gap-2 mb-4">
+              <Shield className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+              <h3 className="font-bold text-lg">Slime RNG Huge Slime Priorities</h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              {t.modules.slimeRngHugeSlimesGuide.tips.map((tip: string) => (
+                <div key={tip} className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                  <span>{tip}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* FAQ Section */}
       <Suspense fallback={<LoadingPlaceholder />}>

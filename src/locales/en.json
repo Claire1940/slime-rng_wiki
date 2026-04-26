@@ -78,6 +78,26 @@
         "icon": "Sparkles",
         "title": "Slime RNG Slime Collection",
         "description": "A Slime RNG slime database with rarity, role, stage, and recommended use."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Slime RNG Rebirth Guide",
+        "description": "Slime RNG rebirth timing, Goop requirements, reset rules, and permanent luck gains."
+      },
+      {
+        "icon": "Package",
+        "title": "Slime RNG Goop Guide",
+        "description": "Slime RNG Goop unlocks, farming zones, upgrade priorities, and rebirth planning."
+      },
+      {
+        "icon": "Eye",
+        "title": "Slime RNG Luck Guide",
+        "description": "Slime RNG luck sources, rebirth multipliers, boost timing, and rare slime hunting."
+      },
+      {
+        "icon": "Shield",
+        "title": "Slime RNG Huge Slimes Guide",
+        "description": "Slime RNG Huge, Shiny, Huge Shiny, and late-game variant priorities."
       }
     ]
   },
@@ -465,6 +485,265 @@
         "Feed Slime RNG fruit rewards to the slimes you actually use.",
         "Keep luck-focused Slime RNG units ready for rare-hunting sessions.",
         "Replace starter slimes once your rare or Huge variants can carry fights."
+      ]
+    },
+    "slimeRngRebirthGuide": {
+      "eyebrow": "Prestige System",
+      "title": "Slime RNG Rebirth Guide",
+      "subtitle": "Rebirth at the right time and turn Goop into permanent luck.",
+      "intro": "Slime RNG Rebirth is the main mid-to-late game reset system. It resets your run economy, but gives you a permanent luck multiplier that makes future slime hunting much faster.",
+      "strategyNote": "The strongest Slime RNG rebirth rhythm is to rebuild your coin engine, unlock Goop, farm enough for the next cycle, and rebirth once the permanent luck gain is worth more than staying in a slow zone.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Reach the 10,000,000 Coin Gate",
+          "description": "Before Slime RNG rebirth becomes realistic, focus on reaching the 10M Coins requirement that unlocks Goop earning. Early spending should prioritize income speed over pure luck upgrades.",
+          "keyPoints": [
+            "Coins are used for Slime RNG rolling, upgrades, and zone unlocks.",
+            "The Slime RNG Goop mechanic unlocks after spending exactly 10,000,000 Coins.",
+            "Enemy Count and stronger zones usually matter more than Luck before this threshold."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Farm Goop After the Unlock",
+          "description": "Goop is the Slime RNG prestige currency used for rebirthing. Once it is unlocked, farm it consistently instead of staying in low-value coin loops.",
+          "keyPoints": [
+            "Goop is rare compared with Coins.",
+            "Goop is used for Slime RNG Rebirth rather than normal early-game upgrades.",
+            "Zone 3 and later zones are practical starting points for Slime RNG Goop farming."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Know What Slime RNG Rebirth Resets",
+          "description": "A Slime RNG rebirth resets your coin balance and locks zones again, so your next run starts from the beginning economically.",
+          "keyPoints": [
+            "Coin balance resets to zero.",
+            "Slime RNG zones need to be unlocked again.",
+            "The reset is offset by a permanent luck multiplier boost."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Know What Slime RNG Rebirth Keeps",
+          "description": "Slime RNG Rebirth is powerful because it does not erase your whole account. Your retained collection helps you rebuild much faster on the next cycle.",
+          "keyPoints": [
+            "You keep your Slime RNG slimes.",
+            "You keep fruits and consumables.",
+            "You keep upgrades.",
+            "Strong Huge or Shiny slimes can carry the next Slime RNG cycle through early zones quickly."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Rebirth Early When Goop Is Ready",
+          "description": "The recommended Slime RNG pivot is to rebirth once you have enough Goop instead of overfarming a stagnant zone. Early rebirths create multiplier jumps that make the following run more efficient.",
+          "keyPoints": [
+            "Slime RNG rebirth multipliers compound over multiple cycles.",
+            "A multiplier jump can make rare slime hunting much faster.",
+            "Waiting too long in a weak farming zone slows overall Slime RNG progression."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Stack Slime RNG Rebirth With Free Luck",
+          "description": "Permanent luck becomes much stronger when combined with the Stouts Studio group bonus and other Slime RNG luck sources.",
+          "keyPoints": [
+            "The Stouts Studio group bonus gives Slime RNG players a permanent +1 Luck bonus.",
+            "Rebirth multipliers act as major long-term luck scaling.",
+            "Use your next Goop target to decide whether another Slime RNG rebirth cycle is ready."
+          ]
+        }
+      ]
+    },
+    "slimeRngGoopGuide": {
+      "eyebrow": "Prestige Currency",
+      "title": "Slime RNG Goop Guide",
+      "subtitle": "Unlock, farm, and spend Goop for faster Slime RNG rebirth cycles.",
+      "intro": "Goop is the currency that pushes Slime RNG from normal coin farming into rebirth progression. The 10M Coin unlock is the key mid-game bottleneck.",
+      "checklistTitle": "Slime RNG Goop Farming Checklist",
+      "checklist": [
+        "Reach the Slime RNG 10,000,000 Coin unlock.",
+        "Farm Zone 3 or later once your DPS can keep enemy kills steady.",
+        "Upgrade Roll Speed, Enemy Count, and Slime Slots before deep luck spending.",
+        "Save Goop for Slime RNG Rebirth instead of treating it like normal Coins."
+      ],
+      "items": [
+        {
+          "question": "What is Slime RNG Goop?",
+          "answer": "Goop is Slime RNG's prestige currency. Unlike Coins, it is tied to Rebirth progression and converts a completed run into permanent long-term power.",
+          "details": [
+            "Coins support Slime RNG rolling, upgrades, and zone progression.",
+            "Goop supports Slime RNG rebirth progression.",
+            "Goop bridges mid-game farming and late-game multiplier stacking."
+          ]
+        },
+        {
+          "question": "How do you unlock Slime RNG Goop?",
+          "answer": "Slime RNG Goop earning unlocks after spending exactly 10,000,000 Coins. This makes 10M Coins the first major progression gate for players aiming at rebirth.",
+          "details": [
+            "Do not over-prioritize Luck before the 10M Coin threshold.",
+            "Focus on coin velocity through zones, Enemy Count, Roll Speed, and stronger slimes.",
+            "The faster you unlock Goop, the sooner you can start Slime RNG rebirth cycles."
+          ]
+        },
+        {
+          "question": "Where should you farm Slime RNG Goop?",
+          "answer": "Slime RNG Goop drops begin in Zone 3 and later zones. Zone 3 and Zone 4 are practical early Goop farming targets, while higher zones produce stronger returns with better DPS.",
+          "details": [
+            "Zone 3, The Cavern, has 2,500 enemy HP and 250 Coin yield.",
+            "Zone 4, The Tundra, has 15,000 enemy HP and 1,500 Coin yield.",
+            "Higher Slime RNG zones scale sharply in both enemy HP and coin value."
+          ]
+        },
+        {
+          "question": "Why is Slime RNG Goop connected to Rebirth?",
+          "answer": "Goop is used for Slime RNG rebirthing, and rebirth grants permanent luck multiplier growth. This makes Goop farming the main repeatable loop for long-term progression.",
+          "details": [
+            "Farm Goop after unlocking it.",
+            "Spend Goop through the Slime RNG rebirth system.",
+            "Use the new permanent luck multiplier to rebuild faster in the next cycle."
+          ]
+        },
+        {
+          "question": "What should you upgrade before serious Slime RNG Goop farming?",
+          "answer": "Prioritize upgrades that increase kill speed and income speed before going all-in on luck. A stronger farming base gets you to rebirth faster.",
+          "details": [
+            "Auto Roll removes manual rolling bottlenecks.",
+            "Roll Speed increases total Slime RNG rolls over time.",
+            "Enemy Count can double income if your DPS can handle the extra enemies.",
+            "Slime Slots increase total deployed damage."
+          ]
+        },
+        {
+          "question": "Which late-game Slime RNG upgrades help Goop farming?",
+          "answer": "After early rebirth cycles, Goop Drop upgrades, Boss Spawns, Enemy Rush, Slime Slots, and Offline Loot become more valuable because they reduce the time between rebirths.",
+          "details": [
+            "Goop Drop +10% directly improves Slime RNG Goop farming speed.",
+            "Boss Spawns can improve rewards if your team is strong enough.",
+            "Offline Loot helps maintain Slime RNG progression while away from the game."
+          ]
+        }
+      ]
+    },
+    "slimeRngLuckGuide": {
+      "eyebrow": "Rare Slime Odds",
+      "title": "Slime RNG Luck Guide",
+      "subtitle": "Stack Luck the right way for rare, Shiny, and Huge Slime RNG targets.",
+      "intro": "Luck is one of the most important stats in Slime RNG, but buying luck too early can slow your first rebirth. Build income first, unlock Goop, rebirth for permanent multipliers, then stack active luck sources for serious rare-slime hunting.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Understand What Slime RNG Luck Changes",
+          "description": "Luck improves the chance of rolling rare outcomes by reducing the effective odds of rare slimes. Strong Slime RNG luck multipliers turn long hunts into practical goals.",
+          "bestFor": "Understanding rare slime probability before spending resources"
+        },
+        {
+          "step": 2,
+          "title": "Get the Free Slime RNG Baseline Bonus",
+          "description": "Start with the free Luck bonus tied to the official Slime RNG community or game-page action. Additive Luck becomes much stronger once rebirth multipliers are applied.",
+          "bestFor": "New players and first-rebirth preparation"
+        },
+        {
+          "step": 3,
+          "title": "Prioritize Income Before Slime RNG Luck",
+          "description": "Before the 10M Coin Goop unlock, Roll Speed, Enemy Count, stronger zones, and better DPS usually matter more than stacking Luck.",
+          "bestFor": "Early game and pre-Goop progression"
+        },
+        {
+          "step": 4,
+          "title": "Use Slime RNG Rebirth as the Main Luck Engine",
+          "description": "Rebirth adds permanent luck multiplier growth, making each future cycle stronger. Early rebirth jumps can speed up rare slime hunting dramatically.",
+          "bestFor": "Mid-game players starting Goop cycles"
+        },
+        {
+          "step": 5,
+          "title": "Add Super Luck and Ultra Luck Later",
+          "description": "Super Luck and Ultra Luck become more valuable after rebirth multipliers are active. Direct Luck increases compound harder once permanent multipliers are already strong.",
+          "bestFor": "Post-rebirth farming and rare slime hunting"
+        },
+        {
+          "step": 6,
+          "title": "Use Slime RNG Lucky Slime Effects",
+          "description": "Lucky Slime provides a passive luck role, while Huge Lucky is a top-tier variant with a 3x Luck multiplier. These effects are valuable when hunting Shiny, Huge, or Mythic-tier slimes.",
+          "bestFor": "Late-game slime collection and high-rarity rolling"
+        },
+        {
+          "step": 7,
+          "title": "Time Slime RNG Luck Boosts Around Active Rolling",
+          "description": "Luck potions from codes and rewards are best used when you are actively rolling, have strong roll speed, and can sustain enough income to keep the hunting session efficient.",
+          "bestFor": "Boost windows, code rewards, and focused rare-hunting sessions"
+        }
+      ]
+    },
+    "slimeRngHugeSlimesGuide": {
+      "eyebrow": "Rare Variants",
+      "title": "Slime RNG Huge Slimes Guide",
+      "subtitle": "Huge Slimes, Shiny Slimes, and the best Slime RNG late-game variants.",
+      "intro": "Slime RNG Huge Slimes are ultra-rare mutated variants with massive combat value. Huge Rocky, Huge Spike, and Huge Lucky are especially important for late-game pushing, farming, and rare-slime hunting.",
+      "items": [
+        {
+          "name": "Shiny Variant",
+          "rarity": "Ultra Rare Variant",
+          "odds": "1 in 500,000 additional chance",
+          "role": "Enhanced stat variant",
+          "description": "A Shiny Slime has improved stats and a unique visual aura. It is rarer than a standard Slime RNG slime and becomes especially valuable when attached to strong base slime types.",
+          "recommendedUse": "Keep and level strong Shiny variants instead of treating them as normal collection fillers."
+        },
+        {
+          "name": "Huge Variant",
+          "rarity": "Ultra Rare Variant",
+          "odds": "1 in 1,000,000 additional chance",
+          "role": "High-damage combat variant",
+          "description": "A Huge Slime has a massive damage multiplier and expanded area impact. Huge variants are among the most important Slime RNG upgrades for late-game zone pushing and faster farming.",
+          "recommendedUse": "Prioritize Huge variants when building a team for high-HP zones and Goop farming."
+        },
+        {
+          "name": "Huge Shiny",
+          "rarity": "Rarest Variant Combination",
+          "odds": "Huge mutation plus Shiny mutation",
+          "role": "Top-end collection and combat chase",
+          "description": "Huge Shiny combines the Huge and Shiny outcomes, making it one of the rarest and strongest Slime RNG variant types.",
+          "recommendedUse": "Treat as an endgame chase target and build around it when rolled on a strong slime type."
+        },
+        {
+          "name": "Huge Rocky",
+          "rarity": "Legendary - Huge Variant",
+          "odds": "Huge mutation tier",
+          "role": "Late-game bruiser",
+          "description": "Huge Rocky is an enormous Rocky variant with a massive damage multiplier and expanded area impact. It is an S-Tier Slime RNG late-game slime.",
+          "recommendedUse": "Use for stable late-game farming when you need durability, area pressure, and steady zone clearing."
+        },
+        {
+          "name": "Huge Spike",
+          "rarity": "Legendary - Huge Variant",
+          "odds": "Huge mutation tier",
+          "role": "High-DPS attacker",
+          "description": "Huge Spike is a colossal Spike variant with devastating Slime RNG damage. Its piercing attacks make it a strong damage-focused pick.",
+          "recommendedUse": "Use for aggressive farming, boss-style targets, and zones where raw damage matters more than utility."
+        },
+        {
+          "name": "Huge Lucky",
+          "rarity": "Legendary - Huge Variant",
+          "odds": "Huge mutation tier",
+          "role": "Luck multiplier support",
+          "description": "Huge Lucky is one of the best Slime RNG luck boosters with a 3x Luck multiplier. It is one of the most valuable slimes for rare-slime hunting.",
+          "recommendedUse": "Equip during focused rare, Shiny, Huge, and Mythic hunting sessions to improve long-term collection efficiency."
+        },
+        {
+          "name": "Void Slime",
+          "rarity": "Mythic Rarity",
+          "odds": "Estimated 1 in 10,000,000",
+          "role": "Endgame chase benchmark",
+          "description": "Void Slime is a Mythic-tier Slime RNG slime with unmatched power and game-changing unique abilities. It is not a Huge variant, but it represents the kind of target late-game luck stacking is built around.",
+          "recommendedUse": "Use Huge Lucky, rebirth multipliers, and active luck boosts when pushing toward Mythic-tier hunting goals."
+        }
+      ],
+      "tips": [
+        "Slime RNG Huge variants are worth keeping even when their base slime is not your usual favorite.",
+        "Huge Lucky is a strong support target for rare hunting because its value is tied to Luck rather than only damage.",
+        "Huge Shiny outcomes are endgame collection goals and should be protected from accidental replacement."
       ]
     }
   },
