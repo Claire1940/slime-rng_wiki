@@ -6,7 +6,10 @@ export interface WikiLink {
   url: string
 }
 
-const SITE_JSON_PATH = path.join(process.cwd(), 'site.json')
+const SITE_JSON_PATHS = [
+  '/root/Documents/GameProjects/site.json',
+  path.join(process.cwd(), 'site.json'),
+]
 
 function toTitleCase(str: string): string {
   return str.replace(/\b\w/g, c => c.toUpperCase())
@@ -14,7 +17,10 @@ function toTitleCase(str: string): string {
 
 export function getWikiLinks(max = 10): WikiLink[] {
   try {
-    const raw = JSON.parse(fs.readFileSync(SITE_JSON_PATH, 'utf-8'))
+    const siteJsonPath = SITE_JSON_PATHS.find(candidate => fs.existsSync(candidate))
+    if (!siteJsonPath) return []
+
+    const raw = JSON.parse(fs.readFileSync(siteJsonPath, 'utf-8'))
     const sites = raw.sites
       .filter((s: any) => s.status === '已上线')
       .sort((a: any, b: any) => new Date(b.launchDate).getTime() - new Date(a.launchDate).getTime())

@@ -38,6 +38,7 @@ import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
+import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
@@ -52,9 +53,37 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[]
   locale: string
+  moduleLinkMap: ModuleLinkMap
 }
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+function ModuleTitle({
+  moduleKey,
+  moduleLinkMap,
+  title,
+}: {
+  moduleKey: string
+  moduleLinkMap: ModuleLinkMap
+  title: string
+}) {
+  const articleLink = moduleLinkMap[moduleKey]
+
+  if (!articleLink) {
+    return <>{title}</>
+  }
+
+  return (
+    <Link
+      href={articleLink.url}
+      title={articleLink.title}
+      className="inline-flex items-center justify-center gap-2 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
+    >
+      {title}
+      <ExternalLink className="h-5 w-5" aria-hidden="true" />
+    </Link>
+  )
+}
+
+export default function HomePageClient({ latestArticles, locale, moduleLinkMap }: HomePageClientProps) {
   const localeMessages = useMessages() as any
   const t = localeMessages?.hero?.title === enMessages.hero.title ? localeMessages : enMessages
   const fruitIcons = [Apple, Cherry, Carrot, Banana, TrendingUp]
@@ -630,7 +659,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngCodes.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngCodes.title}
+              <ModuleTitle moduleKey="slimeRngCodes" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngCodes.title} />
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.slimeRngCodes.intro}
@@ -735,7 +764,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngBeginnerGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngBeginnerGuide.title}
+              <ModuleTitle moduleKey="slimeRngBeginnerGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngBeginnerGuide.title} />
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.slimeRngBeginnerGuide.intro}
@@ -802,7 +831,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngTierList.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngTierList.title}
+              <ModuleTitle moduleKey="slimeRngTierList" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngTierList.title} />
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.slimeRngTierList.intro}
@@ -869,7 +898,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngSlimeCollection.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngSlimeCollection.title}
+              <ModuleTitle moduleKey="slimeRngSlimeCollection" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngSlimeCollection.title} />
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.slimeRngSlimeCollection.intro}
@@ -937,7 +966,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngRebirthGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngRebirthGuide.title}
+              <ModuleTitle moduleKey="slimeRngRebirthGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngRebirthGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngRebirthGuide.subtitle}
@@ -1016,7 +1045,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngGoopGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngGoopGuide.title}
+              <ModuleTitle moduleKey="slimeRngGoopGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngGoopGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngGoopGuide.subtitle}
@@ -1081,7 +1110,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngLuckGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngLuckGuide.title}
+              <ModuleTitle moduleKey="slimeRngLuckGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngLuckGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngLuckGuide.subtitle}
@@ -1127,7 +1156,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngHugeSlimesGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngHugeSlimesGuide.title}
+              <ModuleTitle moduleKey="slimeRngHugeSlimesGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngHugeSlimesGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngHugeSlimesGuide.subtitle}
@@ -1196,7 +1225,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngVoidSlimeGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngVoidSlimeGuide.title}
+              <ModuleTitle moduleKey="slimeRngVoidSlimeGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngVoidSlimeGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngVoidSlimeGuide.subtitle}
@@ -1272,7 +1301,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngZoneMap.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngZoneMap.title}
+              <ModuleTitle moduleKey="slimeRngZoneMap" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngZoneMap.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngZoneMap.subtitle}
@@ -1339,7 +1368,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngCoinsFarmingGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngCoinsFarmingGuide.title}
+              <ModuleTitle moduleKey="slimeRngCoinsFarmingGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngCoinsFarmingGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngCoinsFarmingGuide.subtitle}
@@ -1395,7 +1424,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngUpgradesGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngUpgradesGuide.title}
+              <ModuleTitle moduleKey="slimeRngUpgradesGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngUpgradesGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngUpgradesGuide.subtitle}
@@ -1475,7 +1504,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngFruitsAndXpGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngFruitsAndXpGuide.title}
+              <ModuleTitle moduleKey="slimeRngFruitsAndXpGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngFruitsAndXpGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngFruitsAndXpGuide.subtitle}
@@ -1581,7 +1610,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngDiceAndRollSpeedGuide.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngDiceAndRollSpeedGuide.title}
+              <ModuleTitle moduleKey="slimeRngDiceAndRollSpeedGuide" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngDiceAndRollSpeedGuide.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngDiceAndRollSpeedGuide.subtitle}
@@ -1641,7 +1670,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngTradingValues.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngTradingValues.title}
+              <ModuleTitle moduleKey="slimeRngTradingValues" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngTradingValues.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngTradingValues.subtitle}
@@ -1722,7 +1751,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <span className="text-sm font-medium">{t.modules.slimeRngUpdatesAndPatchNotes.eyebrow}</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              {t.modules.slimeRngUpdatesAndPatchNotes.title}
+              <ModuleTitle moduleKey="slimeRngUpdatesAndPatchNotes" moduleLinkMap={moduleLinkMap} title={t.modules.slimeRngUpdatesAndPatchNotes.title} />
             </h2>
             <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
               {t.modules.slimeRngUpdatesAndPatchNotes.subtitle}
