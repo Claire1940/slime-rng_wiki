@@ -118,6 +118,26 @@
         "icon": "Settings",
         "title": "Slime RNG Upgrades Guide",
         "description": "Slime RNG upgrade priorities for automation, income, Luck, Goop, and late-game farming."
+      },
+      {
+        "icon": "Apple",
+        "title": "Slime RNG Fruits and XP Guide",
+        "description": "Slime RNG fruit XP values, best targets, and leveling priorities for stronger carry slimes."
+      },
+      {
+        "icon": "Dice5",
+        "title": "Slime RNG Dice and Roll Speed Guide",
+        "description": "Slime RNG Dice, Big Dice, Roll Speed, and Luck timing for stronger rolling sessions."
+      },
+      {
+        "icon": "Handshake",
+        "title": "Slime RNG Trading Values",
+        "description": "Slime RNG trade value notes for Huge variants, rare slimes, demand, and market roles."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Slime RNG Updates and Patch Notes",
+        "description": "Slime RNG update highlights for new zones, slimes, codes, balance changes, and roadmap targets."
       }
     ]
   },
@@ -1045,6 +1065,308 @@
           "bestTiming": "Late game support upgrade",
           "effect": "Increases clover mechanic frequency by 20%.",
           "useCase": "Works as a supporting Luck-related upgrade after the main income, Rebirth, and roll-speed systems are already developed."
+        }
+      ]
+    },
+    "slimeRngFruitsAndXpGuide": {
+      "eyebrow": "Consumables",
+      "title": "Slime RNG Fruits and XP Guide",
+      "subtitle": "Use Slime RNG fruits to level your strongest slimes and improve your farming speed.",
+      "intro": "Fruits are simple but important progression items in Slime RNG. Feed them into your highest-rarity or highest-DPS slimes, especially Huge variants, Orca, Lucky Slime, or the main carry you keep through rebirth cycles.",
+      "items": [
+        {
+          "item": "Apple",
+          "type": "Fruit / Consumable",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Highest-rarity Slime RNG slime or main DPS carry",
+          "knownSources": "Code rewards such as craftAway and semils; general fruit drops and rewards",
+          "usageNote": "Best saved for Slime RNG slimes that stay useful after rebirth instead of low-tier starter slimes."
+        },
+        {
+          "item": "Cherry",
+          "type": "Fruit / Consumable",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Mid-game and late-game Slime RNG carry slimes",
+          "knownSources": "Fruit rewards and consumable progression",
+          "usageNote": "Use on Slime RNG slimes that directly increase kill speed, because faster kills mean faster coin and Goop farming."
+        },
+        {
+          "item": "Carrot",
+          "type": "Fruit / Consumable",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Orca, Huge Rocky, Huge Spike, Huge Lucky, or Void Slime",
+          "knownSources": "Fruit rewards and consumable progression",
+          "usageNote": "Good for pushing a key Slime RNG slime closer to major level breakpoints before entering harder zones."
+        },
+        {
+          "item": "Banana",
+          "type": "Fruit / Consumable",
+          "xpPerUse": "75 XP",
+          "bestTarget": "Late-game Slime RNG slimes with strong DPS, AoE, or luck utility",
+          "knownSources": "Fruit rewards and consumable progression",
+          "usageNote": "Use regularly on your best long-term Slime RNG slimes instead of spreading XP thinly across every slime."
+        },
+        {
+          "item": "Leveling Priority",
+          "type": "Strategy",
+          "xpPerUse": "Fruit-based XP",
+          "bestTarget": "One Slime RNG main carry first, then secondary utility slimes",
+          "knownSources": "Beginner and advanced progression guides",
+          "usageNote": "A leveled Huge slime or strong rare Slime RNG slime has much better farming value than several underleveled low-tier slimes."
+        }
+      ]
+    },
+    "slimeRngDiceAndRollSpeedGuide": {
+      "eyebrow": "Rolling Strategy",
+      "title": "Slime RNG Dice and Roll Speed Guide",
+      "subtitle": "Roll Speed helps you roll more often, while Luck improves the quality of each Slime RNG roll.",
+      "intro": "Dice, Big Dice, Auto Roll, Roll Speed upgrades, Roll Speed Boosts, and Luck Boosts all support rare-slime hunting, but they do different jobs. More rolls increase the number of chances you get, while Luck multipliers improve the odds inside each chance.",
+      "items": [
+        {
+          "question": "What does Slime RNG Roll Speed actually improve?",
+          "answer": "Roll Speed increases how many Slime RNG rolls you can make in a given time window. More rolls means more attempts at rare, shiny, huge, and mythic slimes.",
+          "bestUse": "Upgrade Slime RNG Roll Speed early after buying Auto Roll because faster rolling compounds over every farming session.",
+          "relatedRewards": "Roll Speed upgrades, Roll Speed Boost"
+        },
+        {
+          "question": "What are Slime RNG Dice used for?",
+          "answer": "Dice are tied to Slime RNG Roll Speed progression and rolling efficiency. The beginner route points players toward using Dice currency for Roll Speed upgrades in the first 15 minutes.",
+          "bestUse": "Spend Slime RNG Dice on Roll Speed when your goal is to increase total rolls per minute.",
+          "relatedRewards": "Dice currency, Roll Speed upgrades"
+        },
+        {
+          "question": "What is Slime RNG Big Dice best used for?",
+          "answer": "Big Dice appears as a reward from codes such as time2Grind and belongs to the roll-focused reward category. It is best used when you are actively farming and can benefit from a stronger rolling session.",
+          "bestUse": "Pair Slime RNG Big Dice with Luck Boosts or a high-rebirth multiplier session to maximize rare-slime attempts.",
+          "relatedRewards": "time2Grind"
+        },
+        {
+          "question": "When should I use Slime RNG Roll Speed Boost?",
+          "answer": "Roll Speed Boost is strongest when you can stay active long enough to benefit from extra roll frequency. Code rewards such as craftAway and semils include Roll Speed Boost alongside Ultra Luck Boost and Apples.",
+          "bestUse": "Use it after Auto Roll is enabled and when you are pushing for rare Slime RNG slimes, Huge variants, or a stronger team before the next zone.",
+          "relatedRewards": "craftAway, semils"
+        },
+        {
+          "question": "What is the Slime RNG difference between Luck and more rolls?",
+          "answer": "More rolls increase the number of chances you take. Luck improves the chance quality inside each roll by reducing effective odds, especially after rebirth multipliers and luck upgrades stack together.",
+          "bestUse": "Prioritize Slime RNG Roll Speed and income early, then stack Luck heavily after Goop and rebirth cycles are unlocked.",
+          "relatedRewards": "Ultra Luck Boost, group +1 Luck, rebirth multipliers"
+        },
+        {
+          "question": "Should I use Slime RNG codes for Dice and boosts immediately?",
+          "answer": "Use small coin rewards whenever needed, but save high-value roll rewards for active sessions where Auto Roll, Roll Speed, and your best Luck setup are ready.",
+          "bestUse": "Best timing is after Slime RNG tutorial completion, Auto Roll purchase, and when your team can farm consistently without stopping.",
+          "relatedRewards": "time2Grind, craftAway, semils"
+        }
+      ]
+    },
+    "slimeRngTradingValues": {
+      "eyebrow": "Trading",
+      "title": "Slime RNG Trading Values",
+      "subtitle": "Compare Slime RNG slime values before trading Huge variants, rare slimes, and early-game carries.",
+      "intro": "Trading value in Slime RNG is driven by rarity, combat power, luck utility, and endgame demand. Huge Spike, Huge Rocky, and Huge Lucky sit at the top of the trade market, while Orca and Lucky Slime remain useful mid-game value targets.",
+      "items": [
+        {
+          "slime": "Void Slime",
+          "estimatedValue": "Priceless / Display Only",
+          "demand": "Display Only",
+          "tierOrRole": "Mythic / Ultimate showcase",
+          "tradingNote": "Mythic-tier Slime RNG slime used as an ultimate collection goal rather than a standard trade item."
+        },
+        {
+          "slime": "Huge Spike",
+          "estimatedValue": "50B+ Coins",
+          "demand": "Very High",
+          "tierOrRole": "Legendary Huge Variant / DPS",
+          "tradingNote": "Highest-demand Slime RNG Huge variant because of its elite damage role and endgame farming value."
+        },
+        {
+          "slime": "Huge Rocky",
+          "estimatedValue": "35B - 50B Coins",
+          "demand": "High",
+          "tierOrRole": "Legendary Huge Variant / AoE farming",
+          "tradingNote": "Valued for massive AoE and late-game Slime RNG farming efficiency."
+        },
+        {
+          "slime": "Huge Lucky",
+          "estimatedValue": "25B - 40B Coins",
+          "demand": "High",
+          "tierOrRole": "Legendary Huge Variant / Luck utility",
+          "tradingNote": "Strong Slime RNG value because its luck multiplier supports future rare-slime hunting."
+        },
+        {
+          "slime": "Orca",
+          "estimatedValue": "500M - 1B Coins",
+          "demand": "Medium-High",
+          "tierOrRole": "Rare / Mid-game carry",
+          "tradingNote": "Excellent mid-game Slime RNG DPS option and a practical target for players pushing into late-game zones."
+        },
+        {
+          "slime": "Lucky Slime",
+          "estimatedValue": "300M - 800M Coins",
+          "demand": "Medium",
+          "tierOrRole": "Rare / Luck passive",
+          "tradingNote": "Useful for farming rare drops, though pure DPS Huge variants usually command stronger Slime RNG demand."
+        },
+        {
+          "slime": "Fin",
+          "estimatedValue": "50M - 150M Coins",
+          "demand": "Medium",
+          "tierOrRole": "Common / Early-game DPS",
+          "tradingNote": "Strong starter value because it is one of the best early Slime RNG damage dealers."
+        },
+        {
+          "slime": "Spike",
+          "estimatedValue": "30M - 80M Coins",
+          "demand": "Low-Medium",
+          "tierOrRole": "Uncommon / Fast attacker",
+          "tradingNote": "Useful early Slime RNG damage option, but it loses trade strength once players reach Orca or Huge variants."
+        },
+        {
+          "slime": "Rocky",
+          "estimatedValue": "20M - 50M Coins",
+          "demand": "Low",
+          "tierOrRole": "Uncommon / Tank",
+          "tradingNote": "Defensive role gives it some Slime RNG use, but market demand is lower than DPS-focused slimes."
+        },
+        {
+          "slime": "Fire Slime",
+          "estimatedValue": "15M - 40M Coins",
+          "demand": "Low",
+          "tierOrRole": "Uncommon / Damage over time",
+          "tradingNote": "Situational DoT value, mostly useful before stronger rare or Huge Slime RNG options are available."
+        },
+        {
+          "slime": "Ice Slime",
+          "estimatedValue": "10M - 35M Coins",
+          "demand": "Low",
+          "tierOrRole": "Uncommon / Slow utility",
+          "tradingNote": "Utility-focused Slime RNG slime with limited trade demand compared with direct DPS or luck-boosting slimes."
+        }
+      ]
+    },
+    "slimeRngUpdatesAndPatchNotes": {
+      "eyebrow": "Updates",
+      "title": "Slime RNG Updates and Patch Notes",
+      "subtitle": "Track Slime RNG new zones, new slimes, code drops, balance changes, and future content directions.",
+      "intro": "Slime RNG updates affect progression routes, trading demand, roll priorities, and code rewards. The most important recent changes include Zone 8, Void Slime, Huge variants, Dice-based Roll Speed progression, and new promo-code reward cycles.",
+      "items": [
+        {
+          "date": "April 25, 2026",
+          "version": "Live Data Update",
+          "title": "Slime RNG New Promo Codes Released",
+          "category": "Promo Codes",
+          "highlights": [
+            "time2Grind added with Ultra Luck Boost and Big Dice rewards",
+            "craftAway added with Ultra Luck Boost, Roll Speed Boost, and 4 Apples",
+            "semils listed with Ultra Luck Boost, Roll Speed Boost, and Apples",
+            "Code rewards support Slime RNG rolling speed, luck stacking, and slime leveling"
+          ]
+        },
+        {
+          "date": "April 20, 2026",
+          "version": "Version 1.2",
+          "title": "Slime RNG Zone 8 and Void Slime Update",
+          "category": "Major Update",
+          "highlights": [
+            "Added Zone 8: The Alien Hive",
+            "Zone 8 requires 250M Coins to unlock",
+            "Introduced Void Slime as a Mythic-tier slime",
+            "Added Lucky Clover upgrade",
+            "Added offline loot retention scaling",
+            "Increased rebirth multiplier gains by 15%",
+            "Increased Goop drop rates in Zones 5-7",
+            "Reduced enemy health in Zones 6-7 for smoother progression"
+          ]
+        },
+        {
+          "date": "April 18, 2026",
+          "version": "Live Data Update",
+          "title": "Slime RNG Huge Slime Variants Confirmed",
+          "category": "Game Mechanic",
+          "highlights": [
+            "Huge Rocky confirmed as a high-value late-game AoE variant",
+            "Huge Spike confirmed as a top DPS trading target",
+            "Huge Lucky confirmed as a major luck-utility variant",
+            "Huge variants became major targets for Slime RNG endgame trading and farming"
+          ]
+        },
+        {
+          "date": "April 12, 2026",
+          "version": "Live Data Update",
+          "title": "Slime RNG Zone 8 Requirements Discovered",
+          "category": "Zone Progression",
+          "highlights": [
+            "The Alien Hive requires 250M Coins",
+            "Zone 8 enemies reach 35M HP",
+            "Zone 8 enemy kills can yield 3.5M Coins",
+            "Late-game Slime RNG teams need strong DPS and upgraded farming speed before pushing this zone"
+          ]
+        },
+        {
+          "date": "April 10, 2026",
+          "version": "Mechanics Update",
+          "title": "Slime RNG Rebirth Multiplier Mechanics Explained",
+          "category": "Progression",
+          "highlights": [
+            "Rebirth multiplier jumps can heavily accelerate future runs",
+            "Group +1 Luck interacts with rebirth-focused progression",
+            "Luck stacking becomes much stronger after Goop and rebirth cycles are unlocked"
+          ]
+        },
+        {
+          "date": "April 8, 2026",
+          "version": "Consumables Update",
+          "title": "Slime RNG Fruit XP Values Confirmed",
+          "category": "Consumables",
+          "highlights": [
+            "Apple provides 75 XP",
+            "Cherry provides 75 XP",
+            "Carrot provides 75 XP",
+            "Banana provides 75 XP",
+            "Best use is feeding fruits to high-rarity or long-term Slime RNG carry slimes"
+          ]
+        },
+        {
+          "date": "March 15, 2026",
+          "version": "Version 1.1",
+          "title": "Slime RNG Crystal Cave and Huge Variant Update",
+          "category": "Major Update",
+          "highlights": [
+            "Added Zone 7: The Crystal Cave",
+            "Introduced Huge Slime variants including Rocky, Spike, and Lucky",
+            "Added Enemy Rush upgrade with 25% spawn-rate increase",
+            "Added premium Dice currency for Roll Speed upgrades",
+            "Improved auto-roll toggle visibility",
+            "Added active slime aura indicators",
+            "Expanded inventory slots for collectors"
+          ]
+        },
+        {
+          "date": "February 25, 2026",
+          "version": "Version 1.0",
+          "title": "Slime RNG Launch Version",
+          "category": "Initial Release",
+          "highlights": [
+            "Slime RNG launched on Roblox",
+            "Initial release included Zones 1-6",
+            "Core gameplay included rolling, combat, upgrades, and rebirth",
+            "Promo code system activated",
+            "Stouts Studio group integration added for +1 Luck"
+          ]
+        },
+        {
+          "date": "Roadmap Watchlist",
+          "version": "Upcoming Content",
+          "title": "Slime RNG Future Update Themes",
+          "category": "Future Content",
+          "highlights": [
+            "Additional zones beyond Zone 8",
+            "New slime variants and mutation types",
+            "Super Rebirth-style progression",
+            "Tertiary currency beyond Coins and Goop",
+            "Seasonal events with limited-time Slime RNG slimes"
+          ]
         }
       ]
     }

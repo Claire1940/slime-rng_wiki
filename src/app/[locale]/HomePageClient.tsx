@@ -3,15 +3,24 @@
 import { useEffect, Suspense, lazy } from 'react'
 import {
   ArrowRight,
+  Apple,
+  Banana,
   BookOpen,
+  CalendarDays,
+  Carrot,
   Check,
+  Cherry,
   ClipboardCheck,
   Coins,
+  Clock,
+  Dice5,
   Eye,
   ExternalLink,
   Gamepad2,
   Gem,
+  Handshake,
   MapPinned,
+  Newspaper,
   Package,
   Settings,
   Shield,
@@ -48,6 +57,8 @@ interface HomePageClientProps {
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
   const localeMessages = useMessages() as any
   const t = localeMessages?.hero?.title === enMessages.hero.title ? localeMessages : enMessages
+  const fruitIcons = [Apple, Cherry, Carrot, Banana, TrendingUp]
+  const diceIcons = [Clock, Dice5, Package, Sparkles, Eye, ClipboardCheck]
 
   // Scroll reveal animation
   useEffect(() => {
@@ -167,7 +178,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       {/* Latest Updates Section */}
       <LatestGuidesAccordion articles={latestArticles} locale={locale} max={30} />
 
-      {/* Tools Grid - 12 Navigation Cards */}
+      {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -493,6 +504,110 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
+            </a>
+
+            <a
+              href="#fruits-and-xp-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('fruits-and-xp-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '600ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[12].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[12].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[12].description}</p>
+            </a>
+
+            <a
+              href="#dice-and-roll-speed-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('dice-and-roll-speed-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '650ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[13].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[13].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[13].description}</p>
+            </a>
+
+            <a
+              href="#trading-values"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('trading-values')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '700ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[14].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[14].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[14].description}</p>
+            </a>
+
+            <a
+              href="#updates-and-patch-notes"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('updates-and-patch-notes')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 cursor-pointer text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+              style={{ animationDelay: '750ms' }}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <DynamicIcon
+                  name={t.tools.cards[15].icon}
+                  className="w-6 h-6 text-[hsl(var(--nav-theme-light))]"
+                />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[15].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[15].description}</p>
             </a>
           </div>
         </div>
@@ -1345,6 +1460,323 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Slime RNG Fruits and XP Guide */}
+      <section id="fruits-and-xp-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Apple className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngFruitsAndXpGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngFruitsAndXpGuide.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngFruitsAndXpGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngFruitsAndXpGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden md:block overflow-hidden rounded-xl border border-border bg-card">
+            <table className="w-full text-left">
+              <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                <tr className="border-b border-border">
+                  <th className="p-4 font-semibold">Slime RNG Fruit</th>
+                  <th className="p-4 font-semibold">XP Value</th>
+                  <th className="p-4 font-semibold">Best Target</th>
+                  <th className="p-4 font-semibold">Usage Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.slimeRngFruitsAndXpGuide.items.map((fruit: any, index: number) => {
+                  const FruitIcon = fruitIcons[index] ?? Apple
+                  return (
+                    <tr key={fruit.item} className="border-b border-border last:border-b-0
+                                                   hover:bg-[hsl(var(--nav-theme)/0.04)]">
+                      <td className="p-4">
+                        <div className="flex items-center gap-3">
+                          <span className="flex h-10 w-10 items-center justify-center rounded-lg
+                                           bg-[hsl(var(--nav-theme)/0.12)]
+                                           border border-[hsl(var(--nav-theme)/0.3)]">
+                            <FruitIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                          </span>
+                          <div>
+                            <p className="font-bold">{fruit.item}</p>
+                            <p className="text-sm text-muted-foreground">{fruit.type}</p>
+                          </div>
+                        </div>
+                      </td>
+                      <td className="p-4">
+                        <span className="inline-flex rounded-full px-3 py-1 text-sm font-bold
+                                         bg-[hsl(var(--nav-theme)/0.12)]
+                                         border border-[hsl(var(--nav-theme)/0.3)]
+                                         text-[hsl(var(--nav-theme-light))]">
+                          {fruit.xpPerUse}
+                        </span>
+                      </td>
+                      <td className="p-4 text-sm text-muted-foreground">{fruit.bestTarget}</td>
+                      <td className="p-4 text-sm text-muted-foreground">{fruit.usageNote}</td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 gap-4 md:hidden">
+            {t.modules.slimeRngFruitsAndXpGuide.items.map((fruit: any, index: number) => {
+              const FruitIcon = fruitIcons[index] ?? Apple
+              return (
+                <div key={fruit.item} className="rounded-xl border border-border bg-card p-5">
+                  <div className="flex items-start justify-between gap-3 mb-4">
+                    <div className="flex items-center gap-3">
+                      <span className="flex h-11 w-11 items-center justify-center rounded-lg
+                                       bg-[hsl(var(--nav-theme)/0.12)]
+                                       border border-[hsl(var(--nav-theme)/0.3)]">
+                        <FruitIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <div>
+                        <h3 className="text-xl font-bold">{fruit.item}</h3>
+                        <p className="text-sm text-muted-foreground">{fruit.type}</p>
+                      </div>
+                    </div>
+                    <span className="shrink-0 rounded-full px-3 py-1 text-sm font-bold
+                                     bg-[hsl(var(--nav-theme)/0.12)]
+                                     border border-[hsl(var(--nav-theme)/0.3)]
+                                     text-[hsl(var(--nav-theme-light))]">
+                      {fruit.xpPerUse}
+                    </span>
+                  </div>
+                  <p className="text-sm font-semibold text-[hsl(var(--nav-theme-light))] mb-2">
+                    {fruit.bestTarget}
+                  </p>
+                  <p className="text-sm text-muted-foreground mb-3">{fruit.usageNote}</p>
+                  <p className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)]
+                                bg-[hsl(var(--nav-theme)/0.05)] p-3 text-xs text-muted-foreground">
+                    {fruit.knownSources}
+                  </p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Slime RNG Dice and Roll Speed Guide */}
+      <section id="dice-and-roll-speed-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Dice5 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngDiceAndRollSpeedGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngDiceAndRollSpeedGuide.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngDiceAndRollSpeedGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngDiceAndRollSpeedGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {t.modules.slimeRngDiceAndRollSpeedGuide.items.map((item: any, index: number) => {
+              const DiceIcon = diceIcons[index] ?? Dice5
+              return (
+                <details key={item.question} className="group rounded-xl border border-border bg-card p-5
+                                                        open:border-[hsl(var(--nav-theme)/0.45)]">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-4">
+                    <span className="flex gap-3">
+                      <span className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg
+                                       bg-[hsl(var(--nav-theme)/0.12)]
+                                       border border-[hsl(var(--nav-theme)/0.3)]">
+                        <DiceIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </span>
+                      <span className="font-bold text-lg">{item.question}</span>
+                    </span>
+                    <ArrowRight className="mt-2 h-5 w-5 shrink-0 text-[hsl(var(--nav-theme-light))]
+                                           transition-transform group-open:rotate-90" />
+                  </summary>
+                  <div className="mt-5 space-y-4 pl-0 lg:pl-[3.25rem]">
+                    <p className="text-muted-foreground">{item.answer}</p>
+                    <div className="grid grid-cols-1 gap-3">
+                      <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)]
+                                      bg-[hsl(var(--nav-theme)/0.05)] p-3">
+                        <p className="text-xs uppercase text-muted-foreground mb-1">Best Use</p>
+                        <p className="text-sm">{item.bestUse}</p>
+                      </div>
+                      <div className="rounded-lg border border-border bg-background/70 p-3">
+                        <p className="text-xs uppercase text-muted-foreground mb-1">Related Slime RNG Rewards</p>
+                        <p className="text-sm font-semibold">{item.relatedRewards}</p>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Slime RNG Trading Values */}
+      <section id="trading-values" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Handshake className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngTradingValues.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngTradingValues.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngTradingValues.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngTradingValues.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden lg:block overflow-hidden rounded-xl border border-border bg-card">
+            <table className="w-full text-left">
+              <thead className="bg-[hsl(var(--nav-theme)/0.08)]">
+                <tr className="border-b border-border">
+                  <th className="p-4 font-semibold">Slime RNG Slime</th>
+                  <th className="p-4 font-semibold">Estimated Value</th>
+                  <th className="p-4 font-semibold">Demand</th>
+                  <th className="p-4 font-semibold">Tier / Role</th>
+                  <th className="p-4 font-semibold">Trading Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.slimeRngTradingValues.items.map((trade: any) => (
+                  <tr key={trade.slime} className="border-b border-border last:border-b-0
+                                                  hover:bg-[hsl(var(--nav-theme)/0.04)]">
+                    <td className="p-4 font-bold">{trade.slime}</td>
+                    <td className="p-4">
+                      <span className="inline-flex rounded-full px-3 py-1 text-sm font-bold
+                                       bg-[hsl(var(--nav-theme)/0.12)]
+                                       border border-[hsl(var(--nav-theme)/0.3)]
+                                       text-[hsl(var(--nav-theme-light))]">
+                        {trade.estimatedValue}
+                      </span>
+                    </td>
+                    <td className="p-4 text-sm font-semibold">{trade.demand}</td>
+                    <td className="p-4 text-sm text-muted-foreground">{trade.tierOrRole}</td>
+                    <td className="p-4 text-sm text-muted-foreground">{trade.tradingNote}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 lg:hidden">
+            {t.modules.slimeRngTradingValues.items.map((trade: any) => (
+              <div key={trade.slime} className="rounded-xl border border-border bg-card p-5
+                                               hover:border-[hsl(var(--nav-theme)/0.5)]
+                                               transition-colors">
+                <div className="flex items-start justify-between gap-3 mb-3">
+                  <div>
+                    <h3 className="text-xl font-bold">{trade.slime}</h3>
+                    <p className="text-sm text-[hsl(var(--nav-theme-light))]">{trade.tierOrRole}</p>
+                  </div>
+                  <span className="shrink-0 rounded-full px-3 py-1 text-xs font-bold
+                                   bg-[hsl(var(--nav-theme)/0.12)]
+                                   border border-[hsl(var(--nav-theme)/0.3)]">
+                    {trade.demand}
+                  </span>
+                </div>
+                <div className="rounded-lg border border-border bg-background/70 p-3 mb-3">
+                  <p className="text-xs uppercase text-muted-foreground">Slime RNG Estimated Value</p>
+                  <p className="font-semibold">{trade.estimatedValue}</p>
+                </div>
+                <p className="text-sm text-muted-foreground">{trade.tradingNote}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Slime RNG Updates and Patch Notes */}
+      <section id="updates-and-patch-notes" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)]
+                            border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Newspaper className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.slimeRngUpdatesAndPatchNotes.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.slimeRngUpdatesAndPatchNotes.title}
+            </h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-semibold mb-3">
+              {t.modules.slimeRngUpdatesAndPatchNotes.subtitle}
+            </p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.slimeRngUpdatesAndPatchNotes.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal relative">
+            <div className="absolute left-5 top-0 hidden h-full w-px bg-border md:block" />
+            <div className="space-y-5">
+              {t.modules.slimeRngUpdatesAndPatchNotes.items.map((update: any) => (
+                <div key={`${update.date}-${update.title}`} className="relative grid grid-cols-1 md:grid-cols-[auto_1fr] gap-4">
+                  <div className="z-10 flex h-10 w-10 items-center justify-center rounded-full
+                                  bg-[hsl(var(--nav-theme))]
+                                  text-[hsl(var(--primary-foreground))]">
+                    <CalendarDays className="h-5 w-5" />
+                  </div>
+                  <div className="rounded-xl border border-border bg-card p-5
+                                  hover:border-[hsl(var(--nav-theme)/0.5)]
+                                  transition-colors">
+                    <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-3 mb-4">
+                      <div>
+                        <div className="flex flex-wrap items-center gap-2 mb-2">
+                          <span className="rounded-full px-3 py-1 text-xs font-bold
+                                           bg-[hsl(var(--nav-theme)/0.12)]
+                                           border border-[hsl(var(--nav-theme)/0.3)]
+                                           text-[hsl(var(--nav-theme-light))]">
+                            {update.date}
+                          </span>
+                          <span className="rounded-full px-3 py-1 text-xs border border-border text-muted-foreground">
+                            {update.category}
+                          </span>
+                        </div>
+                        <h3 className="text-2xl font-bold">{update.title}</h3>
+                      </div>
+                      <span className="shrink-0 rounded-lg border border-border bg-background/70 px-3 py-2 text-sm font-semibold">
+                        {update.version}
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {update.highlights.map((highlight: string) => (
+                        <div key={highlight} className="flex items-start gap-2 rounded-lg border border-border
+                                                       bg-white/5 p-3 text-sm text-muted-foreground">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                          <span>{highlight}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
