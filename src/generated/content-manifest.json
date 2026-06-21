@@ -1,0 +1,1602 @@
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "Slime-RNG-codes",
+        "file": "Slime-RNG-codes"
+      },
+      {
+        "slug": "slime-rebirth",
+        "file": "slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-code-rewards",
+        "file": "slime-rng-code-rewards"
+      },
+      {
+        "slug": "slime-rng-expired-codes",
+        "file": "slime-rng-expired-codes"
+      },
+      {
+        "slug": "slime-rng-goop",
+        "file": "slime-rng-goop"
+      },
+      {
+        "slug": "slime-rng-new-codes",
+        "file": "slime-rng-new-codes"
+      },
+      {
+        "slug": "slime-rng-rebirth",
+        "file": "slime-rng-rebirth"
+      },
+      {
+        "slug": "slime-rng-recipes",
+        "file": "slime-rng-recipes"
+      },
+      {
+        "slug": "slime-rng-redeem-codes",
+        "file": "slime-rng-redeem-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "Slime-RNG-all-recipe-locations",
+        "file": "Slime-RNG-all-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-crafting-guide",
+        "file": "Slime-RNG-crafting-guide"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipe-location",
+        "file": "Slime-RNG-crafting-recipe-location"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipes",
+        "file": "Slime-RNG-crafting-recipes"
+      },
+      {
+        "slug": "Slime-RNG-first-four-recipe-locations",
+        "file": "Slime-RNG-first-four-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-recipe-locations",
+        "file": "Slime-RNG-recipe-locations"
+      },
+      {
+        "slug": "slime-rng-advanced-recipes",
+        "file": "slime-rng-advanced-recipes"
+      },
+      {
+        "slug": "slime-rng-crafting-materials",
+        "file": "slime-rng-crafting-materials"
+      },
+      {
+        "slug": "slime-rng-goop-crafting",
+        "file": "slime-rng-goop-crafting"
+      },
+      {
+        "slug": "slime-rng-mushroom-recipe",
+        "file": "slime-rng-mushroom-recipe"
+      },
+      {
+        "slug": "slime-rng-mushroom-zone-recipe",
+        "file": "slime-rng-mushroom-zone-recipe"
+      },
+      {
+        "slug": "slime-rng-recipe-guide",
+        "file": "slime-rng-recipe-guide"
+      }
+    ],
+    "economy": [
+      {
+        "slug": "Slime-RNG-XP-guide",
+        "file": "Slime-RNG-XP-guide"
+      },
+      {
+        "slug": "Slime-RNG-apples",
+        "file": "Slime-RNG-apples"
+      },
+      {
+        "slug": "Slime-RNG-coins",
+        "file": "Slime-RNG-coins"
+      },
+      {
+        "slug": "Slime-RNG-farm-coins",
+        "file": "Slime-RNG-farm-coins"
+      },
+      {
+        "slug": "Slime-RNG-fruits",
+        "file": "Slime-RNG-fruits"
+      },
+      {
+        "slug": "Slime-RNG-how-to-make-money",
+        "file": "Slime-RNG-how-to-make-money"
+      },
+      {
+        "slug": "Slime-RNG-level-up-slimes",
+        "file": "Slime-RNG-level-up-slimes"
+      },
+      {
+        "slug": "Slime-RNG-money-guide",
+        "file": "Slime-RNG-money-guide"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-money-making",
+        "file": "slime-rng-money-making"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Slime-RNG-beginner-guide",
+        "file": "Slime-RNG-beginner-guide"
+      },
+      {
+        "slug": "Slime-RNG-best-strategy",
+        "file": "Slime-RNG-best-strategy"
+      },
+      {
+        "slug": "Slime-RNG-how-to-play",
+        "file": "Slime-RNG-how-to-play"
+      },
+      {
+        "slug": "Slime-RNG-noob-to-rare-slimes",
+        "file": "Slime-RNG-noob-to-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-progression-guide",
+        "file": "Slime-RNG-progression-guide"
+      },
+      {
+        "slug": "Slime-RNG-roblox-guide",
+        "file": "Slime-RNG-roblox-guide"
+      },
+      {
+        "slug": "Slime-RNG-tips",
+        "file": "Slime-RNG-tips"
+      },
+      {
+        "slug": "Slime-RNG-ultimate-guide",
+        "file": "Slime-RNG-ultimate-guide"
+      },
+      {
+        "slug": "how-to-get-goop-in-slime-rng",
+        "file": "how-to-get-goop-in-slime-rng"
+      },
+      {
+        "slug": "slim-rng",
+        "file": "slim-rng"
+      },
+      {
+        "slug": "slime-rng-beginner-progression",
+        "file": "slime-rng-beginner-progression"
+      },
+      {
+        "slug": "slime-rng-biome-guide",
+        "file": "slime-rng-biome-guide"
+      },
+      {
+        "slug": "slime-rng-goop-farming",
+        "file": "slime-rng-goop-farming"
+      },
+      {
+        "slug": "slime-rng-milestones",
+        "file": "slime-rng-milestones"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "Slime-RNG-auto-roll",
+        "file": "Slime-RNG-auto-roll"
+      },
+      {
+        "slug": "Slime-RNG-best-roll-method",
+        "file": "Slime-RNG-best-roll-method"
+      },
+      {
+        "slug": "Slime-RNG-dice",
+        "file": "Slime-RNG-dice"
+      },
+      {
+        "slug": "Slime-RNG-infinite-luck",
+        "file": "Slime-RNG-infinite-luck"
+      },
+      {
+        "slug": "Slime-RNG-luck-boost",
+        "file": "Slime-RNG-luck-boost"
+      },
+      {
+        "slug": "Slime-RNG-luck",
+        "file": "Slime-RNG-luck"
+      },
+      {
+        "slug": "Slime-RNG-roll-chance",
+        "file": "Slime-RNG-roll-chance"
+      },
+      {
+        "slug": "Slime-RNG-roll-speed",
+        "file": "Slime-RNG-roll-speed"
+      },
+      {
+        "slug": "how-to-rebirth-in-slime-rng",
+        "file": "how-to-rebirth-in-slime-rng"
+      },
+      {
+        "slug": "roblox-slime-rebirth",
+        "file": "roblox-slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-advanced-guide",
+        "file": "slime-rng-advanced-guide"
+      },
+      {
+        "slug": "slime-rng-auto-roll-settings",
+        "file": "slime-rng-auto-roll-settings"
+      },
+      {
+        "slug": "slime-rng-best-economy",
+        "file": "slime-rng-best-economy"
+      },
+      {
+        "slug": "slime-rng-best-luck-strategy",
+        "file": "slime-rng-best-luck-strategy"
+      },
+      {
+        "slug": "slime-rng-best-rebirth",
+        "file": "slime-rng-best-rebirth"
+      },
+      {
+        "slug": "slime-rng-best-settings",
+        "file": "slime-rng-best-settings"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-economy-tips",
+        "file": "slime-rng-economy-tips"
+      },
+      {
+        "slug": "slime-rng-faq-guide",
+        "file": "slime-rng-faq-guide"
+      },
+      {
+        "slug": "slime-rng-guide",
+        "file": "slime-rng-guide"
+      },
+      {
+        "slug": "slime-rng-how-to-get-goop",
+        "file": "slime-rng-how-to-get-goop"
+      },
+      {
+        "slug": "slime-rng-luck-boost-guide",
+        "file": "slime-rng-luck-boost-guide"
+      },
+      {
+        "slug": "slime-rng-roll-speed-guide",
+        "file": "slime-rng-roll-speed-guide"
+      },
+      {
+        "slug": "slime-rng-slimes-guide",
+        "file": "slime-rng-slimes-guide"
+      },
+      {
+        "slug": "slime-rng-strategy-guide",
+        "file": "slime-rng-strategy-guide"
+      },
+      {
+        "slug": "slime-rng-tips-and-tricks",
+        "file": "slime-rng-tips-and-tricks"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "Slime-RNG-first-rebirth",
+        "file": "Slime-RNG-first-rebirth"
+      },
+      {
+        "slug": "Slime-RNG-permanent-luck-multiplier",
+        "file": "Slime-RNG-permanent-luck-multiplier"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-cost",
+        "file": "Slime-RNG-rebirth-cost"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-guide",
+        "file": "Slime-RNG-rebirth-guide"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-requirements",
+        "file": "Slime-RNG-rebirth-requirements"
+      },
+      {
+        "slug": "Slime-RNG-when-to-rebirth",
+        "file": "Slime-RNG-when-to-rebirth"
+      },
+      {
+        "slug": "slime-rng-rebirth-multiplier",
+        "file": "slime-rng-rebirth-multiplier"
+      },
+      {
+        "slug": "slime-rng-rebirth-reset-guide",
+        "file": "slime-rng-rebirth-reset-guide"
+      },
+      {
+        "slug": "slime-rng-rebirth-rewards",
+        "file": "slime-rng-rebirth-rewards"
+      }
+    ],
+    "slimes": [
+      {
+        "slug": "Slime-RNG-best-slime",
+        "file": "Slime-RNG-best-slime"
+      },
+      {
+        "slug": "Slime-RNG-dangerous-slimes",
+        "file": "Slime-RNG-dangerous-slimes"
+      },
+      {
+        "slug": "Slime-RNG-how-to-get-rare-slimes",
+        "file": "Slime-RNG-how-to-get-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rare-slimes",
+        "file": "Slime-RNG-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rarest-slime",
+        "file": "Slime-RNG-rarest-slime"
+      },
+      {
+        "slug": "Slime-RNG-shiny-slimes",
+        "file": "Slime-RNG-shiny-slimes"
+      },
+      {
+        "slug": "Slime-RNG-slime-list",
+        "file": "Slime-RNG-slime-list"
+      },
+      {
+        "slug": "Slime-RNG-slime-rarity",
+        "file": "Slime-RNG-slime-rarity"
+      },
+      {
+        "slug": "slime-rng-all-slimes",
+        "file": "slime-rng-all-slimes"
+      },
+      {
+        "slug": "slime-rng-best-slime-setup",
+        "file": "slime-rng-best-slime-setup"
+      },
+      {
+        "slug": "slime-rng-goop-slime",
+        "file": "slime-rng-goop-slime"
+      },
+      {
+        "slug": "slime-rng-mutation-guide",
+        "file": "slime-rng-mutation-guide"
+      },
+      {
+        "slug": "slime-rng-rare-slime-chances",
+        "file": "slime-rng-rare-slime-chances"
+      },
+      {
+        "slug": "slime-rng-rare-slime-locations",
+        "file": "slime-rng-rare-slime-locations"
+      },
+      {
+        "slug": "slime-rng-slime-index",
+        "file": "slime-rng-slime-index"
+      },
+      {
+        "slug": "slime-rng-slime-ratings",
+        "file": "slime-rng-slime-ratings"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "Slime-RNG-codes",
+        "file": "Slime-RNG-codes"
+      },
+      {
+        "slug": "slime-rebirth",
+        "file": "slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-code-rewards",
+        "file": "slime-rng-code-rewards"
+      },
+      {
+        "slug": "slime-rng-expired-codes",
+        "file": "slime-rng-expired-codes"
+      },
+      {
+        "slug": "slime-rng-goop",
+        "file": "slime-rng-goop"
+      },
+      {
+        "slug": "slime-rng-new-codes",
+        "file": "slime-rng-new-codes"
+      },
+      {
+        "slug": "slime-rng-rebirth",
+        "file": "slime-rng-rebirth"
+      },
+      {
+        "slug": "slime-rng-recipes",
+        "file": "slime-rng-recipes"
+      },
+      {
+        "slug": "slime-rng-redeem-codes",
+        "file": "slime-rng-redeem-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "Slime-RNG-all-recipe-locations",
+        "file": "Slime-RNG-all-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-crafting-guide",
+        "file": "Slime-RNG-crafting-guide"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipe-location",
+        "file": "Slime-RNG-crafting-recipe-location"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipes",
+        "file": "Slime-RNG-crafting-recipes"
+      },
+      {
+        "slug": "Slime-RNG-first-four-recipe-locations",
+        "file": "Slime-RNG-first-four-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-recipe-locations",
+        "file": "Slime-RNG-recipe-locations"
+      },
+      {
+        "slug": "slime-rng-advanced-recipes",
+        "file": "slime-rng-advanced-recipes"
+      },
+      {
+        "slug": "slime-rng-crafting-materials",
+        "file": "slime-rng-crafting-materials"
+      },
+      {
+        "slug": "slime-rng-goop-crafting",
+        "file": "slime-rng-goop-crafting"
+      },
+      {
+        "slug": "slime-rng-mushroom-recipe",
+        "file": "slime-rng-mushroom-recipe"
+      },
+      {
+        "slug": "slime-rng-mushroom-zone-recipe",
+        "file": "slime-rng-mushroom-zone-recipe"
+      },
+      {
+        "slug": "slime-rng-recipe-guide",
+        "file": "slime-rng-recipe-guide"
+      }
+    ],
+    "economy": [
+      {
+        "slug": "Slime-RNG-XP-guide",
+        "file": "Slime-RNG-XP-guide"
+      },
+      {
+        "slug": "Slime-RNG-apples",
+        "file": "Slime-RNG-apples"
+      },
+      {
+        "slug": "Slime-RNG-coins",
+        "file": "Slime-RNG-coins"
+      },
+      {
+        "slug": "Slime-RNG-farm-coins",
+        "file": "Slime-RNG-farm-coins"
+      },
+      {
+        "slug": "Slime-RNG-fruits",
+        "file": "Slime-RNG-fruits"
+      },
+      {
+        "slug": "Slime-RNG-how-to-make-money",
+        "file": "Slime-RNG-how-to-make-money"
+      },
+      {
+        "slug": "Slime-RNG-level-up-slimes",
+        "file": "Slime-RNG-level-up-slimes"
+      },
+      {
+        "slug": "Slime-RNG-money-guide",
+        "file": "Slime-RNG-money-guide"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-money-making",
+        "file": "slime-rng-money-making"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Slime-RNG-beginner-guide",
+        "file": "Slime-RNG-beginner-guide"
+      },
+      {
+        "slug": "Slime-RNG-best-strategy",
+        "file": "Slime-RNG-best-strategy"
+      },
+      {
+        "slug": "Slime-RNG-how-to-play",
+        "file": "Slime-RNG-how-to-play"
+      },
+      {
+        "slug": "Slime-RNG-noob-to-rare-slimes",
+        "file": "Slime-RNG-noob-to-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-progression-guide",
+        "file": "Slime-RNG-progression-guide"
+      },
+      {
+        "slug": "Slime-RNG-roblox-guide",
+        "file": "Slime-RNG-roblox-guide"
+      },
+      {
+        "slug": "Slime-RNG-tips",
+        "file": "Slime-RNG-tips"
+      },
+      {
+        "slug": "Slime-RNG-ultimate-guide",
+        "file": "Slime-RNG-ultimate-guide"
+      },
+      {
+        "slug": "how-to-get-goop-in-slime-rng",
+        "file": "how-to-get-goop-in-slime-rng"
+      },
+      {
+        "slug": "slim-rng",
+        "file": "slim-rng"
+      },
+      {
+        "slug": "slime-rng-beginner-progression",
+        "file": "slime-rng-beginner-progression"
+      },
+      {
+        "slug": "slime-rng-biome-guide",
+        "file": "slime-rng-biome-guide"
+      },
+      {
+        "slug": "slime-rng-goop-farming",
+        "file": "slime-rng-goop-farming"
+      },
+      {
+        "slug": "slime-rng-milestones",
+        "file": "slime-rng-milestones"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "Slime-RNG-auto-roll",
+        "file": "Slime-RNG-auto-roll"
+      },
+      {
+        "slug": "Slime-RNG-best-roll-method",
+        "file": "Slime-RNG-best-roll-method"
+      },
+      {
+        "slug": "Slime-RNG-dice",
+        "file": "Slime-RNG-dice"
+      },
+      {
+        "slug": "Slime-RNG-infinite-luck",
+        "file": "Slime-RNG-infinite-luck"
+      },
+      {
+        "slug": "Slime-RNG-luck-boost",
+        "file": "Slime-RNG-luck-boost"
+      },
+      {
+        "slug": "Slime-RNG-luck",
+        "file": "Slime-RNG-luck"
+      },
+      {
+        "slug": "Slime-RNG-roll-chance",
+        "file": "Slime-RNG-roll-chance"
+      },
+      {
+        "slug": "Slime-RNG-roll-speed",
+        "file": "Slime-RNG-roll-speed"
+      },
+      {
+        "slug": "how-to-rebirth-in-slime-rng",
+        "file": "how-to-rebirth-in-slime-rng"
+      },
+      {
+        "slug": "roblox-slime-rebirth",
+        "file": "roblox-slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-advanced-guide",
+        "file": "slime-rng-advanced-guide"
+      },
+      {
+        "slug": "slime-rng-auto-roll-settings",
+        "file": "slime-rng-auto-roll-settings"
+      },
+      {
+        "slug": "slime-rng-best-economy",
+        "file": "slime-rng-best-economy"
+      },
+      {
+        "slug": "slime-rng-best-luck-strategy",
+        "file": "slime-rng-best-luck-strategy"
+      },
+      {
+        "slug": "slime-rng-best-rebirth",
+        "file": "slime-rng-best-rebirth"
+      },
+      {
+        "slug": "slime-rng-best-settings",
+        "file": "slime-rng-best-settings"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-economy-tips",
+        "file": "slime-rng-economy-tips"
+      },
+      {
+        "slug": "slime-rng-faq-guide",
+        "file": "slime-rng-faq-guide"
+      },
+      {
+        "slug": "slime-rng-guide",
+        "file": "slime-rng-guide"
+      },
+      {
+        "slug": "slime-rng-how-to-get-goop",
+        "file": "slime-rng-how-to-get-goop"
+      },
+      {
+        "slug": "slime-rng-luck-boost-guide",
+        "file": "slime-rng-luck-boost-guide"
+      },
+      {
+        "slug": "slime-rng-roll-speed-guide",
+        "file": "slime-rng-roll-speed-guide"
+      },
+      {
+        "slug": "slime-rng-slimes-guide",
+        "file": "slime-rng-slimes-guide"
+      },
+      {
+        "slug": "slime-rng-strategy-guide",
+        "file": "slime-rng-strategy-guide"
+      },
+      {
+        "slug": "slime-rng-tips-and-tricks",
+        "file": "slime-rng-tips-and-tricks"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "Slime-RNG-first-rebirth",
+        "file": "Slime-RNG-first-rebirth"
+      },
+      {
+        "slug": "Slime-RNG-permanent-luck-multiplier",
+        "file": "Slime-RNG-permanent-luck-multiplier"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-cost",
+        "file": "Slime-RNG-rebirth-cost"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-guide",
+        "file": "Slime-RNG-rebirth-guide"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-requirements",
+        "file": "Slime-RNG-rebirth-requirements"
+      },
+      {
+        "slug": "Slime-RNG-when-to-rebirth",
+        "file": "Slime-RNG-when-to-rebirth"
+      },
+      {
+        "slug": "slime-rng-rebirth-multiplier",
+        "file": "slime-rng-rebirth-multiplier"
+      },
+      {
+        "slug": "slime-rng-rebirth-reset-guide",
+        "file": "slime-rng-rebirth-reset-guide"
+      },
+      {
+        "slug": "slime-rng-rebirth-rewards",
+        "file": "slime-rng-rebirth-rewards"
+      }
+    ],
+    "slimes": [
+      {
+        "slug": "Slime-RNG-best-slime",
+        "file": "Slime-RNG-best-slime"
+      },
+      {
+        "slug": "Slime-RNG-dangerous-slimes",
+        "file": "Slime-RNG-dangerous-slimes"
+      },
+      {
+        "slug": "Slime-RNG-how-to-get-rare-slimes",
+        "file": "Slime-RNG-how-to-get-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rare-slimes",
+        "file": "Slime-RNG-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rarest-slime",
+        "file": "Slime-RNG-rarest-slime"
+      },
+      {
+        "slug": "Slime-RNG-shiny-slimes",
+        "file": "Slime-RNG-shiny-slimes"
+      },
+      {
+        "slug": "Slime-RNG-slime-list",
+        "file": "Slime-RNG-slime-list"
+      },
+      {
+        "slug": "Slime-RNG-slime-rarity",
+        "file": "Slime-RNG-slime-rarity"
+      },
+      {
+        "slug": "slime-rng-all-slimes",
+        "file": "slime-rng-all-slimes"
+      },
+      {
+        "slug": "slime-rng-best-slime-setup",
+        "file": "slime-rng-best-slime-setup"
+      },
+      {
+        "slug": "slime-rng-goop-slime",
+        "file": "slime-rng-goop-slime"
+      },
+      {
+        "slug": "slime-rng-mutation-guide",
+        "file": "slime-rng-mutation-guide"
+      },
+      {
+        "slug": "slime-rng-rare-slime-chances",
+        "file": "slime-rng-rare-slime-chances"
+      },
+      {
+        "slug": "slime-rng-rare-slime-locations",
+        "file": "slime-rng-rare-slime-locations"
+      },
+      {
+        "slug": "slime-rng-slime-index",
+        "file": "slime-rng-slime-index"
+      },
+      {
+        "slug": "slime-rng-slime-ratings",
+        "file": "slime-rng-slime-ratings"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "Slime-RNG-codes",
+        "file": "Slime-RNG-codes"
+      },
+      {
+        "slug": "slime-rebirth",
+        "file": "slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-code-rewards",
+        "file": "slime-rng-code-rewards"
+      },
+      {
+        "slug": "slime-rng-expired-codes",
+        "file": "slime-rng-expired-codes"
+      },
+      {
+        "slug": "slime-rng-goop",
+        "file": "slime-rng-goop"
+      },
+      {
+        "slug": "slime-rng-new-codes",
+        "file": "slime-rng-new-codes"
+      },
+      {
+        "slug": "slime-rng-rebirth",
+        "file": "slime-rng-rebirth"
+      },
+      {
+        "slug": "slime-rng-recipes",
+        "file": "slime-rng-recipes"
+      },
+      {
+        "slug": "slime-rng-redeem-codes",
+        "file": "slime-rng-redeem-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "Slime-RNG-all-recipe-locations",
+        "file": "Slime-RNG-all-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-crafting-guide",
+        "file": "Slime-RNG-crafting-guide"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipe-location",
+        "file": "Slime-RNG-crafting-recipe-location"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipes",
+        "file": "Slime-RNG-crafting-recipes"
+      },
+      {
+        "slug": "Slime-RNG-first-four-recipe-locations",
+        "file": "Slime-RNG-first-four-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-recipe-locations",
+        "file": "Slime-RNG-recipe-locations"
+      },
+      {
+        "slug": "slime-rng-advanced-recipes",
+        "file": "slime-rng-advanced-recipes"
+      },
+      {
+        "slug": "slime-rng-crafting-materials",
+        "file": "slime-rng-crafting-materials"
+      },
+      {
+        "slug": "slime-rng-goop-crafting",
+        "file": "slime-rng-goop-crafting"
+      },
+      {
+        "slug": "slime-rng-mushroom-recipe",
+        "file": "slime-rng-mushroom-recipe"
+      },
+      {
+        "slug": "slime-rng-mushroom-zone-recipe",
+        "file": "slime-rng-mushroom-zone-recipe"
+      },
+      {
+        "slug": "slime-rng-recipe-guide",
+        "file": "slime-rng-recipe-guide"
+      }
+    ],
+    "economy": [
+      {
+        "slug": "Slime-RNG-XP-guide",
+        "file": "Slime-RNG-XP-guide"
+      },
+      {
+        "slug": "Slime-RNG-apples",
+        "file": "Slime-RNG-apples"
+      },
+      {
+        "slug": "Slime-RNG-coins",
+        "file": "Slime-RNG-coins"
+      },
+      {
+        "slug": "Slime-RNG-farm-coins",
+        "file": "Slime-RNG-farm-coins"
+      },
+      {
+        "slug": "Slime-RNG-fruits",
+        "file": "Slime-RNG-fruits"
+      },
+      {
+        "slug": "Slime-RNG-how-to-make-money",
+        "file": "Slime-RNG-how-to-make-money"
+      },
+      {
+        "slug": "Slime-RNG-level-up-slimes",
+        "file": "Slime-RNG-level-up-slimes"
+      },
+      {
+        "slug": "Slime-RNG-money-guide",
+        "file": "Slime-RNG-money-guide"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-money-making",
+        "file": "slime-rng-money-making"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Slime-RNG-beginner-guide",
+        "file": "Slime-RNG-beginner-guide"
+      },
+      {
+        "slug": "Slime-RNG-best-strategy",
+        "file": "Slime-RNG-best-strategy"
+      },
+      {
+        "slug": "Slime-RNG-how-to-play",
+        "file": "Slime-RNG-how-to-play"
+      },
+      {
+        "slug": "Slime-RNG-noob-to-rare-slimes",
+        "file": "Slime-RNG-noob-to-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-progression-guide",
+        "file": "Slime-RNG-progression-guide"
+      },
+      {
+        "slug": "Slime-RNG-roblox-guide",
+        "file": "Slime-RNG-roblox-guide"
+      },
+      {
+        "slug": "Slime-RNG-tips",
+        "file": "Slime-RNG-tips"
+      },
+      {
+        "slug": "Slime-RNG-ultimate-guide",
+        "file": "Slime-RNG-ultimate-guide"
+      },
+      {
+        "slug": "how-to-get-goop-in-slime-rng",
+        "file": "how-to-get-goop-in-slime-rng"
+      },
+      {
+        "slug": "slim-rng",
+        "file": "slim-rng"
+      },
+      {
+        "slug": "slime-rng-beginner-progression",
+        "file": "slime-rng-beginner-progression"
+      },
+      {
+        "slug": "slime-rng-biome-guide",
+        "file": "slime-rng-biome-guide"
+      },
+      {
+        "slug": "slime-rng-goop-farming",
+        "file": "slime-rng-goop-farming"
+      },
+      {
+        "slug": "slime-rng-milestones",
+        "file": "slime-rng-milestones"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "Slime-RNG-auto-roll",
+        "file": "Slime-RNG-auto-roll"
+      },
+      {
+        "slug": "Slime-RNG-best-roll-method",
+        "file": "Slime-RNG-best-roll-method"
+      },
+      {
+        "slug": "Slime-RNG-dice",
+        "file": "Slime-RNG-dice"
+      },
+      {
+        "slug": "Slime-RNG-infinite-luck",
+        "file": "Slime-RNG-infinite-luck"
+      },
+      {
+        "slug": "Slime-RNG-luck-boost",
+        "file": "Slime-RNG-luck-boost"
+      },
+      {
+        "slug": "Slime-RNG-luck",
+        "file": "Slime-RNG-luck"
+      },
+      {
+        "slug": "Slime-RNG-roll-chance",
+        "file": "Slime-RNG-roll-chance"
+      },
+      {
+        "slug": "Slime-RNG-roll-speed",
+        "file": "Slime-RNG-roll-speed"
+      },
+      {
+        "slug": "how-to-rebirth-in-slime-rng",
+        "file": "how-to-rebirth-in-slime-rng"
+      },
+      {
+        "slug": "roblox-slime-rebirth",
+        "file": "roblox-slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-advanced-guide",
+        "file": "slime-rng-advanced-guide"
+      },
+      {
+        "slug": "slime-rng-auto-roll-settings",
+        "file": "slime-rng-auto-roll-settings"
+      },
+      {
+        "slug": "slime-rng-best-economy",
+        "file": "slime-rng-best-economy"
+      },
+      {
+        "slug": "slime-rng-best-luck-strategy",
+        "file": "slime-rng-best-luck-strategy"
+      },
+      {
+        "slug": "slime-rng-best-rebirth",
+        "file": "slime-rng-best-rebirth"
+      },
+      {
+        "slug": "slime-rng-best-settings",
+        "file": "slime-rng-best-settings"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-economy-tips",
+        "file": "slime-rng-economy-tips"
+      },
+      {
+        "slug": "slime-rng-faq-guide",
+        "file": "slime-rng-faq-guide"
+      },
+      {
+        "slug": "slime-rng-guide",
+        "file": "slime-rng-guide"
+      },
+      {
+        "slug": "slime-rng-how-to-get-goop",
+        "file": "slime-rng-how-to-get-goop"
+      },
+      {
+        "slug": "slime-rng-luck-boost-guide",
+        "file": "slime-rng-luck-boost-guide"
+      },
+      {
+        "slug": "slime-rng-roll-speed-guide",
+        "file": "slime-rng-roll-speed-guide"
+      },
+      {
+        "slug": "slime-rng-slimes-guide",
+        "file": "slime-rng-slimes-guide"
+      },
+      {
+        "slug": "slime-rng-strategy-guide",
+        "file": "slime-rng-strategy-guide"
+      },
+      {
+        "slug": "slime-rng-tips-and-tricks",
+        "file": "slime-rng-tips-and-tricks"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "Slime-RNG-first-rebirth",
+        "file": "Slime-RNG-first-rebirth"
+      },
+      {
+        "slug": "Slime-RNG-permanent-luck-multiplier",
+        "file": "Slime-RNG-permanent-luck-multiplier"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-cost",
+        "file": "Slime-RNG-rebirth-cost"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-guide",
+        "file": "Slime-RNG-rebirth-guide"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-requirements",
+        "file": "Slime-RNG-rebirth-requirements"
+      },
+      {
+        "slug": "Slime-RNG-when-to-rebirth",
+        "file": "Slime-RNG-when-to-rebirth"
+      },
+      {
+        "slug": "slime-rng-rebirth-multiplier",
+        "file": "slime-rng-rebirth-multiplier"
+      },
+      {
+        "slug": "slime-rng-rebirth-reset-guide",
+        "file": "slime-rng-rebirth-reset-guide"
+      },
+      {
+        "slug": "slime-rng-rebirth-rewards",
+        "file": "slime-rng-rebirth-rewards"
+      }
+    ],
+    "slimes": [
+      {
+        "slug": "Slime-RNG-best-slime",
+        "file": "Slime-RNG-best-slime"
+      },
+      {
+        "slug": "Slime-RNG-dangerous-slimes",
+        "file": "Slime-RNG-dangerous-slimes"
+      },
+      {
+        "slug": "Slime-RNG-how-to-get-rare-slimes",
+        "file": "Slime-RNG-how-to-get-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rare-slimes",
+        "file": "Slime-RNG-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rarest-slime",
+        "file": "Slime-RNG-rarest-slime"
+      },
+      {
+        "slug": "Slime-RNG-shiny-slimes",
+        "file": "Slime-RNG-shiny-slimes"
+      },
+      {
+        "slug": "Slime-RNG-slime-list",
+        "file": "Slime-RNG-slime-list"
+      },
+      {
+        "slug": "Slime-RNG-slime-rarity",
+        "file": "Slime-RNG-slime-rarity"
+      },
+      {
+        "slug": "slime-rng-all-slimes",
+        "file": "slime-rng-all-slimes"
+      },
+      {
+        "slug": "slime-rng-best-slime-setup",
+        "file": "slime-rng-best-slime-setup"
+      },
+      {
+        "slug": "slime-rng-goop-slime",
+        "file": "slime-rng-goop-slime"
+      },
+      {
+        "slug": "slime-rng-mutation-guide",
+        "file": "slime-rng-mutation-guide"
+      },
+      {
+        "slug": "slime-rng-rare-slime-chances",
+        "file": "slime-rng-rare-slime-chances"
+      },
+      {
+        "slug": "slime-rng-rare-slime-locations",
+        "file": "slime-rng-rare-slime-locations"
+      },
+      {
+        "slug": "slime-rng-slime-index",
+        "file": "slime-rng-slime-index"
+      },
+      {
+        "slug": "slime-rng-slime-ratings",
+        "file": "slime-rng-slime-ratings"
+      }
+    ]
+  },
+  "tr": {
+    "codes": [
+      {
+        "slug": "Slime-RNG-codes",
+        "file": "Slime-RNG-codes"
+      },
+      {
+        "slug": "slime-rebirth",
+        "file": "slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-code-rewards",
+        "file": "slime-rng-code-rewards"
+      },
+      {
+        "slug": "slime-rng-expired-codes",
+        "file": "slime-rng-expired-codes"
+      },
+      {
+        "slug": "slime-rng-goop",
+        "file": "slime-rng-goop"
+      },
+      {
+        "slug": "slime-rng-new-codes",
+        "file": "slime-rng-new-codes"
+      },
+      {
+        "slug": "slime-rng-rebirth",
+        "file": "slime-rng-rebirth"
+      },
+      {
+        "slug": "slime-rng-recipes",
+        "file": "slime-rng-recipes"
+      },
+      {
+        "slug": "slime-rng-redeem-codes",
+        "file": "slime-rng-redeem-codes"
+      }
+    ],
+    "crafting": [
+      {
+        "slug": "Slime-RNG-all-recipe-locations",
+        "file": "Slime-RNG-all-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-crafting-guide",
+        "file": "Slime-RNG-crafting-guide"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipe-location",
+        "file": "Slime-RNG-crafting-recipe-location"
+      },
+      {
+        "slug": "Slime-RNG-crafting-recipes",
+        "file": "Slime-RNG-crafting-recipes"
+      },
+      {
+        "slug": "Slime-RNG-first-four-recipe-locations",
+        "file": "Slime-RNG-first-four-recipe-locations"
+      },
+      {
+        "slug": "Slime-RNG-recipe-locations",
+        "file": "Slime-RNG-recipe-locations"
+      },
+      {
+        "slug": "slime-rng-advanced-recipes",
+        "file": "slime-rng-advanced-recipes"
+      },
+      {
+        "slug": "slime-rng-crafting-materials",
+        "file": "slime-rng-crafting-materials"
+      },
+      {
+        "slug": "slime-rng-goop-crafting",
+        "file": "slime-rng-goop-crafting"
+      },
+      {
+        "slug": "slime-rng-mushroom-recipe",
+        "file": "slime-rng-mushroom-recipe"
+      },
+      {
+        "slug": "slime-rng-mushroom-zone-recipe",
+        "file": "slime-rng-mushroom-zone-recipe"
+      },
+      {
+        "slug": "slime-rng-recipe-guide",
+        "file": "slime-rng-recipe-guide"
+      }
+    ],
+    "economy": [
+      {
+        "slug": "Slime-RNG-XP-guide",
+        "file": "Slime-RNG-XP-guide"
+      },
+      {
+        "slug": "Slime-RNG-apples",
+        "file": "Slime-RNG-apples"
+      },
+      {
+        "slug": "Slime-RNG-coins",
+        "file": "Slime-RNG-coins"
+      },
+      {
+        "slug": "Slime-RNG-farm-coins",
+        "file": "Slime-RNG-farm-coins"
+      },
+      {
+        "slug": "Slime-RNG-fruits",
+        "file": "Slime-RNG-fruits"
+      },
+      {
+        "slug": "Slime-RNG-how-to-make-money",
+        "file": "Slime-RNG-how-to-make-money"
+      },
+      {
+        "slug": "Slime-RNG-level-up-slimes",
+        "file": "Slime-RNG-level-up-slimes"
+      },
+      {
+        "slug": "Slime-RNG-money-guide",
+        "file": "Slime-RNG-money-guide"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-money-making",
+        "file": "slime-rng-money-making"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Slime-RNG-beginner-guide",
+        "file": "Slime-RNG-beginner-guide"
+      },
+      {
+        "slug": "Slime-RNG-best-strategy",
+        "file": "Slime-RNG-best-strategy"
+      },
+      {
+        "slug": "Slime-RNG-how-to-play",
+        "file": "Slime-RNG-how-to-play"
+      },
+      {
+        "slug": "Slime-RNG-noob-to-rare-slimes",
+        "file": "Slime-RNG-noob-to-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-progression-guide",
+        "file": "Slime-RNG-progression-guide"
+      },
+      {
+        "slug": "Slime-RNG-roblox-guide",
+        "file": "Slime-RNG-roblox-guide"
+      },
+      {
+        "slug": "Slime-RNG-tips",
+        "file": "Slime-RNG-tips"
+      },
+      {
+        "slug": "Slime-RNG-ultimate-guide",
+        "file": "Slime-RNG-ultimate-guide"
+      },
+      {
+        "slug": "how-to-get-goop-in-slime-rng",
+        "file": "how-to-get-goop-in-slime-rng"
+      },
+      {
+        "slug": "slim-rng",
+        "file": "slim-rng"
+      },
+      {
+        "slug": "slime-rng-beginner-progression",
+        "file": "slime-rng-beginner-progression"
+      },
+      {
+        "slug": "slime-rng-biome-guide",
+        "file": "slime-rng-biome-guide"
+      },
+      {
+        "slug": "slime-rng-goop-farming",
+        "file": "slime-rng-goop-farming"
+      },
+      {
+        "slug": "slime-rng-milestones",
+        "file": "slime-rng-milestones"
+      }
+    ],
+    "luck": [
+      {
+        "slug": "Slime-RNG-auto-roll",
+        "file": "Slime-RNG-auto-roll"
+      },
+      {
+        "slug": "Slime-RNG-best-roll-method",
+        "file": "Slime-RNG-best-roll-method"
+      },
+      {
+        "slug": "Slime-RNG-dice",
+        "file": "Slime-RNG-dice"
+      },
+      {
+        "slug": "Slime-RNG-infinite-luck",
+        "file": "Slime-RNG-infinite-luck"
+      },
+      {
+        "slug": "Slime-RNG-luck-boost",
+        "file": "Slime-RNG-luck-boost"
+      },
+      {
+        "slug": "Slime-RNG-luck",
+        "file": "Slime-RNG-luck"
+      },
+      {
+        "slug": "Slime-RNG-roll-chance",
+        "file": "Slime-RNG-roll-chance"
+      },
+      {
+        "slug": "Slime-RNG-roll-speed",
+        "file": "Slime-RNG-roll-speed"
+      },
+      {
+        "slug": "how-to-rebirth-in-slime-rng",
+        "file": "how-to-rebirth-in-slime-rng"
+      },
+      {
+        "slug": "roblox-slime-rebirth",
+        "file": "roblox-slime-rebirth"
+      },
+      {
+        "slug": "slime-rng-advanced-guide",
+        "file": "slime-rng-advanced-guide"
+      },
+      {
+        "slug": "slime-rng-auto-roll-settings",
+        "file": "slime-rng-auto-roll-settings"
+      },
+      {
+        "slug": "slime-rng-best-economy",
+        "file": "slime-rng-best-economy"
+      },
+      {
+        "slug": "slime-rng-best-luck-strategy",
+        "file": "slime-rng-best-luck-strategy"
+      },
+      {
+        "slug": "slime-rng-best-rebirth",
+        "file": "slime-rng-best-rebirth"
+      },
+      {
+        "slug": "slime-rng-best-settings",
+        "file": "slime-rng-best-settings"
+      },
+      {
+        "slug": "slime-rng-economy-guide",
+        "file": "slime-rng-economy-guide"
+      },
+      {
+        "slug": "slime-rng-economy-tips",
+        "file": "slime-rng-economy-tips"
+      },
+      {
+        "slug": "slime-rng-faq-guide",
+        "file": "slime-rng-faq-guide"
+      },
+      {
+        "slug": "slime-rng-guide",
+        "file": "slime-rng-guide"
+      },
+      {
+        "slug": "slime-rng-how-to-get-goop",
+        "file": "slime-rng-how-to-get-goop"
+      },
+      {
+        "slug": "slime-rng-luck-boost-guide",
+        "file": "slime-rng-luck-boost-guide"
+      },
+      {
+        "slug": "slime-rng-roll-speed-guide",
+        "file": "slime-rng-roll-speed-guide"
+      },
+      {
+        "slug": "slime-rng-slimes-guide",
+        "file": "slime-rng-slimes-guide"
+      },
+      {
+        "slug": "slime-rng-strategy-guide",
+        "file": "slime-rng-strategy-guide"
+      },
+      {
+        "slug": "slime-rng-tips-and-tricks",
+        "file": "slime-rng-tips-and-tricks"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "Slime-RNG-first-rebirth",
+        "file": "Slime-RNG-first-rebirth"
+      },
+      {
+        "slug": "Slime-RNG-permanent-luck-multiplier",
+        "file": "Slime-RNG-permanent-luck-multiplier"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-cost",
+        "file": "Slime-RNG-rebirth-cost"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-guide",
+        "file": "Slime-RNG-rebirth-guide"
+      },
+      {
+        "slug": "Slime-RNG-rebirth-requirements",
+        "file": "Slime-RNG-rebirth-requirements"
+      },
+      {
+        "slug": "Slime-RNG-when-to-rebirth",
+        "file": "Slime-RNG-when-to-rebirth"
+      },
+      {
+        "slug": "slime-rng-rebirth-multiplier",
+        "file": "slime-rng-rebirth-multiplier"
+      },
+      {
+        "slug": "slime-rng-rebirth-reset-guide",
+        "file": "slime-rng-rebirth-reset-guide"
+      },
+      {
+        "slug": "slime-rng-rebirth-rewards",
+        "file": "slime-rng-rebirth-rewards"
+      }
+    ],
+    "slimes": [
+      {
+        "slug": "Slime-RNG-best-slime",
+        "file": "Slime-RNG-best-slime"
+      },
+      {
+        "slug": "Slime-RNG-dangerous-slimes",
+        "file": "Slime-RNG-dangerous-slimes"
+      },
+      {
+        "slug": "Slime-RNG-how-to-get-rare-slimes",
+        "file": "Slime-RNG-how-to-get-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rare-slimes",
+        "file": "Slime-RNG-rare-slimes"
+      },
+      {
+        "slug": "Slime-RNG-rarest-slime",
+        "file": "Slime-RNG-rarest-slime"
+      },
+      {
+        "slug": "Slime-RNG-shiny-slimes",
+        "file": "Slime-RNG-shiny-slimes"
+      },
+      {
+        "slug": "Slime-RNG-slime-list",
+        "file": "Slime-RNG-slime-list"
+      },
+      {
+        "slug": "Slime-RNG-slime-rarity",
+        "file": "Slime-RNG-slime-rarity"
+      },
+      {
+        "slug": "slime-rng-all-slimes",
+        "file": "slime-rng-all-slimes"
+      },
+      {
+        "slug": "slime-rng-best-slime-setup",
+        "file": "slime-rng-best-slime-setup"
+      },
+      {
+        "slug": "slime-rng-goop-slime",
+        "file": "slime-rng-goop-slime"
+      },
+      {
+        "slug": "slime-rng-mutation-guide",
+        "file": "slime-rng-mutation-guide"
+      },
+      {
+        "slug": "slime-rng-rare-slime-chances",
+        "file": "slime-rng-rare-slime-chances"
+      },
+      {
+        "slug": "slime-rng-rare-slime-locations",
+        "file": "slime-rng-rare-slime-locations"
+      },
+      {
+        "slug": "slime-rng-slime-index",
+        "file": "slime-rng-slime-index"
+      },
+      {
+        "slug": "slime-rng-slime-ratings",
+        "file": "slime-rng-slime-ratings"
+      }
+    ]
+  }
+}
